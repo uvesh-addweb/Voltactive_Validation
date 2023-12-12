@@ -1,0 +1,219 @@
+{
+  "uid" : "d686ba9540b7002c",
+  "name" : "Test submenu and button on the Geo Replication page",
+  "fullName" : "Test Redirection of Pages: Test submenu and button on the Geo Replication page",
+  "historyId" : "00b85bb53249cb13bc5f544d1b4ee8f0",
+  "time" : {
+    "start" : 1696227855657,
+    "stop" : 1696227895107,
+    "duration" : 39450
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given The user is on the \"stg\" site",
+      "time" : {
+        "start" : 1696227856396,
+        "stop" : 1696227862493,
+        "duration" : 6097
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user hovers over the \"use_cases\" menu",
+      "time" : {
+        "start" : 1696227862493,
+        "stop" : 1696227862814,
+        "duration" : 321
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The user clicks on the \"geo_replication\" submenu link and verify the redirection \"geo_replication\" page",
+      "time" : {
+        "start" : 1696227862814,
+        "stop" : 1696227865062,
+        "duration" : 2248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"learn-more_5\" button",
+      "time" : {
+        "start" : 1696227865062,
+        "stop" : 1696227867264,
+        "duration" : 2202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"learn-more_5\" page",
+      "time" : {
+        "start" : 1696227867265,
+        "stop" : 1696227873293,
+        "duration" : 6028
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"5g-monetization\" button",
+      "time" : {
+        "start" : 1696227873293,
+        "stop" : 1696227877866,
+        "duration" : 4573
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"5g-monetization\" page",
+      "time" : {
+        "start" : 1696227877866,
+        "stop" : 1696227880685,
+        "duration" : 2819
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"avoid-it_3\" button",
+      "time" : {
+        "start" : 1696227880685,
+        "stop" : 1696227885317,
+        "duration" : 4632
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"avoid-it\" page",
+      "time" : {
+        "start" : 1696227885317,
+        "stop" : 1696227888009,
+        "duration" : 2692
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"new_sql\" button",
+      "time" : {
+        "start" : 1696227888009,
+        "stop" : 1696227892471,
+        "duration" : 4462
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"new_sql\" page",
+      "time" : {
+        "start" : 1696227892472,
+        "stop" : 1696227895036,
+        "duration" : 2564
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d686ba9540b7002c.json",
+  "parameterValues" : [ ]
+}

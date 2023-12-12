@@ -1,0 +1,167 @@
+{
+  "uid" : "86149a4851b7617d",
+  "name" : "Test submenu and button on the Resources page",
+  "fullName" : "Test Redirection of Pages: Test submenu and button on the Resources page",
+  "historyId" : "22b01316d2a65b4f589a9af09648ad5d",
+  "time" : {
+    "start" : 1696316059556,
+    "stop" : 1696316060299,
+    "duration" : 743
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "skipped",
+    "steps" : [ {
+      "name" : "Given The user is on the \"live\" site",
+      "time" : {
+        "start" : 1696316060299,
+        "stop" : 1696316060299,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user hovers over the \"resources\" menu",
+      "time" : {
+        "start" : 1696316060299,
+        "stop" : 1696316060299,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The user clicks on the \"resources_library\" submenu link and verify the redirection \"resources_library\" page",
+      "time" : {
+        "start" : 1696316060299,
+        "stop" : 1696316060299,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user selects \"REPORT\" from the \"Type\" dropdown in \"Type UL\"",
+      "time" : {
+        "start" : 1696316060299,
+        "stop" : 1696316060299,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The \"resource_list_element\" should be filtered by \"REPORT\" type",
+      "time" : {
+        "start" : 1696316060299,
+        "stop" : 1696316060299,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user enters the resource title \"Resource Title\" in the \"search bar\"",
+      "time" : {
+        "start" : 1696316060299,
+        "stop" : 1696316060299,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The \"resource_list_element\" should be filtered by \"Resource Title\" resource",
+      "time" : {
+        "start" : 1696316060299,
+        "stop" : 1696316060299,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b445d65132540fdf",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1696315883272,
+        "stop" : 1696315884139,
+        "duration" : 867
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "86149a4851b7617d.json",
+  "parameterValues" : [ ]
+}

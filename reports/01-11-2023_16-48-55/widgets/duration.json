@@ -1,0 +1,11 @@
+[ {
+  "uid" : "22a7f06ae6307c28",
+  "name" : "Test the Link Redirection on Footer",
+  "time" : {
+    "start" : 1698837509693,
+    "stop" : 1698837530305,
+    "duration" : 20612
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,81 @@
+[ {
+  "uid" : "6c5d6531f9e4d28e",
+  "name" : "Test submenu and button on the Geo Replication page",
+  "time" : {
+    "start" : 1698669442462,
+    "stop" : 1698669467354,
+    "duration" : 24892
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7b48d98f9320c01d",
+  "name" : "Test submenu and button on the High Availability page",
+  "time" : {
+    "start" : 1698669467357,
+    "stop" : 1698669476885,
+    "duration" : 9528
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ed00600b8ad4cdf9",
+  "name" : "Test submenu and button on the No Compromises page",
+  "time" : {
+    "start" : 1698669391004,
+    "stop" : 1698669411272,
+    "duration" : 20268
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5b6b9218c2c3faea",
+  "name" : "Test submenu and button on the Volt For 5g page",
+  "time" : {
+    "start" : 1698669411273,
+    "stop" : 1698669430152,
+    "duration" : 18879
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ea453f5629645838",
+  "name" : "Test buttons and links on the Home page",
+  "time" : {
+    "start" : 1698669628370,
+    "stop" : 1698669641563,
+    "duration" : 13193
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7b1c18c53e271ca5",
+  "name" : "Test submenu and button on the Monetizing AI + ML page",
+  "time" : {
+    "start" : 1698669476886,
+    "stop" : 1698669483061,
+    "duration" : 6175
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ed25ed7bafe58246",
+  "name" : "Test submenu and button on the OEM-Friendly page",
+  "time" : {
+    "start" : 1698669483061,
+    "stop" : 1698669490303,
+    "duration" : 7242
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "83f6f4391a2a0a67",
+  "name" : "Test submenu and button on the Capabilities page",
+  "time" : {
+    "start" : 1698669430153,
+    "stop" : 1698669442461,
+    "duration" : 12308
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

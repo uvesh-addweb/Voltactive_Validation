@@ -1,0 +1,309 @@
+{
+  "uid" : "b0d864bbf0c33b45",
+  "name" : "Test submenu and button on the Volt For 5g page",
+  "fullName" : "Test Redirection of Pages: Test submenu and button on the Volt For 5g page",
+  "historyId" : "8d77dc009f2868cdaa69097f6eda2b42",
+  "time" : {
+    "start" : 1698836046090,
+    "stop" : 1698836124590,
+    "duration" : 78500
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given The user is on the \"live\" site",
+      "time" : {
+        "start" : 1698836046807,
+        "stop" : 1698836056480,
+        "duration" : 9673
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user hovers over the \"why-volt\" menu",
+      "time" : {
+        "start" : 1698836056480,
+        "stop" : 1698836056796,
+        "duration" : 316
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The user clicks on the \"volt-for-5g-live\" submenu link and verify the redirection \"volt-for-5g\" page",
+      "time" : {
+        "start" : 1698836056796,
+        "stop" : 1698836060838,
+        "duration" : 4042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"learn-more_1\" button",
+      "time" : {
+        "start" : 1698836060838,
+        "stop" : 1698836063099,
+        "duration" : 2261
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"learn-more_1\" page",
+      "time" : {
+        "start" : 1698836063099,
+        "stop" : 1698836069154,
+        "duration" : 6055
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"learn-more_2\" button",
+      "time" : {
+        "start" : 1698836069154,
+        "stop" : 1698836071554,
+        "duration" : 2400
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"learn-more_2\" page",
+      "time" : {
+        "start" : 1698836071554,
+        "stop" : 1698836077618,
+        "duration" : 6064
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"learn-more_3\" button",
+      "time" : {
+        "start" : 1698836077619,
+        "stop" : 1698836079933,
+        "duration" : 2314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"learn-more_3\" page",
+      "time" : {
+        "start" : 1698836079933,
+        "stop" : 1698836086017,
+        "duration" : 6084
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"learn-more_4\" button",
+      "time" : {
+        "start" : 1698836086018,
+        "stop" : 1698836088236,
+        "duration" : 2218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"learn-more_4\" page",
+      "time" : {
+        "start" : 1698836088236,
+        "stop" : 1698836094339,
+        "duration" : 6103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"try-volt_2\" button",
+      "time" : {
+        "start" : 1698836094339,
+        "stop" : 1698836107118,
+        "duration" : 12779
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"try-volt_2\" page",
+      "time" : {
+        "start" : 1698836107118,
+        "stop" : 1698836110962,
+        "duration" : 3844
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"5g-policy\" button",
+      "time" : {
+        "start" : 1698836110963,
+        "stop" : 1698836114824,
+        "duration" : 3861
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"5g-policy\" page",
+      "time" : {
+        "start" : 1698836114825,
+        "stop" : 1698836117208,
+        "duration" : 2383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"telcos\" button",
+      "time" : {
+        "start" : 1698836117208,
+        "stop" : 1698836122128,
+        "duration" : 4920
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"telcos\" page",
+      "time" : {
+        "start" : 1698836122129,
+        "stop" : 1698836124523,
+        "duration" : 2394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b0d864bbf0c33b45.json",
+  "parameterValues" : [ ]
+}

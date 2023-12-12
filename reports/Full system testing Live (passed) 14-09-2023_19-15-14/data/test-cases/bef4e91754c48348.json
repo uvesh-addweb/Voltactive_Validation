@@ -1,0 +1,459 @@
+{
+  "uid" : "bef4e91754c48348",
+  "name" : "Test buttons and links on the Home page",
+  "fullName" : "Test Redirection of Pages: Test buttons and links on the Home page",
+  "historyId" : "0fdf3c2e33a857bccfca54c1bf04e7d0",
+  "time" : {
+    "start" : 1694697701155,
+    "stop" : 1694697811910,
+    "duration" : 110755
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given The user is on the \"live\" site",
+      "time" : {
+        "start" : 1694697701960,
+        "stop" : 1694697709334,
+        "duration" : 7374
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"try-volt-live\" button",
+      "time" : {
+        "start" : 1694697709334,
+        "stop" : 1694697713238,
+        "duration" : 3904
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"try-volt\" page",
+      "time" : {
+        "start" : 1694697713238,
+        "stop" : 1694697717172,
+        "duration" : 3934
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"partners-live\" button",
+      "time" : {
+        "start" : 1694697717173,
+        "stop" : 1694697722184,
+        "duration" : 5011
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"partners\" page",
+      "time" : {
+        "start" : 1694697722184,
+        "stop" : 1694697725500,
+        "duration" : 3316
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"no-compromises-live\" button",
+      "time" : {
+        "start" : 1694697725500,
+        "stop" : 1694697730538,
+        "duration" : 5038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"no-compromises\" page",
+      "time" : {
+        "start" : 1694697730538,
+        "stop" : 1694697733738,
+        "duration" : 3200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"real-time-data-processing-live\" button",
+      "time" : {
+        "start" : 1694697733738,
+        "stop" : 1694697740168,
+        "duration" : 6430
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"real-time-data-processing\" page",
+      "time" : {
+        "start" : 1694697740169,
+        "stop" : 1694697743388,
+        "duration" : 3219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_1-live\" button",
+      "time" : {
+        "start" : 1694697743389,
+        "stop" : 1694697747905,
+        "duration" : 4516
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities\" page",
+      "time" : {
+        "start" : 1694697747905,
+        "stop" : 1694697751097,
+        "duration" : 3192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"cloud-native-live\" button",
+      "time" : {
+        "start" : 1694697751097,
+        "stop" : 1694697756225,
+        "duration" : 5128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"cloud-native\" page",
+      "time" : {
+        "start" : 1694697756225,
+        "stop" : 1694697759414,
+        "duration" : 3189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"high-availability-live\" button",
+      "time" : {
+        "start" : 1694697759414,
+        "stop" : 1694697765171,
+        "duration" : 5757
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"high-availability\" page",
+      "time" : {
+        "start" : 1694697765172,
+        "stop" : 1694697768398,
+        "duration" : 3226
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"geo-replication-live\" button",
+      "time" : {
+        "start" : 1694697768398,
+        "stop" : 1694697774292,
+        "duration" : 5894
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"geo-replication\" page",
+      "time" : {
+        "start" : 1694697774293,
+        "stop" : 1694697777641,
+        "duration" : 3348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_2-live\" button",
+      "time" : {
+        "start" : 1694697777641,
+        "stop" : 1694697782707,
+        "duration" : 5066
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities\" page",
+      "time" : {
+        "start" : 1694697782707,
+        "stop" : 1694697785502,
+        "duration" : 2795
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"ai-on-the-edge-live\" button",
+      "time" : {
+        "start" : 1694697785502,
+        "stop" : 1694697789026,
+        "duration" : 3524
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"ai-on-the-edge-live\" page",
+      "time" : {
+        "start" : 1694697789026,
+        "stop" : 1694697792246,
+        "duration" : 3220
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"streaming-data-platforms-live\" button",
+      "time" : {
+        "start" : 1694697792246,
+        "stop" : 1694697795777,
+        "duration" : 3531
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"streaming-data-platforms\" page",
+      "time" : {
+        "start" : 1694697795777,
+        "stop" : 1694697798994,
+        "duration" : 3217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"iot-at-the-edge-live\" button",
+      "time" : {
+        "start" : 1694697798994,
+        "stop" : 1694697802280,
+        "duration" : 3286
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"iot-at-the-edge\" page",
+      "time" : {
+        "start" : 1694697802281,
+        "stop" : 1694697804935,
+        "duration" : 2654
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_3-live\" button",
+      "time" : {
+        "start" : 1694697804936,
+        "stop" : 1694697808604,
+        "duration" : 3668
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities_2\" page",
+      "time" : {
+        "start" : 1694697808605,
+        "stop" : 1694697811832,
+        "duration" : 3227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 27,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bef4e91754c48348.json",
+  "parameterValues" : [ ]
+}

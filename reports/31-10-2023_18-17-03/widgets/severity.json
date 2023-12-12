@@ -1,0 +1,11 @@
+[ {
+  "uid" : "99411f61e6f2ae6",
+  "name" : "Test submenu and button on the Geo Replication page",
+  "time" : {
+    "start" : 1698756378709,
+    "stop" : 1698756419161,
+    "duration" : 40452
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

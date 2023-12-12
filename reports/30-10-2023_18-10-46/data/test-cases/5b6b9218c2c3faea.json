@@ -1,0 +1,331 @@
+{
+  "uid" : "5b6b9218c2c3faea",
+  "name" : "Test submenu and button on the Volt For 5g page",
+  "fullName" : "Test Redirection of Pages: Test submenu and button on the Volt For 5g page",
+  "historyId" : "8d77dc009f2868cdaa69097f6eda2b42",
+  "time" : {
+    "start" : 1698669411273,
+    "stop" : 1698669430152,
+    "duration" : 18879
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55d9d79154e3 <unknown>\n#1 0x55d9d7644b00 <unknown>\n#2 0x55d9d7681fa1 <unknown>\n#3 0x55d9d76771da <unknown>\n#4 0x55d9d76a0012 <unknown>\n#5 0x55d9d7676b03 <unknown>\n#6 0x55d9d76a01de <unknown>\n#7 0x55d9d76b830e <unknown>\n#8 0x55d9d769fde3 <unknown>\n#9 0x55d9d76752dd <unknown>\n#10 0x55d9d767634e <unknown>\n#11 0x55d9d78d53e4 <unknown>\n#12 0x55d9d78d93d7 <unknown>\n#13 0x55d9d78e3b20 <unknown>\n#14 0x55d9d78da023 <unknown>\n#15 0x55d9d78a81aa <unknown>\n#16 0x55d9d78fe6b8 <unknown>\n#17 0x55d9d78fe847 <unknown>\n#18 0x55d9d790e243 <unknown>\n#19 0x7f469e090402 <unknown>\n\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 69, in step_impl\n    submenu_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55d9d79154e3 <unknown>\n#1 0x55d9d7644b00 <unknown>\n#2 0x55d9d7681fa1 <unknown>\n#3 0x55d9d76771da <unknown>\n#4 0x55d9d76a0012 <unknown>\n#5 0x55d9d7676b03 <unknown>\n#6 0x55d9d76a01de <unknown>\n#7 0x55d9d76b830e <unknown>\n#8 0x55d9d769fde3 <unknown>\n#9 0x55d9d76752dd <unknown>\n#10 0x55d9d767634e <unknown>\n#11 0x55d9d78d53e4 <unknown>\n#12 0x55d9d78d93d7 <unknown>\n#13 0x55d9d78e3b20 <unknown>\n#14 0x55d9d78da023 <unknown>\n#15 0x55d9d78a81aa <unknown>\n#16 0x55d9d78fe6b8 <unknown>\n#17 0x55d9d78fe847 <unknown>\n#18 0x55d9d790e243 <unknown>\n#19 0x7f469e090402 <unknown>\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 69, in step_impl\n    submenu_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"stg\" site",
+      "time" : {
+        "start" : 1698669412272,
+        "stop" : 1698669429426,
+        "duration" : 17154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user hovers over the \"why-volt\" menu",
+      "time" : {
+        "start" : 1698669429426,
+        "stop" : 1698669429750,
+        "duration" : 324
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The user clicks on the \"volt-for-5g\" submenu link and verify the redirection \"volt-for-5g\" page",
+      "time" : {
+        "start" : 1698669429750,
+        "stop" : 1698669430080,
+        "duration" : 330
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55d9d79154e3 <unknown>\n#1 0x55d9d7644b00 <unknown>\n#2 0x55d9d7681fa1 <unknown>\n#3 0x55d9d76771da <unknown>\n#4 0x55d9d76a0012 <unknown>\n#5 0x55d9d7676b03 <unknown>\n#6 0x55d9d76a01de <unknown>\n#7 0x55d9d76b830e <unknown>\n#8 0x55d9d769fde3 <unknown>\n#9 0x55d9d76752dd <unknown>\n#10 0x55d9d767634e <unknown>\n#11 0x55d9d78d53e4 <unknown>\n#12 0x55d9d78d93d7 <unknown>\n#13 0x55d9d78e3b20 <unknown>\n#14 0x55d9d78da023 <unknown>\n#15 0x55d9d78a81aa <unknown>\n#16 0x55d9d78fe6b8 <unknown>\n#17 0x55d9d78fe847 <unknown>\n#18 0x55d9d790e243 <unknown>\n#19 0x7f469e090402 <unknown>\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 69, in step_impl\n    submenu_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ffc4175c10536e0",
+        "name" : "Error Message",
+        "source" : "5ffc4175c10536e0.txt",
+        "type" : "text/plain",
+        "size" : 675
+      }, {
+        "uid" : "98b4167b368216e",
+        "name" : "Screenshot of https://voltSTG:oI5L!YKmQ%401gOvqQ@stg.voltactivedata.com/ Page",
+        "source" : "98b4167b368216e.png",
+        "type" : "image/png",
+        "size" : 419860
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When The user clicks on the \"learn-more_1\" button",
+      "time" : {
+        "start" : 1698669430151,
+        "stop" : 1698669430152,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"learn-more_1\" page",
+      "time" : {
+        "start" : 1698669430152,
+        "stop" : 1698669430152,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"learn-more_2\" button",
+      "time" : {
+        "start" : 1698669430152,
+        "stop" : 1698669430152,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"learn-more_2\" page",
+      "time" : {
+        "start" : 1698669430152,
+        "stop" : 1698669430152,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"learn-more_3\" button",
+      "time" : {
+        "start" : 1698669430152,
+        "stop" : 1698669430152,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"learn-more_3\" page",
+      "time" : {
+        "start" : 1698669430152,
+        "stop" : 1698669430152,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"learn-more_4\" button",
+      "time" : {
+        "start" : 1698669430152,
+        "stop" : 1698669430152,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"learn-more_4\" page",
+      "time" : {
+        "start" : 1698669430152,
+        "stop" : 1698669430152,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"try-volt_2\" button",
+      "time" : {
+        "start" : 1698669430152,
+        "stop" : 1698669430152,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"try-volt_2\" page",
+      "time" : {
+        "start" : 1698669430152,
+        "stop" : 1698669430152,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"5g-policy\" button",
+      "time" : {
+        "start" : 1698669430152,
+        "stop" : 1698669430152,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"5g-policy\" page",
+      "time" : {
+        "start" : 1698669430152,
+        "stop" : 1698669430152,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"telcos\" button",
+      "time" : {
+        "start" : 1698669430152,
+        "stop" : 1698669430152,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"telcos\" page",
+      "time" : {
+        "start" : 1698669430152,
+        "stop" : 1698669430152,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5b6b9218c2c3faea.json",
+  "parameterValues" : [ ]
+}

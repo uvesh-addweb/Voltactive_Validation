@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Redirection of Pages",
+    "children" : [ {
+      "name" : "Test submenu and button on the Careers page",
+      "uid" : "7e58dcb1976bea9b",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "broken",
+      "time" : {
+        "start" : 1698820921178,
+        "stop" : 1698820943845,
+        "duration" : 22667
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "390d5adef282071921a562a1a8f9f849"
+  } ]
+}

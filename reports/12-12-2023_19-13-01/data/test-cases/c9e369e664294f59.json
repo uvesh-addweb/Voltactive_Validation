@@ -1,0 +1,189 @@
+{
+  "uid" : "c9e369e664294f59",
+  "name" : "Test submenu and button on the IOT page",
+  "fullName" : "Test Redirection of Pages: Test submenu and button on the IOT page",
+  "historyId" : "2b57fa7715c91bca520a3a554100e463",
+  "time" : {
+    "start" : 1702388037021,
+    "stop" : 1702388084228,
+    "duration" : 47207
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given The user is on the \"dev\" site",
+      "time" : {
+        "start" : 1702388037726,
+        "stop" : 1702388044657,
+        "duration" : 6931
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user hovers over the \"use_cases\" menu",
+      "time" : {
+        "start" : 1702388044657,
+        "stop" : 1702388044974,
+        "duration" : 317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The user clicks on the \"iot\" submenu link and verify the redirection \"iot\" page",
+      "time" : {
+        "start" : 1702388044975,
+        "stop" : 1702388048221,
+        "duration" : 3246
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"architects_2\" button",
+      "time" : {
+        "start" : 1702388048221,
+        "stop" : 1702388052385,
+        "duration" : 4164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"architects\" page",
+      "time" : {
+        "start" : 1702388052385,
+        "stop" : 1702388055233,
+        "duration" : 2848
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"advantage_streaming_3\" button",
+      "time" : {
+        "start" : 1702388055233,
+        "stop" : 1702388073881,
+        "duration" : 18648
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"advantage_streaming\" page",
+      "time" : {
+        "start" : 1702388073881,
+        "stop" : 1702388076990,
+        "duration" : 3109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"top-10-capabilites_6\" button",
+      "time" : {
+        "start" : 1702388076990,
+        "stop" : 1702388081047,
+        "duration" : 4057
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"top-10-capabilites\" page",
+      "time" : {
+        "start" : 1702388081048,
+        "stop" : 1702388084164,
+        "duration" : 3116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c9e369e664294f59.json",
+  "parameterValues" : [ ]
+}

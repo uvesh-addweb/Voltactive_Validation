@@ -1,0 +1,23 @@
+An error occurred: Message: element not interactable: element has zero size
+  (Session info: chrome=114.0.5735.133)
+Stacktrace:
+#0 0x5586577ad4e3 <unknown>
+#1 0x5586574dcc76 <unknown>
+#2 0x55865751a033 <unknown>
+#3 0x55865750f1da <unknown>
+#4 0x558657538012 <unknown>
+#5 0x55865750eb03 <unknown>
+#6 0x5586575381de <unknown>
+#7 0x55865755030e <unknown>
+#8 0x558657537de3 <unknown>
+#9 0x55865750d2dd <unknown>
+#10 0x55865750e34e <unknown>
+#11 0x55865776d3e4 <unknown>
+#12 0x5586577713d7 <unknown>
+#13 0x55865777bb20 <unknown>
+#14 0x558657772023 <unknown>
+#15 0x5586577401aa <unknown>
+#16 0x5586577966b8 <unknown>
+#17 0x558657796847 <unknown>
+#18 0x5586577a6243 <unknown>
+#19 0x7f9e0ea90402 <unknown>

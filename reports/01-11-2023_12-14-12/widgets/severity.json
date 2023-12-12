@@ -1,0 +1,11 @@
+[ {
+  "uid" : "93826bec8fd4854e",
+  "name" : "Test submenu and button on the News page",
+  "time" : {
+    "start" : 1698821034454,
+    "stop" : 1698821048402,
+    "duration" : 13948
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d25feeda15e8cd84",
+  "name" : "Test submenu and button on the Cloud page",
+  "time" : {
+    "start" : 1698758495042,
+    "stop" : 1698758532837,
+    "duration" : 37795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

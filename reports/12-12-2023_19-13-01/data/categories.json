@@ -1,0 +1,162 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey\" href=\"https://www.voltactivedata.com/why-volt/no-compromises/\" title=\"No Compromises\">...</a> is not clickable at point (632, 855). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x559a621734e3 <unknown>\n#1 0x559a61ea2c76 <unknown>\n#2 0x559a61ee49d4 <unknown>\n#3 0x559a61ee2cbd <unknown>\n#4 0x559a61ee0d2e <unknown>\n#5 0x559a61ee010f <unknown>\n#6 0x559a61ed51da <unknown>\n#7 0x559a61efe012 <unknown>\n#8 0x559a61ed4b03 <unknown>\n#9 0x559a61efe1de <unknown>\n#10 0x559a61f1630e <unknown>\n#11 0x559a61efdde3 <unknown>\n#12 0x559a61ed32dd <unknown>\n#13 0x559a61ed434e <unknown>\n#14 0x559a621333e4 <unknown>\n#15 0x559a621373d7 <unknown>\n#16 0x559a62141b20 <unknown>\n#17 0x559a62138023 <unknown>\n#18 0x559a621061aa <unknown>\n#19 0x559a6215c6b8 <unknown>\n#20 0x559a6215c847 <unknown>\n#21 0x559a6216c243 <unknown>\n#22 0x7f9d9be90402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test buttons and links on the Home page",
+        "uid" : "87fb210ed7cafdd3",
+        "parentUid" : "21539eb7806fcfe09e872aa3f1f4b1fe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702387230297,
+          "stop" : 1702387260577,
+          "duration" : 30280
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "21539eb7806fcfe09e872aa3f1f4b1fe"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"drift\" href=\"https://dev.voltactivedata.com/resource/six-use-cases-of-real-time-decisioning/\">...</a> is not clickable at point (202, 863). Other element would receive the click: <div id=\"onetrust-policy-text\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x563f7722f4e3 <unknown>\n#1 0x563f76f5ec76 <unknown>\n#2 0x563f76fa09d4 <unknown>\n#3 0x563f76f9ecbd <unknown>\n#4 0x563f76f9cd2e <unknown>\n#5 0x563f76f9c10f <unknown>\n#6 0x563f76f911da <unknown>\n#7 0x563f76fba012 <unknown>\n#8 0x563f76f90b03 <unknown>\n#9 0x563f76fba1de <unknown>\n#10 0x563f76fd230e <unknown>\n#11 0x563f76fb9de3 <unknown>\n#12 0x563f76f8f2dd <unknown>\n#13 0x563f76f9034e <unknown>\n#14 0x563f771ef3e4 <unknown>\n#15 0x563f771f33d7 <unknown>\n#16 0x563f771fdb20 <unknown>\n#17 0x563f771f4023 <unknown>\n#18 0x563f771c21aa <unknown>\n#19 0x563f772186b8 <unknown>\n#20 0x563f77218847 <unknown>\n#21 0x563f77228243 <unknown>\n#22 0x7f9d53490402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Monetizing AI + ML page",
+        "uid" : "a1bede099d86ef47",
+        "parentUid" : "8d4222a19c39d3474605ae67474768fc",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702387605265,
+          "stop" : 1702387625260,
+          "duration" : 19995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d4222a19c39d3474605ae67474768fc"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"drift\" href=\"https://dev.voltactivedata.com/resource/six-use-cases-of-real-time-decisioning/\">...</a> is not clickable at point (202, 849). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x55be5cb264e3 <unknown>\n#1 0x55be5c855c76 <unknown>\n#2 0x55be5c8979d4 <unknown>\n#3 0x55be5c895cbd <unknown>\n#4 0x55be5c893d2e <unknown>\n#5 0x55be5c89310f <unknown>\n#6 0x55be5c8881da <unknown>\n#7 0x55be5c8b1012 <unknown>\n#8 0x55be5c887b03 <unknown>\n#9 0x55be5c8b11de <unknown>\n#10 0x55be5c8c930e <unknown>\n#11 0x55be5c8b0de3 <unknown>\n#12 0x55be5c8862dd <unknown>\n#13 0x55be5c88734e <unknown>\n#14 0x55be5cae63e4 <unknown>\n#15 0x55be5caea3d7 <unknown>\n#16 0x55be5caf4b20 <unknown>\n#17 0x55be5caeb023 <unknown>\n#18 0x55be5cab91aa <unknown>\n#19 0x55be5cb0f6b8 <unknown>\n#20 0x55be5cb0f847 <unknown>\n#21 0x55be5cb1f243 <unknown>\n#22 0x7f0b43690402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the OEM-Friendly page",
+        "uid" : "d9aa20c785554794",
+        "parentUid" : "6366d07353c42bee89f375be3ab2c124",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702387625261,
+          "stop" : 1702387645626,
+          "duration" : 20365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6366d07353c42bee89f375be3ab2c124"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"drift\" href=\"https://dev.voltactivedata.com/resource/why-5g-standards-will-lower-tco-for-tech-stacks/\">...</a> is not clickable at point (233, 842). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x55aa1c4de4e3 <unknown>\n#1 0x55aa1c20dc76 <unknown>\n#2 0x55aa1c24f9d4 <unknown>\n#3 0x55aa1c24dcbd <unknown>\n#4 0x55aa1c24bd2e <unknown>\n#5 0x55aa1c24b10f <unknown>\n#6 0x55aa1c2401da <unknown>\n#7 0x55aa1c269012 <unknown>\n#8 0x55aa1c23fb03 <unknown>\n#9 0x55aa1c2691de <unknown>\n#10 0x55aa1c28130e <unknown>\n#11 0x55aa1c268de3 <unknown>\n#12 0x55aa1c23e2dd <unknown>\n#13 0x55aa1c23f34e <unknown>\n#14 0x55aa1c49e3e4 <unknown>\n#15 0x55aa1c4a23d7 <unknown>\n#16 0x55aa1c4acb20 <unknown>\n#17 0x55aa1c4a3023 <unknown>\n#18 0x55aa1c4711aa <unknown>\n#19 0x55aa1c4c76b8 <unknown>\n#20 0x55aa1c4c7847 <unknown>\n#21 0x55aa1c4d7243 <unknown>\n#22 0x7f6c5ae90402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Cloud page",
+        "uid" : "5961b90babd9da9f",
+        "parentUid" : "bba50e4d4977bc108d551933876a6472",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702387670791,
+          "stop" : 1702387689726,
+          "duration" : 18935
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bba50e4d4977bc108d551933876a6472"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/div/div[11]/div/div/div/div[2]/div[1]/div/div/div[2]/div/div/div/div/div[2]/a\"}\n  (Session info: headless chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x563f26f8b4e3 <unknown>\n#1 0x563f26cbac76 <unknown>\n#2 0x563f26cf6c96 <unknown>\n#3 0x563f26cf6dc1 <unknown>\n#4 0x563f26d307f4 <unknown>\n#5 0x563f26d1603d <unknown>\n#6 0x563f26d2e30e <unknown>\n#7 0x563f26d15de3 <unknown>\n#8 0x563f26ceb2dd <unknown>\n#9 0x563f26cec34e <unknown>\n#10 0x563f26f4b3e4 <unknown>\n#11 0x563f26f4f3d7 <unknown>\n#12 0x563f26f59b20 <unknown>\n#13 0x563f26f50023 <unknown>\n#14 0x563f26f1e1aa <unknown>\n#15 0x563f26f746b8 <unknown>\n#16 0x563f26f74847 <unknown>\n#17 0x563f26f84243 <unknown>\n#18 0x7f628cc90402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the BSS page",
+        "uid" : "a411b747d02c8b57",
+        "parentUid" : "f74e41e47803758490f305fb971a25c9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702387822477,
+          "stop" : 1702387974751,
+          "duration" : 152274
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f74e41e47803758490f305fb971a25c9"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/div/div[5]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div[2]/a\"}\n  (Session info: headless chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55b00fa614e3 <unknown>\n#1 0x55b00f790c76 <unknown>\n#2 0x55b00f7ccc96 <unknown>\n#3 0x55b00f7ccdc1 <unknown>\n#4 0x55b00f8067f4 <unknown>\n#5 0x55b00f7ec03d <unknown>\n#6 0x55b00f80430e <unknown>\n#7 0x55b00f7ebde3 <unknown>\n#8 0x55b00f7c12dd <unknown>\n#9 0x55b00f7c234e <unknown>\n#10 0x55b00fa213e4 <unknown>\n#11 0x55b00fa253d7 <unknown>\n#12 0x55b00fa2fb20 <unknown>\n#13 0x55b00fa26023 <unknown>\n#14 0x55b00f9f41aa <unknown>\n#15 0x55b00fa4a6b8 <unknown>\n#16 0x55b00fa4a847 <unknown>\n#17 0x55b00fa5a243 <unknown>\n#18 0x7fc7e7e90402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Fraud Prevention page",
+        "uid" : "2ba6feec47061ca1",
+        "parentUid" : "79b3910258c6b18fd069ba9990f2f452",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702388012858,
+          "stop" : 1702388037020,
+          "duration" : 24162
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79b3910258c6b18fd069ba9990f2f452"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"nice-select type open\" tabindex=\"0\">...</div> is not clickable at point (193, 856). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x556ba2ae54e3 <unknown>\n#1 0x556ba2814c76 <unknown>\n#2 0x556ba28569d4 <unknown>\n#3 0x556ba2854cbd <unknown>\n#4 0x556ba2852d2e <unknown>\n#5 0x556ba285210f <unknown>\n#6 0x556ba28471da <unknown>\n#7 0x556ba2870012 <unknown>\n#8 0x556ba2846b03 <unknown>\n#9 0x556ba28701de <unknown>\n#10 0x556ba288830e <unknown>\n#11 0x556ba286fde3 <unknown>\n#12 0x556ba28452dd <unknown>\n#13 0x556ba284634e <unknown>\n#14 0x556ba2aa53e4 <unknown>\n#15 0x556ba2aa93d7 <unknown>\n#16 0x556ba2ab3b20 <unknown>\n#17 0x556ba2aaa023 <unknown>\n#18 0x556ba2a781aa <unknown>\n#19 0x556ba2ace6b8 <unknown>\n#20 0x556ba2ace847 <unknown>\n#21 0x556ba2ade243 <unknown>\n#22 0x7f8033490402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Resources page",
+        "uid" : "852bbec76e31b115",
+        "parentUid" : "8e24a342cf030d877ebe13a750e10d1a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702388084229,
+          "stop" : 1702388099273,
+          "duration" : 15044
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e24a342cf030d877ebe13a750e10d1a"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey\" href=\"https://dtw.tmforum.org/passes/\" title=\"\" target=\"_blank\">...</a> is not clickable at point (150, 867). Other element would receive the click: <div id=\"onetrust-policy-text\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x55894e92b4e3 <unknown>\n#1 0x55894e65ac76 <unknown>\n#2 0x55894e69c9d4 <unknown>\n#3 0x55894e69acbd <unknown>\n#4 0x55894e698d2e <unknown>\n#5 0x55894e69810f <unknown>\n#6 0x55894e68d1da <unknown>\n#7 0x55894e6b6012 <unknown>\n#8 0x55894e68cb03 <unknown>\n#9 0x55894e6b61de <unknown>\n#10 0x55894e6ce30e <unknown>\n#11 0x55894e6b5de3 <unknown>\n#12 0x55894e68b2dd <unknown>\n#13 0x55894e68c34e <unknown>\n#14 0x55894e8eb3e4 <unknown>\n#15 0x55894e8ef3d7 <unknown>\n#16 0x55894e8f9b20 <unknown>\n#17 0x55894e8f0023 <unknown>\n#18 0x55894e8be1aa <unknown>\n#19 0x55894e9146b8 <unknown>\n#20 0x55894e914847 <unknown>\n#21 0x55894e924243 <unknown>\n#22 0x7f4d43290402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Webinars and Events page",
+        "uid" : "3b846fb53990eb5d",
+        "parentUid" : "274d5bb29ae206f0c16725137d41f25c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702388147519,
+          "stop" : 1702388157892,
+          "duration" : 10373
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "274d5bb29ae206f0c16725137d41f25c"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"/privacy-policy/\">...</a> is not clickable at point (535, 1004). Other element would receive the click: <div class=\"ot-sdk-row\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x55f6f8ffd4e3 <unknown>\n#1 0x55f6f8d2cc76 <unknown>\n#2 0x55f6f8d6e9d4 <unknown>\n#3 0x55f6f8d6ccbd <unknown>\n#4 0x55f6f8d6ad2e <unknown>\n#5 0x55f6f8d6a10f <unknown>\n#6 0x55f6f8d5f1da <unknown>\n#7 0x55f6f8d88012 <unknown>\n#8 0x55f6f8d5eb03 <unknown>\n#9 0x55f6f8d881de <unknown>\n#10 0x55f6f8da030e <unknown>\n#11 0x55f6f8d87de3 <unknown>\n#12 0x55f6f8d5d2dd <unknown>\n#13 0x55f6f8d5e34e <unknown>\n#14 0x55f6f8fbd3e4 <unknown>\n#15 0x55f6f8fc13d7 <unknown>\n#16 0x55f6f8fcbb20 <unknown>\n#17 0x55f6f8fc2023 <unknown>\n#18 0x55f6f8f901aa <unknown>\n#19 0x55f6f8fe66b8 <unknown>\n#20 0x55f6f8fe6847 <unknown>\n#21 0x55f6f8ff6243 <unknown>\n#22 0x7f66dd690402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test the Link Redirection on Footer",
+        "uid" : "f6fac8ddaba78f77",
+        "parentUid" : "7ce00d206d5429cd0b02be83b05b5311",
+        "status" : "broken",
+        "time" : {
+          "start" : 1702388555798,
+          "stop" : 1702388563717,
+          "duration" : 7919
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7ce00d206d5429cd0b02be83b05b5311"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

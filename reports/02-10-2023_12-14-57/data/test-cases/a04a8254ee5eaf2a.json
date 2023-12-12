@@ -1,0 +1,496 @@
+{
+  "uid" : "a04a8254ee5eaf2a",
+  "name" : "Test buttons and links on the Home page",
+  "fullName" : "Test Redirection of Pages: Test buttons and links on the Home page",
+  "historyId" : "0fdf3c2e33a857bccfca54c1bf04e7d0",
+  "time" : {
+    "start" : 1696227577411,
+    "stop" : 1696227712321,
+    "duration" : 134910
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Console errors found on the page: https://voltSTG:oI5L!YKmQ%401gOvqQ@stg.voltactivedata.com/\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 403, in report_console_errors\n    assert False, f\"Console errors found on the page: {url}\"\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Console errors found on the page: https://voltSTG:oI5L!YKmQ%401gOvqQ@stg.voltactivedata.com/\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 403, in report_console_errors\n    assert False, f\"Console errors found on the page: {url}\"\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"stg\" site",
+      "time" : {
+        "start" : 1696227578193,
+        "stop" : 1696227597103,
+        "duration" : 18910
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"try-volt\" button",
+      "time" : {
+        "start" : 1696227597103,
+        "stop" : 1696227603559,
+        "duration" : 6456
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"try-volt\" page",
+      "time" : {
+        "start" : 1696227603560,
+        "stop" : 1696227607268,
+        "duration" : 3708
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"partners\" button",
+      "time" : {
+        "start" : 1696227607269,
+        "stop" : 1696227612435,
+        "duration" : 5166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"partners\" page",
+      "time" : {
+        "start" : 1696227612436,
+        "stop" : 1696227615062,
+        "duration" : 2626
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"no-compromises\" button",
+      "time" : {
+        "start" : 1696227615062,
+        "stop" : 1696227620730,
+        "duration" : 5668
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"no-compromises\" page",
+      "time" : {
+        "start" : 1696227620730,
+        "stop" : 1696227623643,
+        "duration" : 2913
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"real-time-data-processing\" button",
+      "time" : {
+        "start" : 1696227623644,
+        "stop" : 1696227630946,
+        "duration" : 7302
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"real-time-data-processing\" page",
+      "time" : {
+        "start" : 1696227630946,
+        "stop" : 1696227634039,
+        "duration" : 3093
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_1\" button",
+      "time" : {
+        "start" : 1696227634039,
+        "stop" : 1696227638931,
+        "duration" : 4892
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities\" page",
+      "time" : {
+        "start" : 1696227638932,
+        "stop" : 1696227641833,
+        "duration" : 2901
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"cloud-native\" button",
+      "time" : {
+        "start" : 1696227641834,
+        "stop" : 1696227647484,
+        "duration" : 5650
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"cloud-native\" page",
+      "time" : {
+        "start" : 1696227647484,
+        "stop" : 1696227650405,
+        "duration" : 2921
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"high-availability\" button",
+      "time" : {
+        "start" : 1696227650406,
+        "stop" : 1696227655639,
+        "duration" : 5233
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"high-availability\" page",
+      "time" : {
+        "start" : 1696227655640,
+        "stop" : 1696227658261,
+        "duration" : 2621
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"geo-replication\" button",
+      "time" : {
+        "start" : 1696227658262,
+        "stop" : 1696227663938,
+        "duration" : 5676
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"geo-replication\" page",
+      "time" : {
+        "start" : 1696227663939,
+        "stop" : 1696227666520,
+        "duration" : 2581
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_2\" button",
+      "time" : {
+        "start" : 1696227666520,
+        "stop" : 1696227673503,
+        "duration" : 6983
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities\" page",
+      "time" : {
+        "start" : 1696227673504,
+        "stop" : 1696227676164,
+        "duration" : 2660
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"iot-at-the-edge\" button",
+      "time" : {
+        "start" : 1696227676165,
+        "stop" : 1696227680186,
+        "duration" : 4021
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"iot-at-the-edge\" page",
+      "time" : {
+        "start" : 1696227680186,
+        "stop" : 1696227683062,
+        "duration" : 2876
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"streaming-data-platforms\" button",
+      "time" : {
+        "start" : 1696227683063,
+        "stop" : 1696227686598,
+        "duration" : 3535
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"streaming-data-platforms\" page",
+      "time" : {
+        "start" : 1696227686598,
+        "stop" : 1696227689125,
+        "duration" : 2527
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"intersection-of-edge-iot\" button",
+      "time" : {
+        "start" : 1696227689125,
+        "stop" : 1696227692439,
+        "duration" : 3314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"intersection-of-edge-iot\" page",
+      "time" : {
+        "start" : 1696227692440,
+        "stop" : 1696227695401,
+        "duration" : 2961
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_3\" button",
+      "time" : {
+        "start" : 1696227695402,
+        "stop" : 1696227702423,
+        "duration" : 7021
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities_2\" page",
+      "time" : {
+        "start" : 1696227702424,
+        "stop" : 1696227704865,
+        "duration" : 2441
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Check for the console error on the page",
+      "time" : {
+        "start" : 1696227704865,
+        "stop" : 1696227712243,
+        "duration" : 7378
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Console errors found on the page: https://voltSTG:oI5L!YKmQ%401gOvqQ@stg.voltactivedata.com/\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 403, in report_console_errors\n    assert False, f\"Console errors found on the page: {url}\"\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "58f173d6e9c43142",
+        "name" : "Error on https://voltSTG:oI5L!YKmQ%401gOvqQ@stg.voltactivedata.com/ Page",
+        "source" : "58f173d6e9c43142.txt",
+        "type" : "text/plain",
+        "size" : 297
+      }, {
+        "uid" : "37ed1829df91296e",
+        "name" : "Screenshot of https://voltSTG:oI5L!YKmQ%401gOvqQ@stg.voltactivedata.com/ Page",
+        "source" : "37ed1829df91296e.png",
+        "type" : "image/png",
+        "size" : 498255
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 28,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a04a8254ee5eaf2a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[3]/div/div/div/div/div/div/div/div[5]/a\"}\n  (Session info: headless chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55cfe790e4e3 <unknown>\n#1 0x55cfe763dc76 <unknown>\n#2 0x55cfe7679c96 <unknown>\n#3 0x55cfe7679dc1 <unknown>\n#4 0x55cfe76b37f4 <unknown>\n#5 0x55cfe769903d <unknown>\n#6 0x55cfe76b130e <unknown>\n#7 0x55cfe7698de3 <unknown>\n#8 0x55cfe766e2dd <unknown>\n#9 0x55cfe766f34e <unknown>\n#10 0x55cfe78ce3e4 <unknown>\n#11 0x55cfe78d23d7 <unknown>\n#12 0x55cfe78dcb20 <unknown>\n#13 0x55cfe78d3023 <unknown>\n#14 0x55cfe78a11aa <unknown>\n#15 0x55cfe78f76b8 <unknown>\n#16 0x55cfe78f7847 <unknown>\n#17 0x55cfe7907243 <unknown>\n#18 0x7f83f3c90402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test buttons and links on the Home page",
+        "uid" : "8e14401136b820eb",
+        "parentUid" : "eb7af395ced3ad409b5cfd041ce89701",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698832740844,
+          "stop" : 1698832780623,
+          "duration" : 39779
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "eb7af395ced3ad409b5cfd041ce89701"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

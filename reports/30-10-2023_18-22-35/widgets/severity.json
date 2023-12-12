@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d697f4ac657387a9",
+  "name" : "Test buttons and links on the Home page",
+  "time" : {
+    "start" : 1698670338136,
+    "stop" : 1698670351654,
+    "duration" : 13518
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

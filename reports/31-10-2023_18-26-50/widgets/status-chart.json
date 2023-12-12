@@ -1,0 +1,11 @@
+[ {
+  "uid" : "75fe7ddfdb62e58",
+  "name" : "Test submenu and button on the Monetizing AI + ML page",
+  "time" : {
+    "start" : 1698756970731,
+    "stop" : 1698757005783,
+    "duration" : 35052
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

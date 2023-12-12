@@ -1,0 +1,22 @@
+{
+  "4e502e2e6e008208c3bb92b0f5eb2f45" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ad02a996ea889ee2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Console errors found on the page: https://voltSTG:oI5L!YKmQ%401gOvqQ@stg.voltactivedata.com/\n",
+      "time" : {
+        "start" : 1698826818959,
+        "stop" : 1698826843107,
+        "duration" : 24148
+      }
+    } ]
+  }
+}

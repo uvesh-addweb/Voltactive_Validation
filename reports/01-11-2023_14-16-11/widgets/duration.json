@@ -1,0 +1,321 @@
+[ {
+  "uid" : "cb96cfac8263a008",
+  "name" : "Test submenu and button on the Cloud page",
+  "time" : {
+    "start" : 1698827493231,
+    "stop" : 1698827529193,
+    "duration" : 35962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d69569725ce9eb72",
+  "name" : "Test submenu and button on the Professional Services page",
+  "time" : {
+    "start" : 1698828179726,
+    "stop" : 1698828190027,
+    "duration" : 10301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e851606fdb8f95d4",
+  "name" : "Test the Link Redirection on Footer",
+  "time" : {
+    "start" : 1698828326746,
+    "stop" : 1698828347578,
+    "duration" : 20832
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3aa49efca6b00c29",
+  "name" : "Test submenu and button on the Documentation page",
+  "time" : {
+    "start" : 1698828190028,
+    "stop" : 1698828200813,
+    "duration" : 10785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6cef26ea9d62031a",
+  "name" : "Test submenu and button on the Support page",
+  "time" : {
+    "start" : 1698828167690,
+    "stop" : 1698828179726,
+    "duration" : 12036
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ab9a83cac977c23",
+  "name" : "Test submenu and button on the Real-Time Decisioning page",
+  "time" : {
+    "start" : 1698827469276,
+    "stop" : 1698827493231,
+    "duration" : 23955
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe68f00fec8a4aa9",
+  "name" : "Test submenu and button on the Data Platform for Fantasy Sports page",
+  "time" : {
+    "start" : 1698827853933,
+    "stop" : 1698827899777,
+    "duration" : 45844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c1d14b1b48a6be8",
+  "name" : "Test submenu and button on the Resources page",
+  "time" : {
+    "start" : 1698828043978,
+    "stop" : 1698828071119,
+    "duration" : 27141
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c578d01188b7ccd2",
+  "name" : "Test submenu and button on the Blog page",
+  "time" : {
+    "start" : 1698828071119,
+    "stop" : 1698828081804,
+    "duration" : 10685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fde74da62a3f53f",
+  "name" : "Test submenu and button on the Careers page",
+  "time" : {
+    "start" : 1698828210934,
+    "stop" : 1698828230793,
+    "duration" : 19859
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "144308eebb96f0db",
+  "name" : "Test submenu and button on the No Compromises page",
+  "time" : {
+    "start" : 1698827113662,
+    "stop" : 1698827156454,
+    "duration" : 42792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2559541b1c908505",
+  "name" : "Test submenu and button on the Partner Program page",
+  "time" : {
+    "start" : 1698828081805,
+    "stop" : 1698828117694,
+    "duration" : 35889
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dabad191720e1f23",
+  "name" : "Test submenu and button on the Geo Replication page",
+  "time" : {
+    "start" : 1698827274845,
+    "stop" : 1698827312274,
+    "duration" : 37429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63addde34adfe996",
+  "name" : "Test submenu and button on the BSS page",
+  "time" : {
+    "start" : 1698827687287,
+    "stop" : 1698827853932,
+    "duration" : 166645
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb0d1ef0e25f73a7",
+  "name" : "Test submenu and button on the Volt For 5g page",
+  "time" : {
+    "start" : 1698827156455,
+    "stop" : 1698827230590,
+    "duration" : 74135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bcae5455f6c1400",
+  "name" : "Test submenu and button on the Press Release page",
+  "time" : {
+    "start" : 1698828244954,
+    "stop" : 1698828291865,
+    "duration" : 46911
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5dc73f2ae62f27f8",
+  "name" : "Test submenu and button on the Edge page",
+  "time" : {
+    "start" : 1698827529194,
+    "stop" : 1698827587254,
+    "duration" : 58060
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6edc417f8a75a8e6",
+  "name" : "Test submenu and button on the News page",
+  "time" : {
+    "start" : 1698828230794,
+    "stop" : 1698828244954,
+    "duration" : 14160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d181e4cad7dffe1",
+  "name" : "Test submenu and button on the Contact page",
+  "time" : {
+    "start" : 1698828312455,
+    "stop" : 1698828326745,
+    "duration" : 14290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5b3fe39365eb7fa",
+  "name" : "Test submenu and button on the Kafka + Streaming Data page",
+  "time" : {
+    "start" : 1698827587255,
+    "stop" : 1698827649117,
+    "duration" : 61862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e27746736109878",
+  "name" : "Test submenu and button on the High Availability page",
+  "time" : {
+    "start" : 1698827312276,
+    "stop" : 1698827352276,
+    "duration" : 40000
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dfabef8c30fa0516",
+  "name" : "Test submenu and button on the Webinars and Events page",
+  "time" : {
+    "start" : 1698828117695,
+    "stop" : 1698828167689,
+    "duration" : 49994
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ecef8c7306c0e28",
+  "name" : "Test buttons and links on the Home page",
+  "time" : {
+    "start" : 1698826992424,
+    "stop" : 1698827113660,
+    "duration" : 121236
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a9b22a8ee8a1283",
+  "name" : "Test submenu and button on the About page",
+  "time" : {
+    "start" : 1698828200814,
+    "stop" : 1698828210934,
+    "duration" : 10120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bed8a15f11df3c25",
+  "name" : "Test submenu and button on the Monetizing AI + ML page",
+  "time" : {
+    "start" : 1698827352277,
+    "stop" : 1698827414738,
+    "duration" : 62461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c1dcf8e420ded037",
+  "name" : "Test submenu and button on the IOT page",
+  "time" : {
+    "start" : 1698828010658,
+    "stop" : 1698828043977,
+    "duration" : 33319
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d88485bd6148b921",
+  "name" : "Test submenu and button on the OEM-Friendly page",
+  "time" : {
+    "start" : 1698827414738,
+    "stop" : 1698827469275,
+    "duration" : 54537
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c44492b7db0a6e6e",
+  "name" : "Test submenu and button on the Fraud Prevention page",
+  "time" : {
+    "start" : 1698827899778,
+    "stop" : 1698828010657,
+    "duration" : 110879
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a483ad47cb31832",
+  "name" : "Test submenu and button on the Capabilities page",
+  "time" : {
+    "start" : 1698827230591,
+    "stop" : 1698827274844,
+    "duration" : 44253
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f52dbc82daeeb35a",
+  "name" : "Test submenu and button on the Billing Mediation Data page",
+  "time" : {
+    "start" : 1698827649118,
+    "stop" : 1698827687286,
+    "duration" : 38168
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec1775b6ac0c36b1",
+  "name" : "Test the Social Media Links Redirection on Footer",
+  "time" : {
+    "start" : 1698828347578,
+    "stop" : 1698828367232,
+    "duration" : 19654
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b11f99b83bd00ad",
+  "name" : "Test submenu and button on the Team page",
+  "time" : {
+    "start" : 1698828291865,
+    "stop" : 1698828312454,
+    "duration" : 20589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

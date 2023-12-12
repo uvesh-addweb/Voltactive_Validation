@@ -1,0 +1,22 @@
+{
+  "0fdf3c2e33a857bccfca54c1bf04e7d0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44f4159e1d6440ee",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: unknown error: unhandled inspector error: {\"code\":-32000,\"message\":\"Unable to capture screenshot\"}\n  (Session info: chrome=112.0.5615.121)\nStacktrace:\n#0 0x560053734fe3 <unknown>\n#1 0x560053473d36 <unknown>\n#2 0x56005345e57f <unknown>\n#3 0x56005345c7f3 <unknown>\n#4 0x56005345cdb2 <unknown>\n#5 0x56005347b8ac <unknown>\n#6 0x5600534f6e12 <unknown>\n#7 0x5600534d18c2 <unknown>\n#8 0x5600534ea232 <unknown>\n#9 0x5600534d1693 <unknown>\n#10 0x5600534a403a <unknown>\n#11 0x5600534a517e <unknown>\n#12 0x5600536f6dbd <unknown>\n#13 0x5600536fac6c <unknown>\n#14 0x5600537044b0 <unknown>\n#15 0x5600536fbd63 <unknown>\n#16 0x5600536cec35 <unknown>\n#17 0x56005371f138 <unknown>\n#18 0x56005371f2c7 <unknown>\n#19 0x56005372d093 <unknown>\n#20 0x7f8e71090402 <unknown>\n\n",
+      "time" : {
+        "start" : 1695127493582,
+        "stop" : 1695127609479,
+        "duration" : 115897
+      }
+    } ]
+  }
+}

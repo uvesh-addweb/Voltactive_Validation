@@ -1,0 +1,211 @@
+{
+  "uid" : "83f6f4391a2a0a67",
+  "name" : "Test submenu and button on the Capabilities page",
+  "fullName" : "Test Redirection of Pages: Test submenu and button on the Capabilities page",
+  "historyId" : "38e5c92b6f222b763bee5f9108c26853",
+  "time" : {
+    "start" : 1698669430153,
+    "stop" : 1698669442461,
+    "duration" : 12308
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x5628430654e3 <unknown>\n#1 0x562842d94b00 <unknown>\n#2 0x562842dd1fa1 <unknown>\n#3 0x562842dc71da <unknown>\n#4 0x562842df0012 <unknown>\n#5 0x562842dc6b03 <unknown>\n#6 0x562842df01de <unknown>\n#7 0x562842e0830e <unknown>\n#8 0x562842defde3 <unknown>\n#9 0x562842dc52dd <unknown>\n#10 0x562842dc634e <unknown>\n#11 0x5628430253e4 <unknown>\n#12 0x5628430293d7 <unknown>\n#13 0x562843033b20 <unknown>\n#14 0x56284302a023 <unknown>\n#15 0x562842ff81aa <unknown>\n#16 0x56284304e6b8 <unknown>\n#17 0x56284304e847 <unknown>\n#18 0x56284305e243 <unknown>\n#19 0x7fc61ac90402 <unknown>\n\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 69, in step_impl\n    submenu_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x5628430654e3 <unknown>\n#1 0x562842d94b00 <unknown>\n#2 0x562842dd1fa1 <unknown>\n#3 0x562842dc71da <unknown>\n#4 0x562842df0012 <unknown>\n#5 0x562842dc6b03 <unknown>\n#6 0x562842df01de <unknown>\n#7 0x562842e0830e <unknown>\n#8 0x562842defde3 <unknown>\n#9 0x562842dc52dd <unknown>\n#10 0x562842dc634e <unknown>\n#11 0x5628430253e4 <unknown>\n#12 0x5628430293d7 <unknown>\n#13 0x562843033b20 <unknown>\n#14 0x56284302a023 <unknown>\n#15 0x562842ff81aa <unknown>\n#16 0x56284304e6b8 <unknown>\n#17 0x56284304e847 <unknown>\n#18 0x56284305e243 <unknown>\n#19 0x7fc61ac90402 <unknown>\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 69, in step_impl\n    submenu_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"stg\" site",
+      "time" : {
+        "start" : 1698669431136,
+        "stop" : 1698669440803,
+        "duration" : 9667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user hovers over the \"why-volt\" menu",
+      "time" : {
+        "start" : 1698669440804,
+        "stop" : 1698669441974,
+        "duration" : 1170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The user clicks on the \"capabilites_4\" submenu link and verify the redirection \"capabilities_2\" page",
+      "time" : {
+        "start" : 1698669441974,
+        "stop" : 1698669442392,
+        "duration" : 418
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x5628430654e3 <unknown>\n#1 0x562842d94b00 <unknown>\n#2 0x562842dd1fa1 <unknown>\n#3 0x562842dc71da <unknown>\n#4 0x562842df0012 <unknown>\n#5 0x562842dc6b03 <unknown>\n#6 0x562842df01de <unknown>\n#7 0x562842e0830e <unknown>\n#8 0x562842defde3 <unknown>\n#9 0x562842dc52dd <unknown>\n#10 0x562842dc634e <unknown>\n#11 0x5628430253e4 <unknown>\n#12 0x5628430293d7 <unknown>\n#13 0x562843033b20 <unknown>\n#14 0x56284302a023 <unknown>\n#15 0x562842ff81aa <unknown>\n#16 0x56284304e6b8 <unknown>\n#17 0x56284304e847 <unknown>\n#18 0x56284305e243 <unknown>\n#19 0x7fc61ac90402 <unknown>\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 69, in step_impl\n    submenu_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cf5bd50c0f40c1d4",
+        "name" : "Error Message",
+        "source" : "cf5bd50c0f40c1d4.txt",
+        "type" : "text/plain",
+        "size" : 675
+      }, {
+        "uid" : "34bd96d0d9478c7",
+        "name" : "Screenshot of https://voltSTG:oI5L!YKmQ%401gOvqQ@stg.voltactivedata.com/ Page",
+        "source" : "34bd96d0d9478c7.png",
+        "type" : "image/png",
+        "size" : 423073
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When The user clicks on the \"top-10-capabilites\" button",
+      "time" : {
+        "start" : 1698669442461,
+        "stop" : 1698669442461,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"top-10-capabilites\" page",
+      "time" : {
+        "start" : 1698669442461,
+        "stop" : 1698669442461,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"avoid-it_2\" button",
+      "time" : {
+        "start" : 1698669442461,
+        "stop" : 1698669442461,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"avoid-it\" page",
+      "time" : {
+        "start" : 1698669442461,
+        "stop" : 1698669442461,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"monitize_5g\" button",
+      "time" : {
+        "start" : 1698669442461,
+        "stop" : 1698669442461,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"monitize_5g\" page",
+      "time" : {
+        "start" : 1698669442461,
+        "stop" : 1698669442461,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "83f6f4391a2a0a67.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "314f5eadd4db68d2",
+  "name" : "Test submenu and button on the Resources page",
+  "time" : {
+    "start" : 1698819396433,
+    "stop" : 1698819416701,
+    "duration" : 20268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

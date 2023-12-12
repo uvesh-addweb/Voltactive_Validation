@@ -1,0 +1,42 @@
+{
+  "uid" : "ca63d4c820002eaa",
+  "name" : "Check for console errors in sitemap pages",
+  "fullName" : "Verification of Console Errors: Check for console errors in sitemap pages",
+  "historyId" : "651954b1f04a5d13d876416cc892e257",
+  "time" : {
+    "start" : 1695037859887,
+    "stop" : 1695037860827,
+    "duration" : 940
+  },
+  "status" : "skipped",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Verification of Console Errors"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca63d4c820002eaa.json",
+  "parameterValues" : [ ]
+}

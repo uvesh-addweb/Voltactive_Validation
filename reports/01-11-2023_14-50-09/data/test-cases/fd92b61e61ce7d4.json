@@ -1,0 +1,181 @@
+{
+  "uid" : "fd92b61e61ce7d4",
+  "name" : "Test submenu and button on the Resources page",
+  "fullName" : "Test Redirection of Pages: Test submenu and button on the Resources page",
+  "historyId" : "22b01316d2a65b4f589a9af09648ad5d",
+  "time" : {
+    "start" : 1698830052055,
+    "stop" : 1698830079054,
+    "duration" : 26999
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 261, in step_impl\n    assert type_txt == filter_value\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 261, in step_impl\n    assert type_txt == filter_value\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"stg\" site",
+      "time" : {
+        "start" : 1698830052752,
+        "stop" : 1698830060863,
+        "duration" : 8111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user hovers over the \"resources\" menu",
+      "time" : {
+        "start" : 1698830060863,
+        "stop" : 1698830061243,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The user clicks on the \"resources_library\" submenu link and verify the redirection \"resources_library\" page",
+      "time" : {
+        "start" : 1698830061244,
+        "stop" : 1698830073193,
+        "duration" : 11949
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user selects \"REPORT\" from the \"Type\" dropdown in \"Type UL\"",
+      "time" : {
+        "start" : 1698830073194,
+        "stop" : 1698830078529,
+        "duration" : 5335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The \"resource_list_element\" should be filtered by \"REPORT\" type",
+      "time" : {
+        "start" : 1698830078529,
+        "stop" : 1698830078989,
+        "duration" : 460
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 261, in step_impl\n    assert type_txt == filter_value\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bc0087159ed2859f",
+        "name" : "Error Message",
+        "source" : "bc0087159ed2859f.txt",
+        "type" : "text/plain",
+        "size" : 132
+      }, {
+        "uid" : "2f5f46b40243f0b4",
+        "name" : "Screenshot of https://voltSTG:oI5L!YKmQ%401gOvqQ@stg.voltactivedata.com/resources/ Page",
+        "source" : "2f5f46b40243f0b4.png",
+        "type" : "image/png",
+        "size" : 351024
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When The user enters the resource title \"Resource Title\" in the \"search bar\"",
+      "time" : {
+        "start" : 1698830079054,
+        "stop" : 1698830079054,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The \"resource_list_element\" should be filtered by \"Resource Title\" resource",
+      "time" : {
+        "start" : 1698830079054,
+        "stop" : 1698830079054,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fd92b61e61ce7d4.json",
+  "parameterValues" : [ ]
+}

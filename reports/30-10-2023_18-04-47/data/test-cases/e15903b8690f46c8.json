@@ -1,0 +1,211 @@
+{
+  "uid" : "e15903b8690f46c8",
+  "name" : "Test buttons and links on the Home page",
+  "fullName" : "Test Redirection of Pages: Test buttons and links on the Home page",
+  "historyId" : "0fdf3c2e33a857bccfca54c1bf04e7d0",
+  "time" : {
+    "start" : 1698669271206,
+    "stop" : 1698669282908,
+    "duration" : 11702
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[1]/div/div/div/div/div/div/div/div[4]/a\"}\n  (Session info: headless chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55b0f43d54e3 <unknown>\n#1 0x55b0f4104c76 <unknown>\n#2 0x55b0f4140c96 <unknown>\n#3 0x55b0f4140dc1 <unknown>\n#4 0x55b0f417a7f4 <unknown>\n#5 0x55b0f416003d <unknown>\n#6 0x55b0f417830e <unknown>\n#7 0x55b0f415fde3 <unknown>\n#8 0x55b0f41352dd <unknown>\n#9 0x55b0f413634e <unknown>\n#10 0x55b0f43953e4 <unknown>\n#11 0x55b0f43993d7 <unknown>\n#12 0x55b0f43a3b20 <unknown>\n#13 0x55b0f439a023 <unknown>\n#14 0x55b0f43681aa <unknown>\n#15 0x55b0f43be6b8 <unknown>\n#16 0x55b0f43be847 <unknown>\n#17 0x55b0f43ce243 <unknown>\n#18 0x7f4c44c90402 <unknown>\n\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 103, in step_impl\n    button_element = context.driver.find_element(By.XPATH, xpath)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 740, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[1]/div/div/div/div/div/div/div/div[4]/a\"}\n  (Session info: headless chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55b0f43d54e3 <unknown>\n#1 0x55b0f4104c76 <unknown>\n#2 0x55b0f4140c96 <unknown>\n#3 0x55b0f4140dc1 <unknown>\n#4 0x55b0f417a7f4 <unknown>\n#5 0x55b0f416003d <unknown>\n#6 0x55b0f417830e <unknown>\n#7 0x55b0f415fde3 <unknown>\n#8 0x55b0f41352dd <unknown>\n#9 0x55b0f413634e <unknown>\n#10 0x55b0f43953e4 <unknown>\n#11 0x55b0f43993d7 <unknown>\n#12 0x55b0f43a3b20 <unknown>\n#13 0x55b0f439a023 <unknown>\n#14 0x55b0f43681aa <unknown>\n#15 0x55b0f43be6b8 <unknown>\n#16 0x55b0f43be847 <unknown>\n#17 0x55b0f43ce243 <unknown>\n#18 0x7f4c44c90402 <unknown>\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 103, in step_impl\n    button_element = context.driver.find_element(By.XPATH, xpath)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 740, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"stg\" site",
+      "time" : {
+        "start" : 1698669272537,
+        "stop" : 1698669282474,
+        "duration" : 9937
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"try-volt\" button",
+      "time" : {
+        "start" : 1698669282474,
+        "stop" : 1698669282842,
+        "duration" : 368
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[1]/div/div/div/div/div/div/div/div[4]/a\"}\n  (Session info: headless chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55b0f43d54e3 <unknown>\n#1 0x55b0f4104c76 <unknown>\n#2 0x55b0f4140c96 <unknown>\n#3 0x55b0f4140dc1 <unknown>\n#4 0x55b0f417a7f4 <unknown>\n#5 0x55b0f416003d <unknown>\n#6 0x55b0f417830e <unknown>\n#7 0x55b0f415fde3 <unknown>\n#8 0x55b0f41352dd <unknown>\n#9 0x55b0f413634e <unknown>\n#10 0x55b0f43953e4 <unknown>\n#11 0x55b0f43993d7 <unknown>\n#12 0x55b0f43a3b20 <unknown>\n#13 0x55b0f439a023 <unknown>\n#14 0x55b0f43681aa <unknown>\n#15 0x55b0f43be6b8 <unknown>\n#16 0x55b0f43be847 <unknown>\n#17 0x55b0f43ce243 <unknown>\n#18 0x7f4c44c90402 <unknown>\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 103, in step_impl\n    button_element = context.driver.find_element(By.XPATH, xpath)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 740, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb814fff6053b9fb",
+        "name" : "Error Message",
+        "source" : "bb814fff6053b9fb.txt",
+        "type" : "text/plain",
+        "size" : 961
+      }, {
+        "uid" : "a5398109e763bbbc",
+        "name" : "Screenshot of https://voltSTG:oI5L!YKmQ%401gOvqQ@stg.voltactivedata.com/ Page",
+        "source" : "a5398109e763bbbc.png",
+        "type" : "image/png",
+        "size" : 468082
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then The user should be redirected to the \"try-volt\" page",
+      "time" : {
+        "start" : 1698669282907,
+        "stop" : 1698669282907,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"partners\" button",
+      "time" : {
+        "start" : 1698669282908,
+        "stop" : 1698669282908,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"partners\" page",
+      "time" : {
+        "start" : 1698669282908,
+        "stop" : 1698669282908,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"no-compromises\" button",
+      "time" : {
+        "start" : 1698669282908,
+        "stop" : 1698669282908,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"no-compromises\" page",
+      "time" : {
+        "start" : 1698669282908,
+        "stop" : 1698669282908,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"geo-replication\" button",
+      "time" : {
+        "start" : 1698669282908,
+        "stop" : 1698669282908,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"geo-replication\" page",
+      "time" : {
+        "start" : 1698669282908,
+        "stop" : 1698669282908,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e15903b8690f46c8.json",
+  "parameterValues" : [ ]
+}

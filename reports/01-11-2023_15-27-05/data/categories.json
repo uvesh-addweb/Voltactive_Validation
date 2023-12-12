@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[7]/div[2]/div/div[1]/div/div[2]/div/button[3]\"}\n  (Session info: headless chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x563f75ca54e3 <unknown>\n#1 0x563f759d4c76 <unknown>\n#2 0x563f75a10c96 <unknown>\n#3 0x563f75a10dc1 <unknown>\n#4 0x563f75a4a7f4 <unknown>\n#5 0x563f75a3003d <unknown>\n#6 0x563f75a4830e <unknown>\n#7 0x563f75a2fde3 <unknown>\n#8 0x563f75a052dd <unknown>\n#9 0x563f75a0634e <unknown>\n#10 0x563f75c653e4 <unknown>\n#11 0x563f75c693d7 <unknown>\n#12 0x563f75c73b20 <unknown>\n#13 0x563f75c6a023 <unknown>\n#14 0x563f75c381aa <unknown>\n#15 0x563f75c8e6b8 <unknown>\n#16 0x563f75c8e847 <unknown>\n#17 0x563f75c9e243 <unknown>\n#18 0x7f688ee90402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test the Link Redirection on Footer",
+        "uid" : "e9c4c91cff21744e",
+        "parentUid" : "b78525841bd313f52f4a71ac14852c07",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698832589328,
+          "stop" : 1698832618329,
+          "duration" : 29001
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b78525841bd313f52f4a71ac14852c07"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

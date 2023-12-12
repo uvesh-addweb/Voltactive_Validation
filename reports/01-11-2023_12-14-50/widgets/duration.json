@@ -1,0 +1,11 @@
+[ {
+  "uid" : "2ab05da3df3a78f3",
+  "name" : "Test submenu and button on the Press Release page",
+  "time" : {
+    "start" : 1698821072730,
+    "stop" : 1698821086588,
+    "duration" : 13858
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

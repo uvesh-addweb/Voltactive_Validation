@@ -1,0 +1,1 @@
+Expected Category for Blog : "FRAUD PREVENTION" Actual Category for Blog : "ENTERPRISE IOT" on Blog page

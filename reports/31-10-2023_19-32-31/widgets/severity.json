@@ -1,0 +1,11 @@
+[ {
+  "uid" : "485e589bd1ccd82f",
+  "name" : "Test submenu and button on the Fraud Prevention page",
+  "time" : {
+    "start" : 1698760891071,
+    "stop" : 1698760947003,
+    "duration" : 55932
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

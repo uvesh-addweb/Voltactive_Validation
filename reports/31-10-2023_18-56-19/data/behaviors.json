@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Redirection of Pages",
+    "children" : [ {
+      "name" : "Test submenu and button on the Edge page",
+      "uid" : "e082b3b9215f6a74",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "passed",
+      "time" : {
+        "start" : 1698758731038,
+        "stop" : 1698758774989,
+        "duration" : 43951
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "390d5adef282071921a562a1a8f9f849"
+  } ]
+}

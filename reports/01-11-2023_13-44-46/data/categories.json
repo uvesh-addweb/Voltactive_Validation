@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: unhandled inspector error: {\"code\":-32000,\"message\":\"Unable to capture screenshot\"}\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55c3fd2e44e3 <unknown>\n#1 0x55c3fd013c76 <unknown>\n#2 0x55c3fcffd900 <unknown>\n#3 0x55c3fcffbbac <unknown>\n#4 0x55c3fcffc162 <unknown>\n#5 0x55c3fd01df9c <unknown>\n#6 0x55c3fd093bc2 <unknown>\n#7 0x55c3fd06f012 <unknown>\n#8 0x55c3fd08730e <unknown>\n#9 0x55c3fd06ede3 <unknown>\n#10 0x55c3fd0442dd <unknown>\n#11 0x55c3fd04534e <unknown>\n#12 0x55c3fd2a43e4 <unknown>\n#13 0x55c3fd2a83d7 <unknown>\n#14 0x55c3fd2b2b20 <unknown>\n#15 0x55c3fd2a9023 <unknown>\n#16 0x55c3fd2771aa <unknown>\n#17 0x55c3fd2cd6b8 <unknown>\n#18 0x55c3fd2cd847 <unknown>\n#19 0x55c3fd2dd243 <unknown>\n#20 0x7f3bee690402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test the Link Redirection on Footer",
+        "uid" : "dc4cbf1758501978",
+        "parentUid" : "d4b87ce3ce40ba05a3e2873f6426a395",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698826454083,
+          "stop" : 1698826482023,
+          "duration" : 27940
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d4b87ce3ce40ba05a3e2873f6426a395"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

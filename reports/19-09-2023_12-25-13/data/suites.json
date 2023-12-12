@@ -1,0 +1,421 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Test buttons and links on the Home page",
+    "uid" : "68fffdcd4e57b3a9",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695104729407,
+      "stop" : 1695104862447,
+      "duration" : 133040
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the No Compromises page",
+    "uid" : "66c564cc4b37e480",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695104862449,
+      "stop" : 1695105030266,
+      "duration" : 167817
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Volt For 5g page",
+    "uid" : "ee0ca0111deb317d",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105030267,
+      "stop" : 1695105098636,
+      "duration" : 68369
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Capabilities page",
+    "uid" : "14fdc916bee3644",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105098637,
+      "stop" : 1695105129333,
+      "duration" : 30696
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Geo Replication page",
+    "uid" : "4f17cad484b1558e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105129334,
+      "stop" : 1695105169863,
+      "duration" : 40529
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the High Availability page",
+    "uid" : "66877a9953fd0255",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105169864,
+      "stop" : 1695105204101,
+      "duration" : 34237
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Monetizing AI + ML page",
+    "uid" : "adc7751825fbc254",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105204102,
+      "stop" : 1695105240900,
+      "duration" : 36798
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the OEM-Friendly page",
+    "uid" : "e97b51fa77f047c4",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105240902,
+      "stop" : 1695105286338,
+      "duration" : 45436
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Real-Time Decisioning page",
+    "uid" : "bd25e46b13c538c5",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105286339,
+      "stop" : 1695105308940,
+      "duration" : 22601
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Cloud page",
+    "uid" : "8a71049d803894f5",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105308941,
+      "stop" : 1695105479932,
+      "duration" : 170991
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Edge page",
+    "uid" : "fde0710902819229",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105479933,
+      "stop" : 1695105528710,
+      "duration" : 48777
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Kafka + Streaming Data page",
+    "uid" : "d58b977b1fdf439b",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105528711,
+      "stop" : 1695105579131,
+      "duration" : 50420
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Billing Mediation Data page",
+    "uid" : "ca16dc9c5bdaa3c0",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1695105579132,
+      "stop" : 1695105607582,
+      "duration" : 28450
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the BSS page",
+    "uid" : "1e04a7e64c16ea2",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105607585,
+      "stop" : 1695105666834,
+      "duration" : 59249
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Data Platform for Fantasy Sports page",
+    "uid" : "a6b02ef71b5a18d7",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105666835,
+      "stop" : 1695105713740,
+      "duration" : 46905
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Fraud Prevention page",
+    "uid" : "ce2fb017ab08344e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "broken",
+    "time" : {
+      "start" : 1695105713741,
+      "stop" : 1695105810496,
+      "duration" : 96755
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the IOT page",
+    "uid" : "97b0ade4528b5462",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105810498,
+      "stop" : 1695105869718,
+      "duration" : 59220
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Resources page",
+    "uid" : "36d8da9e686efaa8",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105869719,
+      "stop" : 1695105932023,
+      "duration" : 62304
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Blog page",
+    "uid" : "b9c4e59e4628a486",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105932024,
+      "stop" : 1695105953580,
+      "duration" : 21556
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Partner Program page",
+    "uid" : "9fbe9cb95136565e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105953581,
+      "stop" : 1695105997488,
+      "duration" : 43907
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Webinars and Events page",
+    "uid" : "3b66b95544097fd7",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695105997489,
+      "stop" : 1695106044170,
+      "duration" : 46681
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Support page",
+    "uid" : "ab672d569e47746f",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695106044171,
+      "stop" : 1695106053668,
+      "duration" : 9497
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Professional Services page",
+    "uid" : "d210375438585652",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695106053669,
+      "stop" : 1695106069061,
+      "duration" : 15392
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Documentation page",
+    "uid" : "2b9255efed734a04",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695106069062,
+      "stop" : 1695106079325,
+      "duration" : 10263
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the About page",
+    "uid" : "ed9c15b49860e28e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695106079325,
+      "stop" : 1695106220396,
+      "duration" : 141071
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Careers page",
+    "uid" : "99d723abae49945e",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695106220397,
+      "stop" : 1695106241638,
+      "duration" : 21241
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the News page",
+    "uid" : "609785ce9f09643f",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695106241639,
+      "stop" : 1695106254407,
+      "duration" : 12768
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Press Release page",
+    "uid" : "ce5a1bf6db81b2d3",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695106254408,
+      "stop" : 1695106286398,
+      "duration" : 31990
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Team page",
+    "uid" : "f42a2603985f0106",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695106286399,
+      "stop" : 1695106427010,
+      "duration" : 140611
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test submenu and button on the Contact page",
+    "uid" : "c942bf36e50acd45",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695106427011,
+      "stop" : 1695106440094,
+      "duration" : 13083
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test the Link Redirection on Footer",
+    "uid" : "a10104c57c613264",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695106440095,
+      "stop" : 1695106496686,
+      "duration" : 56591
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test the Social Media Links Redirection on Footer",
+    "uid" : "71a36af0c47523ab",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1695106496686,
+      "stop" : 1695106512280,
+      "duration" : 15594
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  } ]
+}

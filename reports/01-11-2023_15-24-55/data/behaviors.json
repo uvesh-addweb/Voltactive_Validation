@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Redirection of Pages",
+    "children" : [ {
+      "name" : "Test the Link Redirection on Footer",
+      "uid" : "85cfa4614f4bba1",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "broken",
+      "time" : {
+        "start" : 1698832457837,
+        "stop" : 1698832491531,
+        "duration" : 33694
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "390d5adef282071921a562a1a8f9f849"
+  } ]
+}

@@ -1,0 +1,490 @@
+{
+  "uid" : "44f4159e1d6440ee",
+  "name" : "Test buttons and links on the Home page",
+  "fullName" : "Test Redirection of Pages: Test buttons and links on the Home page",
+  "historyId" : "0fdf3c2e33a857bccfca54c1bf04e7d0",
+  "time" : {
+    "start" : 1695127493582,
+    "stop" : 1695127609479,
+    "duration" : 115897
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: unknown error: unhandled inspector error: {\"code\":-32000,\"message\":\"Unable to capture screenshot\"}\n  (Session info: chrome=112.0.5615.121)\nStacktrace:\n#0 0x560053734fe3 <unknown>\n#1 0x560053473d36 <unknown>\n#2 0x56005345e57f <unknown>\n#3 0x56005345c7f3 <unknown>\n#4 0x56005345cdb2 <unknown>\n#5 0x56005347b8ac <unknown>\n#6 0x5600534f6e12 <unknown>\n#7 0x5600534d18c2 <unknown>\n#8 0x5600534ea232 <unknown>\n#9 0x5600534d1693 <unknown>\n#10 0x5600534a403a <unknown>\n#11 0x5600534a517e <unknown>\n#12 0x5600536f6dbd <unknown>\n#13 0x5600536fac6c <unknown>\n#14 0x5600537044b0 <unknown>\n#15 0x5600536fbd63 <unknown>\n#16 0x5600536cec35 <unknown>\n#17 0x56005371f138 <unknown>\n#18 0x56005371f2c7 <unknown>\n#19 0x56005372d093 <unknown>\n#20 0x7f8e71090402 <unknown>\n\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 398, in report_console_errors\n    allure.attach(context.driver.get_screenshot_as_png(), name=f\"Screenshot of {url} Page\",\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 836, in get_screenshot_as_png\n    return b64decode(self.get_screenshot_as_base64().encode(\"ascii\"))\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 847, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: unknown error: unhandled inspector error: {\"code\":-32000,\"message\":\"Unable to capture screenshot\"}\n  (Session info: chrome=112.0.5615.121)\nStacktrace:\n#0 0x560053734fe3 <unknown>\n#1 0x560053473d36 <unknown>\n#2 0x56005345e57f <unknown>\n#3 0x56005345c7f3 <unknown>\n#4 0x56005345cdb2 <unknown>\n#5 0x56005347b8ac <unknown>\n#6 0x5600534f6e12 <unknown>\n#7 0x5600534d18c2 <unknown>\n#8 0x5600534ea232 <unknown>\n#9 0x5600534d1693 <unknown>\n#10 0x5600534a403a <unknown>\n#11 0x5600534a517e <unknown>\n#12 0x5600536f6dbd <unknown>\n#13 0x5600536fac6c <unknown>\n#14 0x5600537044b0 <unknown>\n#15 0x5600536fbd63 <unknown>\n#16 0x5600536cec35 <unknown>\n#17 0x56005371f138 <unknown>\n#18 0x56005371f2c7 <unknown>\n#19 0x56005372d093 <unknown>\n#20 0x7f8e71090402 <unknown>\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 398, in report_console_errors\n    allure.attach(context.driver.get_screenshot_as_png(), name=f\"Screenshot of {url} Page\",\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 836, in get_screenshot_as_png\n    return b64decode(self.get_screenshot_as_base64().encode(\"ascii\"))\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 847, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"stg\" site",
+      "time" : {
+        "start" : 1695127494829,
+        "stop" : 1695127504921,
+        "duration" : 10092
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"try-volt\" button",
+      "time" : {
+        "start" : 1695127504921,
+        "stop" : 1695127512224,
+        "duration" : 7303
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"try-volt\" page",
+      "time" : {
+        "start" : 1695127512224,
+        "stop" : 1695127514333,
+        "duration" : 2109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"partners\" button",
+      "time" : {
+        "start" : 1695127514333,
+        "stop" : 1695127520128,
+        "duration" : 5795
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"partners\" page",
+      "time" : {
+        "start" : 1695127520128,
+        "stop" : 1695127523523,
+        "duration" : 3395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"no-compromises\" button",
+      "time" : {
+        "start" : 1695127523523,
+        "stop" : 1695127530168,
+        "duration" : 6645
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"no-compromises\" page",
+      "time" : {
+        "start" : 1695127530168,
+        "stop" : 1695127532366,
+        "duration" : 2198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"real-time-data-processing\" button",
+      "time" : {
+        "start" : 1695127532366,
+        "stop" : 1695127539168,
+        "duration" : 6802
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"real-time-data-processing\" page",
+      "time" : {
+        "start" : 1695127539168,
+        "stop" : 1695127541237,
+        "duration" : 2069
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_1\" button",
+      "time" : {
+        "start" : 1695127541237,
+        "stop" : 1695127546117,
+        "duration" : 4880
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities\" page",
+      "time" : {
+        "start" : 1695127546117,
+        "stop" : 1695127548185,
+        "duration" : 2068
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"cloud-native\" button",
+      "time" : {
+        "start" : 1695127548186,
+        "stop" : 1695127553750,
+        "duration" : 5564
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"cloud-native\" page",
+      "time" : {
+        "start" : 1695127553750,
+        "stop" : 1695127555817,
+        "duration" : 2067
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"high-availability\" button",
+      "time" : {
+        "start" : 1695127555817,
+        "stop" : 1695127562463,
+        "duration" : 6646
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"high-availability\" page",
+      "time" : {
+        "start" : 1695127562463,
+        "stop" : 1695127564557,
+        "duration" : 2094
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"geo-replication\" button",
+      "time" : {
+        "start" : 1695127564557,
+        "stop" : 1695127571095,
+        "duration" : 6538
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"geo-replication\" page",
+      "time" : {
+        "start" : 1695127571096,
+        "stop" : 1695127573193,
+        "duration" : 2097
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_2\" button",
+      "time" : {
+        "start" : 1695127573194,
+        "stop" : 1695127578787,
+        "duration" : 5593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities\" page",
+      "time" : {
+        "start" : 1695127578787,
+        "stop" : 1695127580893,
+        "duration" : 2106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"iot-at-the-edge\" button",
+      "time" : {
+        "start" : 1695127580894,
+        "stop" : 1695127584673,
+        "duration" : 3779
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"iot-at-the-edge\" page",
+      "time" : {
+        "start" : 1695127584674,
+        "stop" : 1695127586741,
+        "duration" : 2067
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"streaming-data-platforms\" button",
+      "time" : {
+        "start" : 1695127586742,
+        "stop" : 1695127590966,
+        "duration" : 4224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"streaming-data-platforms\" page",
+      "time" : {
+        "start" : 1695127590966,
+        "stop" : 1695127593041,
+        "duration" : 2075
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"intersection-of-edge-iot\" button",
+      "time" : {
+        "start" : 1695127593042,
+        "stop" : 1695127598987,
+        "duration" : 5945
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"intersection-of-edge-iot\" page",
+      "time" : {
+        "start" : 1695127598988,
+        "stop" : 1695127601049,
+        "duration" : 2061
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_3\" button",
+      "time" : {
+        "start" : 1695127601050,
+        "stop" : 1695127607134,
+        "duration" : 6084
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities_2\" page",
+      "time" : {
+        "start" : 1695127607134,
+        "stop" : 1695127609233,
+        "duration" : 2099
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Check for the console error on the page",
+      "time" : {
+        "start" : 1695127609233,
+        "stop" : 1695127609336,
+        "duration" : 103
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.WebDriverException: Message: unknown error: unhandled inspector error: {\"code\":-32000,\"message\":\"Unable to capture screenshot\"}\n  (Session info: chrome=112.0.5615.121)\nStacktrace:\n#0 0x560053734fe3 <unknown>\n#1 0x560053473d36 <unknown>\n#2 0x56005345e57f <unknown>\n#3 0x56005345c7f3 <unknown>\n#4 0x56005345cdb2 <unknown>\n#5 0x56005347b8ac <unknown>\n#6 0x5600534f6e12 <unknown>\n#7 0x5600534d18c2 <unknown>\n#8 0x5600534ea232 <unknown>\n#9 0x5600534d1693 <unknown>\n#10 0x5600534a403a <unknown>\n#11 0x5600534a517e <unknown>\n#12 0x5600536f6dbd <unknown>\n#13 0x5600536fac6c <unknown>\n#14 0x5600537044b0 <unknown>\n#15 0x5600536fbd63 <unknown>\n#16 0x5600536cec35 <unknown>\n#17 0x56005371f138 <unknown>\n#18 0x56005371f2c7 <unknown>\n#19 0x56005372d093 <unknown>\n#20 0x7f8e71090402 <unknown>\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 398, in report_console_errors\n    allure.attach(context.driver.get_screenshot_as_png(), name=f\"Screenshot of {url} Page\",\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 836, in get_screenshot_as_png\n    return b64decode(self.get_screenshot_as_base64().encode(\"ascii\"))\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 847, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7fcc1a639ef9a85b",
+        "name" : "Error on https://voltSTG:oI5L!YKmQ%401gOvqQ@stg.voltactivedata.com/ Page",
+        "source" : "7fcc1a639ef9a85b.txt",
+        "type" : "text/plain",
+        "size" : 297
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 28,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "44f4159e1d6440ee.json",
+  "parameterValues" : [ ]
+}

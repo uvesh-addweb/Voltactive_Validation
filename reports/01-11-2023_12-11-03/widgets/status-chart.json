@@ -1,0 +1,11 @@
+[ {
+  "uid" : "9637dac092dfa3ce",
+  "name" : "Test submenu and button on the About page",
+  "time" : {
+    "start" : 1698820712998,
+    "stop" : 1698820859720,
+    "duration" : 146722
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

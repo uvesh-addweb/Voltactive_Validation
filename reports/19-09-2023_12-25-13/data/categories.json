@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[13]/div/div/div/div[3]/div/div[1]/div/div/div[2]/a\"}\n  (Session info: headless chrome=112.0.5615.121); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55c640081fe3 <unknown>\n#1 0x55c63fdc0d36 <unknown>\n#2 0x55c63fdfdc4d <unknown>\n#3 0x55c63fdfdd61 <unknown>\n#4 0x55c63fe396a4 <unknown>\n#5 0x55c63fe1e8ed <unknown>\n#6 0x55c63fe37232 <unknown>\n#7 0x55c63fe1e693 <unknown>\n#8 0x55c63fdf103a <unknown>\n#9 0x55c63fdf217e <unknown>\n#10 0x55c640043dbd <unknown>\n#11 0x55c640047c6c <unknown>\n#12 0x55c6400514b0 <unknown>\n#13 0x55c640048d63 <unknown>\n#14 0x55c64001bc35 <unknown>\n#15 0x55c64006c138 <unknown>\n#16 0x55c64006c2c7 <unknown>\n#17 0x55c64007a093 <unknown>\n#18 0x7f2554290402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Billing Mediation Data page",
+        "uid" : "ca16dc9c5bdaa3c0",
+        "parentUid" : "8700627000d79ae1e3446d906e0a353e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695105579132,
+          "stop" : 1695105607582,
+          "duration" : 28450
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8700627000d79ae1e3446d906e0a353e"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[11]/div/div/div/div[3]/div/div[1]/div/div/div[2]/a\"}\n  (Session info: headless chrome=112.0.5615.121); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55bba9558fe3 <unknown>\n#1 0x55bba9297d36 <unknown>\n#2 0x55bba92d4c4d <unknown>\n#3 0x55bba92d4d61 <unknown>\n#4 0x55bba93106a4 <unknown>\n#5 0x55bba92f58ed <unknown>\n#6 0x55bba930e232 <unknown>\n#7 0x55bba92f5693 <unknown>\n#8 0x55bba92c803a <unknown>\n#9 0x55bba92c917e <unknown>\n#10 0x55bba951adbd <unknown>\n#11 0x55bba951ec6c <unknown>\n#12 0x55bba95284b0 <unknown>\n#13 0x55bba951fd63 <unknown>\n#14 0x55bba94f2c35 <unknown>\n#15 0x55bba9543138 <unknown>\n#16 0x55bba95432c7 <unknown>\n#17 0x55bba9551093 <unknown>\n#18 0x7f4afe090402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Fraud Prevention page",
+        "uid" : "ce2fb017ab08344e",
+        "parentUid" : "b9160ee1d23c3f9a93193b54c73b4f91",
+        "status" : "broken",
+        "time" : {
+          "start" : 1695105713741,
+          "stop" : 1695105810496,
+          "duration" : 96755
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b9160ee1d23c3f9a93193b54c73b4f91"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

@@ -1,0 +1,241 @@
+{
+  "uid" : "f0ab2fefd8ee8e9e",
+  "name" : "Test submenu and button on the No Compromises page",
+  "fullName" : "Test Redirection of Pages: Test submenu and button on the No Compromises page",
+  "historyId" : "8af1733d93a92b880a91b9d2a03c5e86",
+  "time" : {
+    "start" : 1698751939740,
+    "stop" : 1698751968013,
+    "duration" : 28273
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Expected URL: , Actual URL: #\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 210, in step_impl\n    assert current_url_slug == expected_url_slug, f\"Expected URL: {expected_url_slug}, Actual URL: {current_url_slug}\"\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Expected URL: , Actual URL: #\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 210, in step_impl\n    assert current_url_slug == expected_url_slug, f\"Expected URL: {expected_url_slug}, Actual URL: {current_url_slug}\"\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"stg\" site",
+      "time" : {
+        "start" : 1698751940684,
+        "stop" : 1698751950541,
+        "duration" : 9857
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user hovers over the \"why-volt\" menu",
+      "time" : {
+        "start" : 1698751950541,
+        "stop" : 1698751950862,
+        "duration" : 321
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The user clicks on the \"no-compromises-menu\" submenu link and verify the redirection \"no-compromises-menu\" page",
+      "time" : {
+        "start" : 1698751950862,
+        "stop" : 1698751953076,
+        "duration" : 2214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"learn-more\" button",
+      "time" : {
+        "start" : 1698751953076,
+        "stop" : 1698751963402,
+        "duration" : 10326
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"learn-more\" page",
+      "time" : {
+        "start" : 1698751963403,
+        "stop" : 1698751965450,
+        "duration" : 2047
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"real-time\" button",
+      "time" : {
+        "start" : 1698751965450,
+        "stop" : 1698751967663,
+        "duration" : 2213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"real-time\" page",
+      "time" : {
+        "start" : 1698751967663,
+        "stop" : 1698751967933,
+        "duration" : 270
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: Expected URL: , Actual URL: #\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 210, in step_impl\n    assert current_url_slug == expected_url_slug, f\"Expected URL: {expected_url_slug}, Actual URL: {current_url_slug}\"\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "782f8d76cb55924d",
+        "name" : "Error Message",
+        "source" : "782f8d76cb55924d.txt",
+        "type" : "text/plain",
+        "size" : 55
+      }, {
+        "uid" : "2bc751327e9afdc3",
+        "name" : "Screenshot of https://stg.voltactivedata.com/no-compromises/# Page",
+        "source" : "2bc751327e9afdc3.png",
+        "type" : "image/png",
+        "size" : 441787
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When The user clicks on the \"streaming-data\" button",
+      "time" : {
+        "start" : 1698751968013,
+        "stop" : 1698751968013,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"streaming-data\" page",
+      "time" : {
+        "start" : 1698751968013,
+        "stop" : 1698751968013,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"avoid-it\" button",
+      "time" : {
+        "start" : 1698751968013,
+        "stop" : 1698751968013,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"avoid-it\" page",
+      "time" : {
+        "start" : 1698751968013,
+        "stop" : 1698751968013,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f0ab2fefd8ee8e9e.json",
+  "parameterValues" : [ ]
+}

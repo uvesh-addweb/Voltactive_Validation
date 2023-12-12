@@ -1,0 +1,26 @@
+An error occurred: Message: element click intercepted: Element <a class="drift" href="https://dev.voltactivedata.com/resource/why-5g-standards-will-lower-tco-for-tech-stacks/">...</a> is not clickable at point (233, 842). Other element would receive the click: <div id="onetrust-policy">...</div>
+  (Session info: headless chrome=114.0.5735.133)
+Stacktrace:
+#0 0x55aa1c4de4e3 <unknown>
+#1 0x55aa1c20dc76 <unknown>
+#2 0x55aa1c24f9d4 <unknown>
+#3 0x55aa1c24dcbd <unknown>
+#4 0x55aa1c24bd2e <unknown>
+#5 0x55aa1c24b10f <unknown>
+#6 0x55aa1c2401da <unknown>
+#7 0x55aa1c269012 <unknown>
+#8 0x55aa1c23fb03 <unknown>
+#9 0x55aa1c2691de <unknown>
+#10 0x55aa1c28130e <unknown>
+#11 0x55aa1c268de3 <unknown>
+#12 0x55aa1c23e2dd <unknown>
+#13 0x55aa1c23f34e <unknown>
+#14 0x55aa1c49e3e4 <unknown>
+#15 0x55aa1c4a23d7 <unknown>
+#16 0x55aa1c4acb20 <unknown>
+#17 0x55aa1c4a3023 <unknown>
+#18 0x55aa1c4711aa <unknown>
+#19 0x55aa1c4c76b8 <unknown>
+#20 0x55aa1c4c7847 <unknown>
+#21 0x55aa1c4d7243 <unknown>
+#22 0x7f6c5ae90402 <unknown>

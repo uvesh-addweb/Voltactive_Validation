@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/div/div[11]/div/div/div/div[3]/div/div/div/div/div/div[2]/div/div/div[2]/a\"}\n  (Session info: chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x56500725f4e3 <unknown>\n#1 0x565006f8ec76 <unknown>\n#2 0x565006fcac96 <unknown>\n#3 0x565006fcadc1 <unknown>\n#4 0x5650070047f4 <unknown>\n#5 0x565006fea03d <unknown>\n#6 0x56500700230e <unknown>\n#7 0x565006fe9de3 <unknown>\n#8 0x565006fbf2dd <unknown>\n#9 0x565006fc034e <unknown>\n#10 0x56500721f3e4 <unknown>\n#11 0x5650072233d7 <unknown>\n#12 0x56500722db20 <unknown>\n#13 0x565007224023 <unknown>\n#14 0x5650071f21aa <unknown>\n#15 0x5650072486b8 <unknown>\n#16 0x565007248847 <unknown>\n#17 0x565007258243 <unknown>\n#18 0x7f6bb7e90402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the IOT page",
+        "uid" : "5827dce461471fd7",
+        "parentUid" : "c2be022a639c82f56c3bbc31d451e50d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698816521331,
+          "stop" : 1698816542748,
+          "duration" : 21417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c2be022a639c82f56c3bbc31d451e50d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

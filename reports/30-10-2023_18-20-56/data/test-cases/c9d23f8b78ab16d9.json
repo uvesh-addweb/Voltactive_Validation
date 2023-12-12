@@ -1,0 +1,496 @@
+{
+  "uid" : "c9d23f8b78ab16d9",
+  "name" : "Test buttons and links on the Home page",
+  "fullName" : "Test Redirection of Pages: Test buttons and links on the Home page",
+  "historyId" : "0fdf3c2e33a857bccfca54c1bf04e7d0",
+  "time" : {
+    "start" : 1698670236766,
+    "stop" : 1698670250113,
+    "duration" : 13347
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[1]/div/div/div/div/div/div/div/div[4]/a\"}\n  (Session info: chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x556008af84e3 <unknown>\n#1 0x556008827c76 <unknown>\n#2 0x556008863c96 <unknown>\n#3 0x556008863dc1 <unknown>\n#4 0x55600889d7f4 <unknown>\n#5 0x55600888303d <unknown>\n#6 0x55600889b30e <unknown>\n#7 0x556008882de3 <unknown>\n#8 0x5560088582dd <unknown>\n#9 0x55600885934e <unknown>\n#10 0x556008ab83e4 <unknown>\n#11 0x556008abc3d7 <unknown>\n#12 0x556008ac6b20 <unknown>\n#13 0x556008abd023 <unknown>\n#14 0x556008a8b1aa <unknown>\n#15 0x556008ae16b8 <unknown>\n#16 0x556008ae1847 <unknown>\n#17 0x556008af1243 <unknown>\n#18 0x7f3caaa90402 <unknown>\n\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 103, in step_impl\n    button_element = context.driver.find_element(By.XPATH, xpath)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 740, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[1]/div/div/div/div/div/div/div/div[4]/a\"}\n  (Session info: chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x556008af84e3 <unknown>\n#1 0x556008827c76 <unknown>\n#2 0x556008863c96 <unknown>\n#3 0x556008863dc1 <unknown>\n#4 0x55600889d7f4 <unknown>\n#5 0x55600888303d <unknown>\n#6 0x55600889b30e <unknown>\n#7 0x556008882de3 <unknown>\n#8 0x5560088582dd <unknown>\n#9 0x55600885934e <unknown>\n#10 0x556008ab83e4 <unknown>\n#11 0x556008abc3d7 <unknown>\n#12 0x556008ac6b20 <unknown>\n#13 0x556008abd023 <unknown>\n#14 0x556008a8b1aa <unknown>\n#15 0x556008ae16b8 <unknown>\n#16 0x556008ae1847 <unknown>\n#17 0x556008af1243 <unknown>\n#18 0x7f3caaa90402 <unknown>\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 103, in step_impl\n    button_element = context.driver.find_element(By.XPATH, xpath)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 740, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"stg\" site",
+      "time" : {
+        "start" : 1698670237721,
+        "stop" : 1698670249703,
+        "duration" : 11982
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"try-volt\" button",
+      "time" : {
+        "start" : 1698670249703,
+        "stop" : 1698670250046,
+        "duration" : 343
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[1]/div/div/div/div/div/div/div/div[4]/a\"}\n  (Session info: chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x556008af84e3 <unknown>\n#1 0x556008827c76 <unknown>\n#2 0x556008863c96 <unknown>\n#3 0x556008863dc1 <unknown>\n#4 0x55600889d7f4 <unknown>\n#5 0x55600888303d <unknown>\n#6 0x55600889b30e <unknown>\n#7 0x556008882de3 <unknown>\n#8 0x5560088582dd <unknown>\n#9 0x55600885934e <unknown>\n#10 0x556008ab83e4 <unknown>\n#11 0x556008abc3d7 <unknown>\n#12 0x556008ac6b20 <unknown>\n#13 0x556008abd023 <unknown>\n#14 0x556008a8b1aa <unknown>\n#15 0x556008ae16b8 <unknown>\n#16 0x556008ae1847 <unknown>\n#17 0x556008af1243 <unknown>\n#18 0x7f3caaa90402 <unknown>\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 103, in step_impl\n    button_element = context.driver.find_element(By.XPATH, xpath)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 740, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2a49c18ba049ed64",
+        "name" : "Error Message",
+        "source" : "2a49c18ba049ed64.txt",
+        "type" : "text/plain",
+        "size" : 952
+      }, {
+        "uid" : "d735b02ec389e897",
+        "name" : "Screenshot of https://voltSTG:oI5L!YKmQ%401gOvqQ@stg.voltactivedata.com/ Page",
+        "source" : "d735b02ec389e897.png",
+        "type" : "image/png",
+        "size" : 422455
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then The user should be redirected to the \"try-volt\" page",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"partners\" button",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"partners\" page",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"no-compromises\" button",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"no-compromises\" page",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"geo-replication\" button",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"geo-replication\" page",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"real-time-data-processing\" button",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"real-time-data-processing\" page",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_1\" button",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities\" page",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"cloud-native\" button",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"cloud-native\" page",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"high-availability\" button",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"high-availability\" page",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_2\" button",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities\" page",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"iot-at-the-edge\" button",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250112,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"iot-at-the-edge\" page",
+      "time" : {
+        "start" : 1698670250112,
+        "stop" : 1698670250113,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"streaming-data-platforms\" button",
+      "time" : {
+        "start" : 1698670250113,
+        "stop" : 1698670250113,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"streaming-data-platforms\" page",
+      "time" : {
+        "start" : 1698670250113,
+        "stop" : 1698670250113,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"intersection-of-edge-iot\" button",
+      "time" : {
+        "start" : 1698670250113,
+        "stop" : 1698670250113,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"intersection-of-edge-iot\" page",
+      "time" : {
+        "start" : 1698670250113,
+        "stop" : 1698670250113,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_3\" button",
+      "time" : {
+        "start" : 1698670250113,
+        "stop" : 1698670250113,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities_2\" page",
+      "time" : {
+        "start" : 1698670250113,
+        "stop" : 1698670250113,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then Check for the console error on the page",
+      "time" : {
+        "start" : 1698670250113,
+        "stop" : 1698670250113,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 28,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c9d23f8b78ab16d9.json",
+  "parameterValues" : [ ]
+}

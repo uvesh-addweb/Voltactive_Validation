@@ -1,0 +1,241 @@
+{
+  "uid" : "ca16dc9c5bdaa3c0",
+  "name" : "Test submenu and button on the Billing Mediation Data page",
+  "fullName" : "Test Redirection of Pages: Test submenu and button on the Billing Mediation Data page",
+  "historyId" : "fa9ad1496256c3b1b3ec478e284d2948",
+  "time" : {
+    "start" : 1695105579132,
+    "stop" : 1695105607582,
+    "duration" : 28450
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[13]/div/div/div/div[3]/div/div[1]/div/div/div[2]/a\"}\n  (Session info: headless chrome=112.0.5615.121); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55c640081fe3 <unknown>\n#1 0x55c63fdc0d36 <unknown>\n#2 0x55c63fdfdc4d <unknown>\n#3 0x55c63fdfdd61 <unknown>\n#4 0x55c63fe396a4 <unknown>\n#5 0x55c63fe1e8ed <unknown>\n#6 0x55c63fe37232 <unknown>\n#7 0x55c63fe1e693 <unknown>\n#8 0x55c63fdf103a <unknown>\n#9 0x55c63fdf217e <unknown>\n#10 0x55c640043dbd <unknown>\n#11 0x55c640047c6c <unknown>\n#12 0x55c6400514b0 <unknown>\n#13 0x55c640048d63 <unknown>\n#14 0x55c64001bc35 <unknown>\n#15 0x55c64006c138 <unknown>\n#16 0x55c64006c2c7 <unknown>\n#17 0x55c64007a093 <unknown>\n#18 0x7f2554290402 <unknown>\n\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 102, in step_impl\n    button_element = context.driver.find_element(By.XPATH, xpath)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 740, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[13]/div/div/div/div[3]/div/div[1]/div/div/div[2]/a\"}\n  (Session info: headless chrome=112.0.5615.121); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55c640081fe3 <unknown>\n#1 0x55c63fdc0d36 <unknown>\n#2 0x55c63fdfdc4d <unknown>\n#3 0x55c63fdfdd61 <unknown>\n#4 0x55c63fe396a4 <unknown>\n#5 0x55c63fe1e8ed <unknown>\n#6 0x55c63fe37232 <unknown>\n#7 0x55c63fe1e693 <unknown>\n#8 0x55c63fdf103a <unknown>\n#9 0x55c63fdf217e <unknown>\n#10 0x55c640043dbd <unknown>\n#11 0x55c640047c6c <unknown>\n#12 0x55c6400514b0 <unknown>\n#13 0x55c640048d63 <unknown>\n#14 0x55c64001bc35 <unknown>\n#15 0x55c64006c138 <unknown>\n#16 0x55c64006c2c7 <unknown>\n#17 0x55c64007a093 <unknown>\n#18 0x7f2554290402 <unknown>\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 102, in step_impl\n    button_element = context.driver.find_element(By.XPATH, xpath)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 740, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"stg\" site",
+      "time" : {
+        "start" : 1695105579944,
+        "stop" : 1695105590096,
+        "duration" : 10152
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user hovers over the \"use_cases\" menu",
+      "time" : {
+        "start" : 1695105590096,
+        "stop" : 1695105590427,
+        "duration" : 331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The user clicks on the \"billing_mediation\" submenu link and verify the redirection \"billing_mediation\" page",
+      "time" : {
+        "start" : 1695105590427,
+        "stop" : 1695105593963,
+        "duration" : 3536
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"telco_mediation\" button",
+      "time" : {
+        "start" : 1695105593963,
+        "stop" : 1695105596334,
+        "duration" : 2371
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"telco_mediation\" page",
+      "time" : {
+        "start" : 1695105596334,
+        "stop" : 1695105602081,
+        "duration" : 5747
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"data_platform\" button",
+      "time" : {
+        "start" : 1695105602081,
+        "stop" : 1695105607511,
+        "duration" : 5430
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[13]/div/div/div/div[3]/div/div[1]/div/div/div[2]/a\"}\n  (Session info: headless chrome=112.0.5615.121); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55c640081fe3 <unknown>\n#1 0x55c63fdc0d36 <unknown>\n#2 0x55c63fdfdc4d <unknown>\n#3 0x55c63fdfdd61 <unknown>\n#4 0x55c63fe396a4 <unknown>\n#5 0x55c63fe1e8ed <unknown>\n#6 0x55c63fe37232 <unknown>\n#7 0x55c63fe1e693 <unknown>\n#8 0x55c63fdf103a <unknown>\n#9 0x55c63fdf217e <unknown>\n#10 0x55c640043dbd <unknown>\n#11 0x55c640047c6c <unknown>\n#12 0x55c6400514b0 <unknown>\n#13 0x55c640048d63 <unknown>\n#14 0x55c64001bc35 <unknown>\n#15 0x55c64006c138 <unknown>\n#16 0x55c64006c2c7 <unknown>\n#17 0x55c64007a093 <unknown>\n#18 0x7f2554290402 <unknown>\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 102, in step_impl\n    button_element = context.driver.find_element(By.XPATH, xpath)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 740, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\"using\": by, \"value\": value})[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b4d0470d89eb35a",
+        "name" : "Error Message",
+        "source" : "9b4d0470d89eb35a.txt",
+        "type" : "text/plain",
+        "size" : 972
+      }, {
+        "uid" : "3cfd4800646e093a",
+        "name" : "Screenshot of https://voltSTG:oI5L!YKmQ%401gOvqQ@stg.voltactivedata.com/ Page",
+        "source" : "3cfd4800646e093a.png",
+        "type" : "image/png",
+        "size" : 463244
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then The user should be redirected to the \"data_platform\" page",
+      "time" : {
+        "start" : 1695105607582,
+        "stop" : 1695105607582,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"edge_iot\" button",
+      "time" : {
+        "start" : 1695105607582,
+        "stop" : 1695105607582,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"edge_iot\" page",
+      "time" : {
+        "start" : 1695105607582,
+        "stop" : 1695105607582,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"kafka_challange\" button",
+      "time" : {
+        "start" : 1695105607582,
+        "stop" : 1695105607582,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"kafka_challange\" page",
+      "time" : {
+        "start" : 1695105607582,
+        "stop" : 1695105607582,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ca16dc9c5bdaa3c0.json",
+  "parameterValues" : [ ]
+}

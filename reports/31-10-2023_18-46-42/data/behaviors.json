@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Redirection of Pages",
+    "children" : [ {
+      "name" : "Test submenu and button on the OEM-Friendly page",
+      "uid" : "23488b5f9701d212",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "passed",
+      "time" : {
+        "start" : 1698758153658,
+        "stop" : 1698758198491,
+        "duration" : 44833
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "390d5adef282071921a562a1a8f9f849"
+  } ]
+}

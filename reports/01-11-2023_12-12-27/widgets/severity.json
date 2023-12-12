@@ -1,0 +1,11 @@
+[ {
+  "uid" : "7e58dcb1976bea9b",
+  "name" : "Test submenu and button on the Careers page",
+  "time" : {
+    "start" : 1698820921178,
+    "stop" : 1698820943845,
+    "duration" : 22667
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

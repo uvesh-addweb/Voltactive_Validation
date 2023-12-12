@@ -1,0 +1,481 @@
+{
+  "uid" : "87fb210ed7cafdd3",
+  "name" : "Test buttons and links on the Home page",
+  "fullName" : "Test Redirection of Pages: Test buttons and links on the Home page",
+  "historyId" : "0fdf3c2e33a857bccfca54c1bf04e7d0",
+  "time" : {
+    "start" : 1702387230297,
+    "stop" : 1702387260577,
+    "duration" : 30280
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey\" href=\"https://www.voltactivedata.com/why-volt/no-compromises/\" title=\"No Compromises\">...</a> is not clickable at point (632, 855). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x559a621734e3 <unknown>\n#1 0x559a61ea2c76 <unknown>\n#2 0x559a61ee49d4 <unknown>\n#3 0x559a61ee2cbd <unknown>\n#4 0x559a61ee0d2e <unknown>\n#5 0x559a61ee010f <unknown>\n#6 0x559a61ed51da <unknown>\n#7 0x559a61efe012 <unknown>\n#8 0x559a61ed4b03 <unknown>\n#9 0x559a61efe1de <unknown>\n#10 0x559a61f1630e <unknown>\n#11 0x559a61efdde3 <unknown>\n#12 0x559a61ed32dd <unknown>\n#13 0x559a61ed434e <unknown>\n#14 0x559a621333e4 <unknown>\n#15 0x559a621373d7 <unknown>\n#16 0x559a62141b20 <unknown>\n#17 0x559a62138023 <unknown>\n#18 0x559a621061aa <unknown>\n#19 0x559a6215c6b8 <unknown>\n#20 0x559a6215c847 <unknown>\n#21 0x559a6216c243 <unknown>\n#22 0x7f9d9be90402 <unknown>\n\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 110, in step_impl\n    button_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey\" href=\"https://www.voltactivedata.com/why-volt/no-compromises/\" title=\"No Compromises\">...</a> is not clickable at point (632, 855). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x559a621734e3 <unknown>\n#1 0x559a61ea2c76 <unknown>\n#2 0x559a61ee49d4 <unknown>\n#3 0x559a61ee2cbd <unknown>\n#4 0x559a61ee0d2e <unknown>\n#5 0x559a61ee010f <unknown>\n#6 0x559a61ed51da <unknown>\n#7 0x559a61efe012 <unknown>\n#8 0x559a61ed4b03 <unknown>\n#9 0x559a61efe1de <unknown>\n#10 0x559a61f1630e <unknown>\n#11 0x559a61efdde3 <unknown>\n#12 0x559a61ed32dd <unknown>\n#13 0x559a61ed434e <unknown>\n#14 0x559a621333e4 <unknown>\n#15 0x559a621373d7 <unknown>\n#16 0x559a62141b20 <unknown>\n#17 0x559a62138023 <unknown>\n#18 0x559a621061aa <unknown>\n#19 0x559a6215c6b8 <unknown>\n#20 0x559a6215c847 <unknown>\n#21 0x559a6216c243 <unknown>\n#22 0x7f9d9be90402 <unknown>\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 110, in step_impl\n    button_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"dev\" site",
+      "time" : {
+        "start" : 1702387231232,
+        "stop" : 1702387240421,
+        "duration" : 9189
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"try-volt\" button",
+      "time" : {
+        "start" : 1702387240421,
+        "stop" : 1702387247277,
+        "duration" : 6856
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"try-volt\" page",
+      "time" : {
+        "start" : 1702387247277,
+        "stop" : 1702387251394,
+        "duration" : 4117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"partners\" button",
+      "time" : {
+        "start" : 1702387251394,
+        "stop" : 1702387256111,
+        "duration" : 4717
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"partners\" page",
+      "time" : {
+        "start" : 1702387256111,
+        "stop" : 1702387259060,
+        "duration" : 2949
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"no-compromises\" button",
+      "time" : {
+        "start" : 1702387259060,
+        "stop" : 1702387260510,
+        "duration" : 1450
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey\" href=\"https://www.voltactivedata.com/why-volt/no-compromises/\" title=\"No Compromises\">...</a> is not clickable at point (632, 855). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x559a621734e3 <unknown>\n#1 0x559a61ea2c76 <unknown>\n#2 0x559a61ee49d4 <unknown>\n#3 0x559a61ee2cbd <unknown>\n#4 0x559a61ee0d2e <unknown>\n#5 0x559a61ee010f <unknown>\n#6 0x559a61ed51da <unknown>\n#7 0x559a61efe012 <unknown>\n#8 0x559a61ed4b03 <unknown>\n#9 0x559a61efe1de <unknown>\n#10 0x559a61f1630e <unknown>\n#11 0x559a61efdde3 <unknown>\n#12 0x559a61ed32dd <unknown>\n#13 0x559a61ed434e <unknown>\n#14 0x559a621333e4 <unknown>\n#15 0x559a621373d7 <unknown>\n#16 0x559a62141b20 <unknown>\n#17 0x559a62138023 <unknown>\n#18 0x559a621061aa <unknown>\n#19 0x559a6215c6b8 <unknown>\n#20 0x559a6215c847 <unknown>\n#21 0x559a6216c243 <unknown>\n#22 0x7f9d9be90402 <unknown>\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 110, in step_impl\n    button_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e3c22337ce8310e1",
+        "name" : "Error Message",
+        "source" : "e3c22337ce8310e1.txt",
+        "type" : "text/plain",
+        "size" : 1096
+      }, {
+        "uid" : "943ce60478dfd97e",
+        "name" : "Screenshot of https://voltDEV:ww9E1ShSNAGLD%40M7w@dev.voltactivedata.com/ Page",
+        "source" : "943ce60478dfd97e.png",
+        "type" : "image/png",
+        "size" : 250853
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then The user should be redirected to the \"no-compromises\" page",
+      "time" : {
+        "start" : 1702387260576,
+        "stop" : 1702387260576,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"real-time-data-processing\" button",
+      "time" : {
+        "start" : 1702387260576,
+        "stop" : 1702387260576,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"real-time-data-processing\" page",
+      "time" : {
+        "start" : 1702387260576,
+        "stop" : 1702387260576,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_1\" button",
+      "time" : {
+        "start" : 1702387260576,
+        "stop" : 1702387260576,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities\" page",
+      "time" : {
+        "start" : 1702387260576,
+        "stop" : 1702387260576,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"cloud-native\" button",
+      "time" : {
+        "start" : 1702387260576,
+        "stop" : 1702387260576,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"cloud-native\" page",
+      "time" : {
+        "start" : 1702387260576,
+        "stop" : 1702387260576,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"high-availability\" button",
+      "time" : {
+        "start" : 1702387260576,
+        "stop" : 1702387260576,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"high-availability\" page",
+      "time" : {
+        "start" : 1702387260576,
+        "stop" : 1702387260577,
+        "duration" : 1
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"geo-replication\" button",
+      "time" : {
+        "start" : 1702387260577,
+        "stop" : 1702387260577,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"geo-replication\" page",
+      "time" : {
+        "start" : 1702387260577,
+        "stop" : 1702387260577,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_2\" button",
+      "time" : {
+        "start" : 1702387260577,
+        "stop" : 1702387260577,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities\" page",
+      "time" : {
+        "start" : 1702387260577,
+        "stop" : 1702387260577,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"iot-at-the-edge\" button",
+      "time" : {
+        "start" : 1702387260577,
+        "stop" : 1702387260577,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"iot-at-the-edge\" page",
+      "time" : {
+        "start" : 1702387260577,
+        "stop" : 1702387260577,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"streaming-data-platforms\" button",
+      "time" : {
+        "start" : 1702387260577,
+        "stop" : 1702387260577,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"streaming-data-platforms\" page",
+      "time" : {
+        "start" : 1702387260577,
+        "stop" : 1702387260577,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"intersection-of-edge-iot\" button",
+      "time" : {
+        "start" : 1702387260577,
+        "stop" : 1702387260577,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"intersection-of-edge-iot\" page",
+      "time" : {
+        "start" : 1702387260577,
+        "stop" : 1702387260577,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"capabilities_3\" button",
+      "time" : {
+        "start" : 1702387260577,
+        "stop" : 1702387260577,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"capabilities_2\" page",
+      "time" : {
+        "start" : 1702387260577,
+        "stop" : 1702387260577,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 27,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "87fb210ed7cafdd3.json",
+  "parameterValues" : [ ]
+}

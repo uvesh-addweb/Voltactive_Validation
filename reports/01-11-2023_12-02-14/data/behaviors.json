@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Redirection of Pages",
+    "children" : [ {
+      "name" : "Test submenu and button on the Webinars and Events page",
+      "uid" : "79b11fe836b919f6",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "broken",
+      "time" : {
+        "start" : 1698820317855,
+        "stop" : 1698820330259,
+        "duration" : 12404
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "390d5adef282071921a562a1a8f9f849"
+  } ]
+}

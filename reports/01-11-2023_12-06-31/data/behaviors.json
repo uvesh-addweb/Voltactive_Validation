@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Redirection of Pages",
+    "children" : [ {
+      "name" : "Test submenu and button on the Support page",
+      "uid" : "22abb347239b5773",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "passed",
+      "time" : {
+        "start" : 1698820575896,
+        "stop" : 1698820587081,
+        "duration" : 11185
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "390d5adef282071921a562a1a8f9f849"
+  } ]
+}

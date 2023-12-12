@@ -1,0 +1,11 @@
+[ {
+  "uid" : "e082b3b9215f6a74",
+  "name" : "Test submenu and button on the Edge page",
+  "time" : {
+    "start" : 1698758731038,
+    "stop" : 1698758774989,
+    "duration" : 43951
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

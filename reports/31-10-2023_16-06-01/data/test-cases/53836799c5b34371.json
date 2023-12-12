@@ -1,0 +1,235 @@
+{
+  "uid" : "53836799c5b34371",
+  "name" : "Test submenu and button on the OEM-Friendly page",
+  "fullName" : "Test Redirection of Pages: Test submenu and button on the OEM-Friendly page",
+  "historyId" : "4a98d3fdea87283a61b5d1305b9a75d9",
+  "time" : {
+    "start" : 1698748220197,
+    "stop" : 1698748224613,
+    "duration" : 4416
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55e4fb0f14e3 <unknown>\n#1 0x55e4fae20c76 <unknown>\n#2 0x55e4fadfac6c <unknown>\n#3 0x55e4fae80f8f <unknown>\n#4 0x55e4fae93d66 <unknown>\n#5 0x55e4fae7bde3 <unknown>\n#6 0x55e4fae512dd <unknown>\n#7 0x55e4fae5234e <unknown>\n#8 0x55e4fb0b13e4 <unknown>\n#9 0x55e4fb0b53d7 <unknown>\n#10 0x55e4fb0bfb20 <unknown>\n#11 0x55e4fb0b6023 <unknown>\n#12 0x55e4fb0841aa <unknown>\n#13 0x55e4fb0da6b8 <unknown>\n#14 0x55e4fb0da847 <unknown>\n#15 0x55e4fb0ea243 <unknown>\n#16 0x7f48f3890402 <unknown>\n\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 57, in step_impl\n    allure.attach(context.driver.get_screenshot_as_png(), name=f\"Screenshot of {context.driver.current_url} Page\",\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 836, in get_screenshot_as_png\n    return b64decode(self.get_screenshot_as_base64().encode(\"ascii\"))\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 847, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55e4fb0f14e3 <unknown>\n#1 0x55e4fae20c76 <unknown>\n#2 0x55e4fadfac6c <unknown>\n#3 0x55e4fae80f8f <unknown>\n#4 0x55e4fae93d66 <unknown>\n#5 0x55e4fae7bde3 <unknown>\n#6 0x55e4fae512dd <unknown>\n#7 0x55e4fae5234e <unknown>\n#8 0x55e4fb0b13e4 <unknown>\n#9 0x55e4fb0b53d7 <unknown>\n#10 0x55e4fb0bfb20 <unknown>\n#11 0x55e4fb0b6023 <unknown>\n#12 0x55e4fb0841aa <unknown>\n#13 0x55e4fb0da6b8 <unknown>\n#14 0x55e4fb0da847 <unknown>\n#15 0x55e4fb0ea243 <unknown>\n#16 0x7f48f3890402 <unknown>\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 57, in step_impl\n    allure.attach(context.driver.get_screenshot_as_png(), name=f\"Screenshot of {context.driver.current_url} Page\",\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 836, in get_screenshot_as_png\n    return b64decode(self.get_screenshot_as_base64().encode(\"ascii\"))\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 847, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"stg\" site",
+      "time" : {
+        "start" : 1698748221183,
+        "stop" : 1698748224543,
+        "duration" : 3360
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user hovers over the \"use_cases\" menu",
+      "time" : {
+        "start" : 1698748224543,
+        "stop" : 1698748224551,
+        "duration" : 8
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55e4fb0f14e3 <unknown>\n#1 0x55e4fae20c76 <unknown>\n#2 0x55e4fadfac6c <unknown>\n#3 0x55e4fae80f8f <unknown>\n#4 0x55e4fae93d66 <unknown>\n#5 0x55e4fae7bde3 <unknown>\n#6 0x55e4fae512dd <unknown>\n#7 0x55e4fae5234e <unknown>\n#8 0x55e4fb0b13e4 <unknown>\n#9 0x55e4fb0b53d7 <unknown>\n#10 0x55e4fb0bfb20 <unknown>\n#11 0x55e4fb0b6023 <unknown>\n#12 0x55e4fb0841aa <unknown>\n#13 0x55e4fb0da6b8 <unknown>\n#14 0x55e4fb0da847 <unknown>\n#15 0x55e4fb0ea243 <unknown>\n#16 0x7f48f3890402 <unknown>\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 57, in step_impl\n    allure.attach(context.driver.get_screenshot_as_png(), name=f\"Screenshot of {context.driver.current_url} Page\",\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 836, in get_screenshot_as_png\n    return b64decode(self.get_screenshot_as_base64().encode(\"ascii\"))\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 847, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e0ad02b1243703",
+        "name" : "Error Message",
+        "source" : "e0ad02b1243703.txt",
+        "type" : "text/plain",
+        "size" : 647
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "And The user clicks on the \"oem\" submenu link and verify the redirection \"oem\" page",
+      "time" : {
+        "start" : 1698748224613,
+        "stop" : 1698748224613,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"framework\" button",
+      "time" : {
+        "start" : 1698748224613,
+        "stop" : 1698748224613,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"framework\" page",
+      "time" : {
+        "start" : 1698748224613,
+        "stop" : 1698748224613,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"decisioning_2\" button",
+      "time" : {
+        "start" : 1698748224613,
+        "stop" : 1698748224613,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"decisioning\" page",
+      "time" : {
+        "start" : 1698748224613,
+        "stop" : 1698748224613,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"fast_data_apps_3\" button",
+      "time" : {
+        "start" : 1698748224613,
+        "stop" : 1698748224613,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"fast_data_apps\" page",
+      "time" : {
+        "start" : 1698748224613,
+        "stop" : 1698748224613,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"avoid-it_5\" button",
+      "time" : {
+        "start" : 1698748224613,
+        "stop" : 1698748224613,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"avoid-it\" page",
+      "time" : {
+        "start" : 1698748224613,
+        "stop" : 1698748224613,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "53836799c5b34371.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,22 @@
+{
+  "47630eb91979b618063c05268ce85685" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "79b11fe836b919f6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x5569a45cf4e3 <unknown>\n#1 0x5569a42feb00 <unknown>\n#2 0x5569a433bfa1 <unknown>\n#3 0x5569a43311da <unknown>\n#4 0x5569a435a012 <unknown>\n#5 0x5569a4330b03 <unknown>\n#6 0x5569a435a1de <unknown>\n#7 0x5569a437230e <unknown>\n#8 0x5569a4359de3 <unknown>\n#9 0x5569a432f2dd <unknown>\n#10 0x5569a433034e <unknown>\n#11 0x5569a458f3e4 <unknown>\n#12 0x5569a45933d7 <unknown>\n#13 0x5569a459db20 <unknown>\n#14 0x5569a4594023 <unknown>\n#15 0x5569a45621aa <unknown>\n#16 0x5569a45b86b8 <unknown>\n#17 0x5569a45b8847 <unknown>\n#18 0x5569a45c8243 <unknown>\n#19 0x7fe83ec90402 <unknown>\n\n",
+      "time" : {
+        "start" : 1698820317855,
+        "stop" : 1698820330259,
+        "duration" : 12404
+      }
+    } ]
+  }
+}

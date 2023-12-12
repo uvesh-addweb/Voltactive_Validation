@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue Oct 31 16:00:00 IST 2023","Tue Oct 31 16:00:20 IST 2023","19753","","","","","","Test submenu and button on the Monetizing AI + ML page",""
+"broken","Tue Oct 31 16:00:20 IST 2023","Tue Oct 31 16:00:24 IST 2023","4416","","","","","","Test submenu and button on the OEM-Friendly page",""
+"broken","Tue Oct 31 16:00:24 IST 2023","Tue Oct 31 16:00:28 IST 2023","3882","","","","","","Test submenu and button on the Real-Time Decisioning page",""
+"broken","Tue Oct 31 16:05:13 IST 2023","Tue Oct 31 16:05:56 IST 2023","43647","","","","","","Test buttons and links on the Home page",""
+"broken","Tue Oct 31 15:59:43 IST 2023","Tue Oct 31 16:00:00 IST 2023","17067","","","","","","Test submenu and button on the High Availability page",""
+"broken","Tue Oct 31 15:59:21 IST 2023","Tue Oct 31 15:59:43 IST 2023","22009","","","","","","Test submenu and button on the Geo Replication page",""

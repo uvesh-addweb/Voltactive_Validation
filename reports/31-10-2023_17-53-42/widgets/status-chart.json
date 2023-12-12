@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d9000ef668aa0810",
+  "name" : "Test submenu and button on the Volt For 5g page",
+  "time" : {
+    "start" : 1698754944945,
+    "stop" : 1698755015247,
+    "duration" : 70302
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,22 @@
+{
+  "22b01316d2a65b4f589a9af09648ad5d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1a7b2273e56a84e7",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class=\"nice-select type\" tabindex=\"0\">...</div> is not clickable at point (201, 591). Other element would receive the click: <div id=\"onetrust-policy-text\">...</div>\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x562ef18184e3 <unknown>\n#1 0x562ef1547c76 <unknown>\n#2 0x562ef15899d4 <unknown>\n#3 0x562ef1587cbd <unknown>\n#4 0x562ef1585d2e <unknown>\n#5 0x562ef158510f <unknown>\n#6 0x562ef157a1da <unknown>\n#7 0x562ef15a3012 <unknown>\n#8 0x562ef1579b03 <unknown>\n#9 0x562ef15a31de <unknown>\n#10 0x562ef15bb30e <unknown>\n#11 0x562ef15a2de3 <unknown>\n#12 0x562ef15782dd <unknown>\n#13 0x562ef157934e <unknown>\n#14 0x562ef17d83e4 <unknown>\n#15 0x562ef17dc3d7 <unknown>\n#16 0x562ef17e6b20 <unknown>\n#17 0x562ef17dd023 <unknown>\n#18 0x562ef17ab1aa <unknown>\n#19 0x562ef18016b8 <unknown>\n#20 0x562ef1801847 <unknown>\n#21 0x562ef1811243 <unknown>\n#22 0x7fa130690402 <unknown>\n\n",
+      "time" : {
+        "start" : 1698817263596,
+        "stop" : 1698817278437,
+        "duration" : 14841
+      }
+    } ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: unhandled inspector error: {\"code\":-32000,\"message\":\"Unable to capture screenshot\"}\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55baa07584e3 <unknown>\n#1 0x55baa0487c76 <unknown>\n#2 0x55baa0471900 <unknown>\n#3 0x55baa046fbac <unknown>\n#4 0x55baa0470162 <unknown>\n#5 0x55baa0491f9c <unknown>\n#6 0x55baa0507bc2 <unknown>\n#7 0x55baa04e3012 <unknown>\n#8 0x55baa04fb30e <unknown>\n#9 0x55baa04e2de3 <unknown>\n#10 0x55baa04b82dd <unknown>\n#11 0x55baa04b934e <unknown>\n#12 0x55baa07183e4 <unknown>\n#13 0x55baa071c3d7 <unknown>\n#14 0x55baa0726b20 <unknown>\n#15 0x55baa071d023 <unknown>\n#16 0x55baa06eb1aa <unknown>\n#17 0x55baa07416b8 <unknown>\n#18 0x55baa0741847 <unknown>\n#19 0x55baa0751243 <unknown>\n#20 0x7fd212a90402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the BSS page",
+        "uid" : "518fb5353ace68c6",
+        "parentUid" : "ab6c33fa3dac902018a9e0e40c701020",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698759946545,
+          "stop" : 1698759972215,
+          "duration" : 25670
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ab6c33fa3dac902018a9e0e40c701020"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

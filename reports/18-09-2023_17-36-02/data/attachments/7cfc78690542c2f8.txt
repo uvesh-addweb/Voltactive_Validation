@@ -1,0 +1,3 @@
+Page : https://stg.voltactivedata.com/use-cases/fraud-prevention/ 
+ 
+Console Error : [{'level': 'WARNING', 'message': "https://stg.voltactivedata.com/use-cases/fraud-prevention/ 522 Allow attribute will take precedence over 'allowfullscreen'.", 'source': 'other', 'timestamp': 1695038610605}]

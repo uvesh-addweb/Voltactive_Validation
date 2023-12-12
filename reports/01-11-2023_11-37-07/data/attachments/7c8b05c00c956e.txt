@@ -1,0 +1,1 @@
+Expected type of Resource : "REPORT" Actual Type of Resource : "TECHNICAL PAPER" on the "Guide to Streaming Data Platforms" Resource

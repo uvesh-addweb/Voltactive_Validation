@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Redirection of Pages",
+    "children" : [ {
+      "name" : "Test submenu and button on the Resources page",
+      "uid" : "745556f7f78865bb",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "failed",
+      "time" : {
+        "start" : 1698818715502,
+        "stop" : 1698818730858,
+        "duration" : 15356
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "390d5adef282071921a562a1a8f9f849"
+  } ]
+}

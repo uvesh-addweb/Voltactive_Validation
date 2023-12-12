@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey\" href=\"https://register.gotowebinar.com/register/1832234301684395866?source=Volt\" title=\"\" target=\"_blank\">...</a> is not clickable at point (137, 564). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x556edee164e3 <unknown>\n#1 0x556edeb45c76 <unknown>\n#2 0x556edeb879d4 <unknown>\n#3 0x556edeb85cbd <unknown>\n#4 0x556edeb83d2e <unknown>\n#5 0x556edeb8310f <unknown>\n#6 0x556edeb781da <unknown>\n#7 0x556edeba1012 <unknown>\n#8 0x556edeb77b03 <unknown>\n#9 0x556edeba11de <unknown>\n#10 0x556edebb930e <unknown>\n#11 0x556edeba0de3 <unknown>\n#12 0x556edeb762dd <unknown>\n#13 0x556edeb7734e <unknown>\n#14 0x556ededd63e4 <unknown>\n#15 0x556ededda3d7 <unknown>\n#16 0x556edede4b20 <unknown>\n#17 0x556ededdb023 <unknown>\n#18 0x556ededa91aa <unknown>\n#19 0x556ededff6b8 <unknown>\n#20 0x556ededff847 <unknown>\n#21 0x556edee0f243 <unknown>\n#22 0x7fed7b690402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Webinars and Events page",
+        "uid" : "99a1611ba4fef2fa",
+        "parentUid" : "6b96f31d280083a97ff3bbeb26d0deb3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698820351474,
+          "stop" : 1698820376098,
+          "duration" : 24624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6b96f31d280083a97ff3bbeb26d0deb3"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

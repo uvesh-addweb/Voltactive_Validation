@@ -1,0 +1,11 @@
+[ {
+  "uid" : "2c08937654d3c1a6",
+  "name" : "Test submenu and button on the Contact page",
+  "time" : {
+    "start" : 1698821509840,
+    "stop" : 1698821521956,
+    "duration" : 12116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

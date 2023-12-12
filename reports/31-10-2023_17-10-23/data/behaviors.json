@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Redirection of Pages",
+    "children" : [ {
+      "name" : "Test submenu and button on the No Compromises page",
+      "uid" : "ee542b5be3012272",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "broken",
+      "time" : {
+        "start" : 1698752322208,
+        "stop" : 1698752419307,
+        "duration" : 97099
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "390d5adef282071921a562a1a8f9f849"
+  } ]
+}

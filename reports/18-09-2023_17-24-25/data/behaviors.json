@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Verification of Console Errors",
+    "children" : [ {
+      "name" : "Check for console errors in sitemap pages",
+      "uid" : "470d03605e4ed300",
+      "parentUid" : "1b2b515c638094ebb2f5df2ce0053633",
+      "status" : "passed",
+      "time" : {
+        "start" : 1695037877339,
+        "stop" : 1695038064931,
+        "duration" : 187592
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "1b2b515c638094ebb2f5df2ce0053633"
+  } ]
+}

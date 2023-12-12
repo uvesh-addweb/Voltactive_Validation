@@ -1,0 +1,256 @@
+{
+  "uid" : "e3034b7afb315565",
+  "name" : "Test the Link Redirection on Footer",
+  "fullName" : "Test Redirection of Pages: Test the Link Redirection on Footer",
+  "historyId" : "76c5251f5fcfcec1f912f0a37b10614e",
+  "time" : {
+    "start" : 1698837996577,
+    "stop" : 1698838005669,
+    "duration" : 9092
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"/privacy-policy/\">...</a> is not clickable at point (450, 1005). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x5603f85244e3 <unknown>\n#1 0x5603f8253c76 <unknown>\n#2 0x5603f82959d4 <unknown>\n#3 0x5603f8293cbd <unknown>\n#4 0x5603f8291d2e <unknown>\n#5 0x5603f829110f <unknown>\n#6 0x5603f82861da <unknown>\n#7 0x5603f82af012 <unknown>\n#8 0x5603f8285b03 <unknown>\n#9 0x5603f82af1de <unknown>\n#10 0x5603f82c730e <unknown>\n#11 0x5603f82aede3 <unknown>\n#12 0x5603f82842dd <unknown>\n#13 0x5603f828534e <unknown>\n#14 0x5603f84e43e4 <unknown>\n#15 0x5603f84e83d7 <unknown>\n#16 0x5603f84f2b20 <unknown>\n#17 0x5603f84e9023 <unknown>\n#18 0x5603f84b71aa <unknown>\n#19 0x5603f850d6b8 <unknown>\n#20 0x5603f850d847 <unknown>\n#21 0x5603f851d243 <unknown>\n#22 0x7f08c2090402 <unknown>\n\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 110, in step_impl\n    button_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"/privacy-policy/\">...</a> is not clickable at point (450, 1005). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x5603f85244e3 <unknown>\n#1 0x5603f8253c76 <unknown>\n#2 0x5603f82959d4 <unknown>\n#3 0x5603f8293cbd <unknown>\n#4 0x5603f8291d2e <unknown>\n#5 0x5603f829110f <unknown>\n#6 0x5603f82861da <unknown>\n#7 0x5603f82af012 <unknown>\n#8 0x5603f8285b03 <unknown>\n#9 0x5603f82af1de <unknown>\n#10 0x5603f82c730e <unknown>\n#11 0x5603f82aede3 <unknown>\n#12 0x5603f82842dd <unknown>\n#13 0x5603f828534e <unknown>\n#14 0x5603f84e43e4 <unknown>\n#15 0x5603f84e83d7 <unknown>\n#16 0x5603f84f2b20 <unknown>\n#17 0x5603f84e9023 <unknown>\n#18 0x5603f84b71aa <unknown>\n#19 0x5603f850d6b8 <unknown>\n#20 0x5603f850d847 <unknown>\n#21 0x5603f851d243 <unknown>\n#22 0x7f08c2090402 <unknown>\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 110, in step_impl\n    button_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"live\" site",
+      "time" : {
+        "start" : 1698837997284,
+        "stop" : 1698838003715,
+        "duration" : 6431
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"privacy_statment\" button",
+      "time" : {
+        "start" : 1698838003715,
+        "stop" : 1698838005607,
+        "duration" : 1892
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"/privacy-policy/\">...</a> is not clickable at point (450, 1005). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x5603f85244e3 <unknown>\n#1 0x5603f8253c76 <unknown>\n#2 0x5603f82959d4 <unknown>\n#3 0x5603f8293cbd <unknown>\n#4 0x5603f8291d2e <unknown>\n#5 0x5603f829110f <unknown>\n#6 0x5603f82861da <unknown>\n#7 0x5603f82af012 <unknown>\n#8 0x5603f8285b03 <unknown>\n#9 0x5603f82af1de <unknown>\n#10 0x5603f82c730e <unknown>\n#11 0x5603f82aede3 <unknown>\n#12 0x5603f82842dd <unknown>\n#13 0x5603f828534e <unknown>\n#14 0x5603f84e43e4 <unknown>\n#15 0x5603f84e83d7 <unknown>\n#16 0x5603f84f2b20 <unknown>\n#17 0x5603f84e9023 <unknown>\n#18 0x5603f84b71aa <unknown>\n#19 0x5603f850d6b8 <unknown>\n#20 0x5603f850d847 <unknown>\n#21 0x5603f851d243 <unknown>\n#22 0x7f08c2090402 <unknown>\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 110, in step_impl\n    button_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "38fe95bc005551cf",
+        "name" : "Error Message",
+        "source" : "38fe95bc005551cf.txt",
+        "type" : "text/plain",
+        "size" : 930
+      }, {
+        "uid" : "1ae6bbe63523df82",
+        "name" : "Screenshot of https://www.voltactivedata.com/ Page",
+        "source" : "1ae6bbe63523df82.png",
+        "type" : "image/png",
+        "size" : 439530
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then The user should be redirected to the \"privacy_statment\" page",
+      "time" : {
+        "start" : 1698838005669,
+        "stop" : 1698838005669,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"accept_cookie\" button",
+      "time" : {
+        "start" : 1698838005669,
+        "stop" : 1698838005669,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"licennse_agreement\" button",
+      "time" : {
+        "start" : 1698838005669,
+        "stop" : 1698838005669,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"licennse_agreement\" page",
+      "time" : {
+        "start" : 1698838005669,
+        "stop" : 1698838005669,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"contributor_agreement\" button",
+      "time" : {
+        "start" : 1698838005669,
+        "stop" : 1698838005669,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"contributor_agreement\" page",
+      "time" : {
+        "start" : 1698838005669,
+        "stop" : 1698838005669,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"sitemap\" button",
+      "time" : {
+        "start" : 1698838005669,
+        "stop" : 1698838005669,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"sitemap\" page",
+      "time" : {
+        "start" : 1698838005669,
+        "stop" : 1698838005669,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"contact_us\" button",
+      "time" : {
+        "start" : 1698838005669,
+        "stop" : 1698838005669,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"contact\" page",
+      "time" : {
+        "start" : 1698838005669,
+        "stop" : 1698838005669,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e3034b7afb315565.json",
+  "parameterValues" : [ ]
+}

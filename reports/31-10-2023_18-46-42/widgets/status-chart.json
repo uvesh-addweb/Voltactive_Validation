@@ -1,0 +1,11 @@
+[ {
+  "uid" : "23488b5f9701d212",
+  "name" : "Test submenu and button on the OEM-Friendly page",
+  "time" : {
+    "start" : 1698758153658,
+    "stop" : 1698758198491,
+    "duration" : 44833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

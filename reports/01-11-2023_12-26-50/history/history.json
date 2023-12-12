@@ -1,0 +1,41 @@
+{
+  "63c36de035b7b429bb045b46785a3f8e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6edfcea7a302d31c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1698821777943,
+        "stop" : 1698821798049,
+        "duration" : 20106
+      }
+    } ]
+  },
+  "76c5251f5fcfcec1f912f0a37b10614e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "406737b7f6d85bb2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[7]/div[2]/div/div[1]/div/div[2]/div/button[3]\"}\n  (Session info: chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x555bdb2254e3 <unknown>\n#1 0x555bdaf54c76 <unknown>\n#2 0x555bdaf90c96 <unknown>\n#3 0x555bdaf90dc1 <unknown>\n#4 0x555bdafca7f4 <unknown>\n#5 0x555bdafb003d <unknown>\n#6 0x555bdafc830e <unknown>\n#7 0x555bdafafde3 <unknown>\n#8 0x555bdaf852dd <unknown>\n#9 0x555bdaf8634e <unknown>\n#10 0x555bdb1e53e4 <unknown>\n#11 0x555bdb1e93d7 <unknown>\n#12 0x555bdb1f3b20 <unknown>\n#13 0x555bdb1ea023 <unknown>\n#14 0x555bdb1b81aa <unknown>\n#15 0x555bdb20e6b8 <unknown>\n#16 0x555bdb20e847 <unknown>\n#17 0x555bdb21e243 <unknown>\n#18 0x7f2a7d090402 <unknown>\n\n",
+      "time" : {
+        "start" : 1698821798050,
+        "stop" : 1698821805933,
+        "duration" : 7883
+      }
+    } ]
+  }
+}

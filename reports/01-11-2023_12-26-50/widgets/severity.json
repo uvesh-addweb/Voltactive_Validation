@@ -1,0 +1,21 @@
+[ {
+  "uid" : "6edfcea7a302d31c",
+  "name" : "Test submenu and button on the Contact page",
+  "time" : {
+    "start" : 1698821777943,
+    "stop" : 1698821798049,
+    "duration" : 20106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "406737b7f6d85bb2",
+  "name" : "Test the Link Redirection on Footer",
+  "time" : {
+    "start" : 1698821798050,
+    "stop" : 1698821805933,
+    "duration" : 7883
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

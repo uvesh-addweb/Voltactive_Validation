@@ -1,0 +1,3 @@
+Page : https://stg.voltactivedata.com/%e4%b8%8b%e8%bd%bdvoltdb%e4%bc%81%e4%b8%9a%e7%89%88/%e8%b0%a2%e8%b0%a2/ 
+ 
+Console Error : [{'level': 'WARNING', 'message': "https://stg.voltactivedata.com/%e4%b8%8b%e8%bd%bdvoltdb%e4%bc%81%e4%b8%9a%e7%89%88/%e8%b0%a2%e8%b0%a2/ 327 Allow attribute will take precedence over 'allowfullscreen'.", 'source': 'other', 'timestamp': 1695038738960}]

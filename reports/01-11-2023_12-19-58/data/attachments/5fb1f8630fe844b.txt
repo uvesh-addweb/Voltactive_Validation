@@ -1,0 +1,26 @@
+An error occurred: Message: element click intercepted: Element <a href="https://stg.voltactivedata.com/press_release/i2i-systems-meets-slas-of-major-telecom-customer-with-volt/" class="vc_gitem-link" title="...">i2i Systems Successfully Meets Strict SLAs of Major Telecom Customer With Volt Active Data</a> is not clickable at point (529, 584). Other element would receive the click: <div id="onetrust-policy-text">...</div>
+  (Session info: chrome=114.0.5735.133)
+Stacktrace:
+#0 0x55992b8a14e3 <unknown>
+#1 0x55992b5d0c76 <unknown>
+#2 0x55992b6129d4 <unknown>
+#3 0x55992b610cbd <unknown>
+#4 0x55992b60ed2e <unknown>
+#5 0x55992b60e10f <unknown>
+#6 0x55992b6031da <unknown>
+#7 0x55992b62c012 <unknown>
+#8 0x55992b602b03 <unknown>
+#9 0x55992b62c1de <unknown>
+#10 0x55992b64430e <unknown>
+#11 0x55992b62bde3 <unknown>
+#12 0x55992b6012dd <unknown>
+#13 0x55992b60234e <unknown>
+#14 0x55992b8613e4 <unknown>
+#15 0x55992b8653d7 <unknown>
+#16 0x55992b86fb20 <unknown>
+#17 0x55992b866023 <unknown>
+#18 0x55992b8341aa <unknown>
+#19 0x55992b88a6b8 <unknown>
+#20 0x55992b88a847 <unknown>
+#21 0x55992b89a243 <unknown>
+#22 0x7fdeab690402 <unknown>

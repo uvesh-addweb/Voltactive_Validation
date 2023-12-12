@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d867ffb9c1d28c42",
+  "name" : "Test submenu and button on the High Availability page",
+  "time" : {
+    "start" : 1698756588708,
+    "stop" : 1698756642544,
+    "duration" : 53836
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

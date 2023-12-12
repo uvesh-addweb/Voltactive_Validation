@@ -1,0 +1,3 @@
+Page : https://www.voltactivedata.com/use-cases/billing-mediation-systems/ 
+ 
+Console Error : [{'level': 'WARNING', 'message': "https://www.voltactivedata.com/use-cases/billing-mediation-systems/ 524 Allow attribute will take precedence over 'allowfullscreen'.", 'source': 'other', 'timestamp': 1695038016226}]

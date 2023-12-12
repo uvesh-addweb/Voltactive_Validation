@@ -1,0 +1,11 @@
+[ {
+  "uid" : "5827dce461471fd7",
+  "name" : "Test submenu and button on the IOT page",
+  "time" : {
+    "start" : 1698816521331,
+    "stop" : 1698816542748,
+    "duration" : 21417
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

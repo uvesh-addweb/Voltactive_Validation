@@ -1,0 +1,22 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Redirection of Pages",
+    "children" : [ {
+      "name" : "Test buttons and links on the Home page",
+      "uid" : "b87e2b82d961657e",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "failed",
+      "time" : {
+        "start" : 1698750947812,
+        "stop" : 1698751071283,
+        "duration" : 123471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "390d5adef282071921a562a1a8f9f849"
+  } ]
+}

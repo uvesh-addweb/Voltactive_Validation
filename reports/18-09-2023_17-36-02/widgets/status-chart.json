@@ -1,0 +1,11 @@
+[ {
+  "uid" : "53a2f97fc3ba0b96",
+  "name" : "Check for console errors in sitemap pages",
+  "time" : {
+    "start" : 1695038278940,
+    "stop" : 1695038762001,
+    "duration" : 483061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

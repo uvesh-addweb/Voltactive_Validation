@@ -1,0 +1,11 @@
+[ {
+  "uid" : "a561e0a6dced3420",
+  "name" : "Test submenu and button on the Kafka + Streaming Data page",
+  "time" : {
+    "start" : 1698758955192,
+    "stop" : 1698758993625,
+    "duration" : 38433
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

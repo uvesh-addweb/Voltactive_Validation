@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Resources page",
+        "uid" : "52c60e06b07e8d7c",
+        "parentUid" : "a730cf0b0a23aabea6d11aa0391c8a76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698818685460,
+          "stop" : 1698818706947,
+          "duration" : 21487
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a730cf0b0a23aabea6d11aa0391c8a76"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

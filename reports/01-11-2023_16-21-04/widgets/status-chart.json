@@ -1,0 +1,11 @@
+[ {
+  "uid" : "aa8d395937077a55",
+  "name" : "Test submenu and button on the Capabilities page",
+  "time" : {
+    "start" : 1698835830500,
+    "stop" : 1698835860520,
+    "duration" : 30020
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

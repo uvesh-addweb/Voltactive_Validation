@@ -1,0 +1,305 @@
+{
+  "uid" : "470d03605e4ed300",
+  "name" : "Check for console errors in sitemap pages",
+  "fullName" : "Verification of Console Errors: Check for console errors in sitemap pages",
+  "historyId" : "651954b1f04a5d13d876416cc892e257",
+  "time" : {
+    "start" : 1695037877339,
+    "stop" : 1695038064931,
+    "duration" : 187592
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Given The sitemap URL is \"https://www.voltactivedata.com/sitemap/\"",
+      "time" : {
+        "start" : 1695037878619,
+        "stop" : 1695037888739,
+        "duration" : 10120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When I check for console errors in sitemap pages",
+      "time" : {
+        "start" : 1695037888739,
+        "stop" : 1695038062137,
+        "duration" : 173398
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1beef336a2bc971c",
+        "name" : "Error on https://www.voltactivedata.com/bss-infographic/ Page",
+        "source" : "1beef336a2bc971c.txt",
+        "type" : "text/plain",
+        "size" : 371
+      }, {
+        "uid" : "60563f165fc45572",
+        "name" : "Screenshot of https://www.voltactivedata.com/bss-infographic/ Page",
+        "source" : "60563f165fc45572.png",
+        "type" : "image/png",
+        "size" : 199333
+      }, {
+        "uid" : "15bc65594383b3ff",
+        "name" : "1766fdd1-59fa-4a65-8a11-b91e257bfbdf-attachment.txt",
+        "source" : "15bc65594383b3ff.txt",
+        "type" : "text/plain",
+        "size" : 287
+      }, {
+        "uid" : "408d2fe7e1167fcd",
+        "name" : "https://trc.taboola.com/sg%20/bombora/1/cm?redirect=https://ml314.com/csync.ashx%3Ffp=%3CTUID%3E%26person_id=3638608108255707259%26eid=50077 - Failed to load resource: the server responded with a status of 404 ()",
+        "source" : "408d2fe7e1167fcd.txt",
+        "type" : "text/plain",
+        "size" : 66
+      }, {
+        "uid" : "51ff6d0048f38fc7",
+        "name" : "Screenshot",
+        "source" : "51ff6d0048f38fc7.png",
+        "type" : "image/png",
+        "size" : 180559
+      }, {
+        "uid" : "f6a9e99e3f223fc6",
+        "name" : "Error on https://www.voltactivedata.com/company/ Page",
+        "source" : "f6a9e99e3f223fc6.txt",
+        "type" : "text/plain",
+        "size" : 254
+      }, {
+        "uid" : "c7bdb6eda4a004d2",
+        "name" : "Screenshot of https://www.voltactivedata.com/company/ Page",
+        "source" : "c7bdb6eda4a004d2.png",
+        "type" : "image/png",
+        "size" : 201560
+      }, {
+        "uid" : "97293ffefe02616e",
+        "name" : "Error on https://www.voltactivedata.com/resources/billing-mediation-resource-library/ Page",
+        "source" : "97293ffefe02616e.txt",
+        "type" : "text/plain",
+        "size" : 328
+      }, {
+        "uid" : "ecac8c2c2e564435",
+        "name" : "Screenshot of https://www.voltactivedata.com/resources/billing-mediation-resource-library/ Page",
+        "source" : "ecac8c2c2e564435.png",
+        "type" : "image/png",
+        "size" : 329949
+      }, {
+        "uid" : "fd2b685378da8574",
+        "name" : "Error on https://www.voltactivedata.com/resources/bss-library/ Page",
+        "source" : "fd2b685378da8574.txt",
+        "type" : "text/plain",
+        "size" : 282
+      }, {
+        "uid" : "cbc8649cce7e0098",
+        "name" : "Screenshot of https://www.voltactivedata.com/resources/bss-library/ Page",
+        "source" : "cbc8649cce7e0098.png",
+        "type" : "image/png",
+        "size" : 931181
+      }, {
+        "uid" : "e0188c473fd7b955",
+        "name" : "Error on https://www.voltactivedata.com/resources/customer-management-library/ Page",
+        "source" : "e0188c473fd7b955.txt",
+        "type" : "text/plain",
+        "size" : 314
+      }, {
+        "uid" : "123cb0b9014582a9",
+        "name" : "Screenshot of https://www.voltactivedata.com/resources/customer-management-library/ Page",
+        "source" : "123cb0b9014582a9.png",
+        "type" : "image/png",
+        "size" : 695355
+      }, {
+        "uid" : "2d15b3b79f668237",
+        "name" : "Error on https://www.voltactivedata.com/resources/revenue-assurance-resource-library/ Page",
+        "source" : "2d15b3b79f668237.txt",
+        "type" : "text/plain",
+        "size" : 328
+      }, {
+        "uid" : "3aee664b882ce632",
+        "name" : "Screenshot of https://www.voltactivedata.com/resources/revenue-assurance-resource-library/ Page",
+        "source" : "3aee664b882ce632.png",
+        "type" : "image/png",
+        "size" : 618753
+      }, {
+        "uid" : "244b58492ea944c4",
+        "name" : "Error on https://www.voltactivedata.com/resources/why-milliseconds-matter/ Page",
+        "source" : "244b58492ea944c4.txt",
+        "type" : "text/plain",
+        "size" : 306
+      }, {
+        "uid" : "f7393550d67c5a1b",
+        "name" : "Screenshot of https://www.voltactivedata.com/resources/why-milliseconds-matter/ Page",
+        "source" : "f7393550d67c5a1b.png",
+        "type" : "image/png",
+        "size" : 485224
+      }, {
+        "uid" : "908c3bb81742a08a",
+        "name" : "Error on https://www.voltactivedata.com/sandbox-durability/ Page",
+        "source" : "908c3bb81742a08a.txt",
+        "type" : "text/plain",
+        "size" : 545
+      }, {
+        "uid" : "558b24e4d794355f",
+        "name" : "Screenshot of https://www.voltactivedata.com/sandbox-durability/ Page",
+        "source" : "558b24e4d794355f.png",
+        "type" : "image/png",
+        "size" : 694312
+      }, {
+        "uid" : "352cc830771c1959",
+        "name" : "Error on https://www.voltactivedata.com/use-cases/billing-mediation-systems/ Page",
+        "source" : "352cc830771c1959.txt",
+        "type" : "text/plain",
+        "size" : 310
+      }, {
+        "uid" : "3fdd1eea14f82cfc",
+        "name" : "Screenshot of https://www.voltactivedata.com/use-cases/billing-mediation-systems/ Page",
+        "source" : "3fdd1eea14f82cfc.png",
+        "type" : "image/png",
+        "size" : 514865
+      }, {
+        "uid" : "47ad5d949be3c78c",
+        "name" : "Error on https://www.voltactivedata.com/use-cases/business-support-systems-bss/ Page",
+        "source" : "47ad5d949be3c78c.txt",
+        "type" : "text/plain",
+        "size" : 316
+      }, {
+        "uid" : "4818eda776fa2e78",
+        "name" : "Screenshot of https://www.voltactivedata.com/use-cases/business-support-systems-bss/ Page",
+        "source" : "4818eda776fa2e78.png",
+        "type" : "image/png",
+        "size" : 730002
+      }, {
+        "uid" : "7edfae43bb10441f",
+        "name" : "Error on https://www.voltactivedata.com/use-cases/enterprise-iot/ Page",
+        "source" : "7edfae43bb10441f.txt",
+        "type" : "text/plain",
+        "size" : 288
+      }, {
+        "uid" : "35ae6bde4d591bc7",
+        "name" : "Screenshot of https://www.voltactivedata.com/use-cases/enterprise-iot/ Page",
+        "source" : "35ae6bde4d591bc7.png",
+        "type" : "image/png",
+        "size" : 547492
+      }, {
+        "uid" : "3f344809658e8d41",
+        "name" : "Error on https://www.voltactivedata.com/use-cases/fraud-prevention/ Page",
+        "source" : "3f344809658e8d41.txt",
+        "type" : "text/plain",
+        "size" : 292
+      }, {
+        "uid" : "6967518f11b1dcb5",
+        "name" : "Screenshot of https://www.voltactivedata.com/use-cases/fraud-prevention/ Page",
+        "source" : "6967518f11b1dcb5.png",
+        "type" : "image/png",
+        "size" : 500429
+      }, {
+        "uid" : "79ac5a301f86f4d",
+        "name" : "Error on https://www.voltactivedata.com/%e4%b8%8b%e8%bd%bdvoltdb%e4%bc%81%e4%b8%9a%e7%89%88/%e8%b0%a2%e8%b0%a2/ Page",
+        "source" : "79ac5a301f86f4d.txt",
+        "type" : "text/plain",
+        "size" : 380
+      }, {
+        "uid" : "60028bfc4b9bd495",
+        "name" : "Screenshot of https://www.voltactivedata.com/%e4%b8%8b%e8%bd%bdvoltdb%e4%bc%81%e4%b8%9a%e7%89%88/%e8%b0%a2%e8%b0%a2/ Page",
+        "source" : "60028bfc4b9bd495.png",
+        "type" : "image/png",
+        "size" : 164277
+      }, {
+        "uid" : "fb2b49a76e127a08",
+        "name" : "Error on https://www.voltactivedata.com/%e4%b8%8b%e8%bd%bdvoltdb%e4%bc%81%e4%b8%9a%e7%89%88/%e8%b0%a2%e8%b0%a2%e6%82%a8/ Page",
+        "source" : "fb2b49a76e127a08.txt",
+        "type" : "text/plain",
+        "size" : 398
+      }, {
+        "uid" : "1b4ab5433894b91d",
+        "name" : "Screenshot of https://www.voltactivedata.com/%e4%b8%8b%e8%bd%bdvoltdb%e4%bc%81%e4%b8%9a%e7%89%88/%e8%b0%a2%e8%b0%a2%e6%82%a8/ Page",
+        "source" : "1b4ab5433894b91d.png",
+        "type" : "image/png",
+        "size" : 181098
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 31,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Then I should see the console errors for each page, if any",
+      "time" : {
+        "start" : 1695038062138,
+        "stop" : 1695038064699,
+        "duration" : 2561
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ce9dde8657509511",
+        "name" : "https://trc.taboola.com/sg%20/bombora/1/cm?redirect=https://ml314.com/csync.ashx%3Ffp=%3CTUID%3E%26person_id=3638608108255707259%26eid=50077 - Failed to load resource: the server responded with a status of 404 ()",
+        "source" : "ce9dde8657509511.txt",
+        "type" : "text/plain",
+        "size" : 66
+      }, {
+        "uid" : "70299b51b52dd982",
+        "name" : "Screenshot",
+        "source" : "70299b51b52dd982.png",
+        "type" : "image/png",
+        "size" : 30222
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 33,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Verification of Console Errors"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ca63d4c820002eaa",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1695037859887,
+        "stop" : 1695037860827,
+        "duration" : 940
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "470d03605e4ed300.json",
+  "parameterValues" : [ ]
+}

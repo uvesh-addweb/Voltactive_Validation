@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable: element has zero size\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55856860f4e3 <unknown>\n#1 0x55856833ec76 <unknown>\n#2 0x55856837c033 <unknown>\n#3 0x5585683711da <unknown>\n#4 0x55856839a012 <unknown>\n#5 0x558568370b03 <unknown>\n#6 0x55856839a1de <unknown>\n#7 0x5585683b230e <unknown>\n#8 0x558568399de3 <unknown>\n#9 0x55856836f2dd <unknown>\n#10 0x55856837034e <unknown>\n#11 0x5585685cf3e4 <unknown>\n#12 0x5585685d33d7 <unknown>\n#13 0x5585685ddb20 <unknown>\n#14 0x5585685d4023 <unknown>\n#15 0x5585685a21aa <unknown>\n#16 0x5585685f86b8 <unknown>\n#17 0x5585685f8847 <unknown>\n#18 0x558568608243 <unknown>\n#19 0x7fb7f7690402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Fraud Prevention page",
+        "uid" : "aa20f591d42ddeee",
+        "parentUid" : "babc0157b46837de5d3392b378d8ae0d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698760714038,
+          "stop" : 1698760725199,
+          "duration" : 11161
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "babc0157b46837de5d3392b378d8ae0d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

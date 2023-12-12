@@ -1,0 +1,11 @@
+[ {
+  "uid" : "904c5d96ec2ee651",
+  "name" : "Test submenu and button on the Partner Program page",
+  "time" : {
+    "start" : 1698819958877,
+    "stop" : 1698819996808,
+    "duration" : 37931
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,41 @@
+{
+  "63c36de035b7b429bb045b46785a3f8e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "de040c89f1c68933",
+      "status" : "passed",
+      "time" : {
+        "start" : 1698821537081,
+        "stop" : 1698821557508,
+        "duration" : 20427
+      }
+    } ]
+  },
+  "76c5251f5fcfcec1f912f0a37b10614e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e8110aa136a0e3d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"/license-agreement/\">...</a> is not clickable at point (651, 601). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55afa0f744e3 <unknown>\n#1 0x55afa0ca3c76 <unknown>\n#2 0x55afa0ce59d4 <unknown>\n#3 0x55afa0ce3cbd <unknown>\n#4 0x55afa0ce1d2e <unknown>\n#5 0x55afa0ce110f <unknown>\n#6 0x55afa0cd61da <unknown>\n#7 0x55afa0cff012 <unknown>\n#8 0x55afa0cd5b03 <unknown>\n#9 0x55afa0cff1de <unknown>\n#10 0x55afa0d1730e <unknown>\n#11 0x55afa0cfede3 <unknown>\n#12 0x55afa0cd42dd <unknown>\n#13 0x55afa0cd534e <unknown>\n#14 0x55afa0f343e4 <unknown>\n#15 0x55afa0f383d7 <unknown>\n#16 0x55afa0f42b20 <unknown>\n#17 0x55afa0f39023 <unknown>\n#18 0x55afa0f071aa <unknown>\n#19 0x55afa0f5d6b8 <unknown>\n#20 0x55afa0f5d847 <unknown>\n#21 0x55afa0f6d243 <unknown>\n#22 0x7fbc62490402 <unknown>\n\n",
+      "time" : {
+        "start" : 1698821557509,
+        "stop" : 1698821571689,
+        "duration" : 14180
+      }
+    } ]
+  }
+}

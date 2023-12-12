@@ -1,0 +1,22 @@
+{
+  "f532336fa6cdc1e7248f1e97b0059225" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7e58dcb1976bea9b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[4]/div/div/div/div[2]/div/h2/span/a\"}\n  (Session info: chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55d7ccbf14e3 <unknown>\n#1 0x55d7cc920c76 <unknown>\n#2 0x55d7cc95cc96 <unknown>\n#3 0x55d7cc95cdc1 <unknown>\n#4 0x55d7cc9967f4 <unknown>\n#5 0x55d7cc97c03d <unknown>\n#6 0x55d7cc99430e <unknown>\n#7 0x55d7cc97bde3 <unknown>\n#8 0x55d7cc9512dd <unknown>\n#9 0x55d7cc95234e <unknown>\n#10 0x55d7ccbb13e4 <unknown>\n#11 0x55d7ccbb53d7 <unknown>\n#12 0x55d7ccbbfb20 <unknown>\n#13 0x55d7ccbb6023 <unknown>\n#14 0x55d7ccb841aa <unknown>\n#15 0x55d7ccbda6b8 <unknown>\n#16 0x55d7ccbda847 <unknown>\n#17 0x55d7ccbea243 <unknown>\n#18 0x7f84a1290402 <unknown>\n\n",
+      "time" : {
+        "start" : 1698820921178,
+        "stop" : 1698820943845,
+        "duration" : 22667
+      }
+    } ]
+  }
+}

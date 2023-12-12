@@ -1,0 +1,61 @@
+[ {
+  "uid" : "3d7d520795f61ecc",
+  "name" : "Test submenu and button on the Geo Replication page",
+  "time" : {
+    "start" : 1698748161365,
+    "stop" : 1698748183374,
+    "duration" : 22009
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "87aa3c07b2920e0c",
+  "name" : "Test buttons and links on the Home page",
+  "time" : {
+    "start" : 1698748513279,
+    "stop" : 1698748556926,
+    "duration" : 43647
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "aa5efe137884cdbe",
+  "name" : "Test submenu and button on the High Availability page",
+  "time" : {
+    "start" : 1698748183375,
+    "stop" : 1698748200442,
+    "duration" : 17067
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "53836799c5b34371",
+  "name" : "Test submenu and button on the OEM-Friendly page",
+  "time" : {
+    "start" : 1698748220197,
+    "stop" : 1698748224613,
+    "duration" : 4416
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d619cfccda031c3c",
+  "name" : "Test submenu and button on the Real-Time Decisioning page",
+  "time" : {
+    "start" : 1698748224614,
+    "stop" : 1698748228496,
+    "duration" : 3882
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f835e2db8492dafb",
+  "name" : "Test submenu and button on the Monetizing AI + ML page",
+  "time" : {
+    "start" : 1698748200443,
+    "stop" : 1698748220196,
+    "duration" : 19753
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

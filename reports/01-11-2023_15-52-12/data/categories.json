@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey\" href=\"https://www.voltactivedata.com/why-volt/no-compromises/\" title=\"No Compromises\">...</a> is not clickable at point (632, 965). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x55afdd8dd4e3 <unknown>\n#1 0x55afdd60cc76 <unknown>\n#2 0x55afdd64e9d4 <unknown>\n#3 0x55afdd64ccbd <unknown>\n#4 0x55afdd64ad2e <unknown>\n#5 0x55afdd64a10f <unknown>\n#6 0x55afdd63f1da <unknown>\n#7 0x55afdd668012 <unknown>\n#8 0x55afdd63eb03 <unknown>\n#9 0x55afdd6681de <unknown>\n#10 0x55afdd68030e <unknown>\n#11 0x55afdd667de3 <unknown>\n#12 0x55afdd63d2dd <unknown>\n#13 0x55afdd63e34e <unknown>\n#14 0x55afdd89d3e4 <unknown>\n#15 0x55afdd8a13d7 <unknown>\n#16 0x55afdd8abb20 <unknown>\n#17 0x55afdd8a2023 <unknown>\n#18 0x55afdd8701aa <unknown>\n#19 0x55afdd8c66b8 <unknown>\n#20 0x55afdd8c6847 <unknown>\n#21 0x55afdd8d6243 <unknown>\n#22 0x7fa585090402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test buttons and links on the Home page",
+        "uid" : "75e58ebd75b61ffb",
+        "parentUid" : "af66f6ae85a7ccc9ed447d5ca183195d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698834038422,
+          "stop" : 1698834128569,
+          "duration" : 90147
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af66f6ae85a7ccc9ed447d5ca183195d"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

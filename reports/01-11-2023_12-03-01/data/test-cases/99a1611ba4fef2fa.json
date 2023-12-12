@@ -1,0 +1,181 @@
+{
+  "uid" : "99a1611ba4fef2fa",
+  "name" : "Test submenu and button on the Webinars and Events page",
+  "fullName" : "Test Redirection of Pages: Test submenu and button on the Webinars and Events page",
+  "historyId" : "47630eb91979b618063c05268ce85685",
+  "time" : {
+    "start" : 1698820351474,
+    "stop" : 1698820376098,
+    "duration" : 24624
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey\" href=\"https://register.gotowebinar.com/register/1832234301684395866?source=Volt\" title=\"\" target=\"_blank\">...</a> is not clickable at point (137, 564). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x556edee164e3 <unknown>\n#1 0x556edeb45c76 <unknown>\n#2 0x556edeb879d4 <unknown>\n#3 0x556edeb85cbd <unknown>\n#4 0x556edeb83d2e <unknown>\n#5 0x556edeb8310f <unknown>\n#6 0x556edeb781da <unknown>\n#7 0x556edeba1012 <unknown>\n#8 0x556edeb77b03 <unknown>\n#9 0x556edeba11de <unknown>\n#10 0x556edebb930e <unknown>\n#11 0x556edeba0de3 <unknown>\n#12 0x556edeb762dd <unknown>\n#13 0x556edeb7734e <unknown>\n#14 0x556ededd63e4 <unknown>\n#15 0x556ededda3d7 <unknown>\n#16 0x556edede4b20 <unknown>\n#17 0x556ededdb023 <unknown>\n#18 0x556ededa91aa <unknown>\n#19 0x556ededff6b8 <unknown>\n#20 0x556ededff847 <unknown>\n#21 0x556edee0f243 <unknown>\n#22 0x7fed7b690402 <unknown>\n\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 139, in step_impl\n    button_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey\" href=\"https://register.gotowebinar.com/register/1832234301684395866?source=Volt\" title=\"\" target=\"_blank\">...</a> is not clickable at point (137, 564). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x556edee164e3 <unknown>\n#1 0x556edeb45c76 <unknown>\n#2 0x556edeb879d4 <unknown>\n#3 0x556edeb85cbd <unknown>\n#4 0x556edeb83d2e <unknown>\n#5 0x556edeb8310f <unknown>\n#6 0x556edeb781da <unknown>\n#7 0x556edeba1012 <unknown>\n#8 0x556edeb77b03 <unknown>\n#9 0x556edeba11de <unknown>\n#10 0x556edebb930e <unknown>\n#11 0x556edeba0de3 <unknown>\n#12 0x556edeb762dd <unknown>\n#13 0x556edeb7734e <unknown>\n#14 0x556ededd63e4 <unknown>\n#15 0x556ededda3d7 <unknown>\n#16 0x556edede4b20 <unknown>\n#17 0x556ededdb023 <unknown>\n#18 0x556ededa91aa <unknown>\n#19 0x556ededff6b8 <unknown>\n#20 0x556ededff847 <unknown>\n#21 0x556edee0f243 <unknown>\n#22 0x7fed7b690402 <unknown>\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 139, in step_impl\n    button_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"stg\" site",
+      "time" : {
+        "start" : 1698820352425,
+        "stop" : 1698820363566,
+        "duration" : 11141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user hovers over the \"resources\" menu",
+      "time" : {
+        "start" : 1698820363566,
+        "stop" : 1698820363901,
+        "duration" : 335
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The user clicks on the \"webinar\" submenu link and verify the redirection \"webinar\" page",
+      "time" : {
+        "start" : 1698820363901,
+        "stop" : 1698820366298,
+        "duration" : 2397
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"register_now\" button verify the page redirection",
+      "time" : {
+        "start" : 1698820366298,
+        "stop" : 1698820374687,
+        "duration" : 8389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"view_now_1\" button verify the page redirection",
+      "time" : {
+        "start" : 1698820374687,
+        "stop" : 1698820376029,
+        "duration" : 1342
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey\" href=\"https://register.gotowebinar.com/register/1832234301684395866?source=Volt\" title=\"\" target=\"_blank\">...</a> is not clickable at point (137, 564). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x556edee164e3 <unknown>\n#1 0x556edeb45c76 <unknown>\n#2 0x556edeb879d4 <unknown>\n#3 0x556edeb85cbd <unknown>\n#4 0x556edeb83d2e <unknown>\n#5 0x556edeb8310f <unknown>\n#6 0x556edeb781da <unknown>\n#7 0x556edeba1012 <unknown>\n#8 0x556edeb77b03 <unknown>\n#9 0x556edeba11de <unknown>\n#10 0x556edebb930e <unknown>\n#11 0x556edeba0de3 <unknown>\n#12 0x556edeb762dd <unknown>\n#13 0x556edeb7734e <unknown>\n#14 0x556ededd63e4 <unknown>\n#15 0x556ededda3d7 <unknown>\n#16 0x556edede4b20 <unknown>\n#17 0x556ededdb023 <unknown>\n#18 0x556ededa91aa <unknown>\n#19 0x556ededff6b8 <unknown>\n#20 0x556ededff847 <unknown>\n#21 0x556edee0f243 <unknown>\n#22 0x7fed7b690402 <unknown>\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 139, in step_impl\n    button_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28d43fb565c652fe",
+        "name" : "Error Message",
+        "source" : "28d43fb565c652fe.txt",
+        "type" : "text/plain",
+        "size" : 1107
+      }, {
+        "uid" : "38bdf276ff345ceb",
+        "name" : "Screenshot of https://stg.voltactivedata.com/events/ Page",
+        "source" : "38bdf276ff345ceb.png",
+        "type" : "image/png",
+        "size" : 97404
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When The user clicks on the \"view_now_2\" button verify the page redirection",
+      "time" : {
+        "start" : 1698820376098,
+        "stop" : 1698820376098,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"view_now_3\" button verify the page redirection",
+      "time" : {
+        "start" : 1698820376098,
+        "stop" : 1698820376098,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "99a1611ba4fef2fa.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Console errors found on the page: https://voltSTG:oI5L!YKmQ%401gOvqQ@stg.voltactivedata.com/\n",
+      "children" : [ {
+        "name" : "Test the Social Media Links Redirection on Footer",
+        "uid" : "ad02a996ea889ee2",
+        "parentUid" : "aa606aa771b903cbb091c5c7b6a19d0b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698826818959,
+          "stop" : 1698826843107,
+          "duration" : 24148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa606aa771b903cbb091c5c7b6a19d0b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

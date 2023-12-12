@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[11]/div/div/div/div[4]/div/div/div/div/div/div[2]/div/div/div[2]/a\"}\n  (Session info: headless chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55611ff284e3 <unknown>\n#1 0x55611fc57c76 <unknown>\n#2 0x55611fc93c96 <unknown>\n#3 0x55611fc93dc1 <unknown>\n#4 0x55611fccd7f4 <unknown>\n#5 0x55611fcb303d <unknown>\n#6 0x55611fccb30e <unknown>\n#7 0x55611fcb2de3 <unknown>\n#8 0x55611fc882dd <unknown>\n#9 0x55611fc8934e <unknown>\n#10 0x55611fee83e4 <unknown>\n#11 0x55611feec3d7 <unknown>\n#12 0x55611fef6b20 <unknown>\n#13 0x55611feed023 <unknown>\n#14 0x55611febb1aa <unknown>\n#15 0x55611ff116b8 <unknown>\n#16 0x55611ff11847 <unknown>\n#17 0x55611ff21243 <unknown>\n#18 0x7f5303090402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Real-Time Decisioning page",
+        "uid" : "b52c16cfff007a53",
+        "parentUid" : "6dce59acd54ec776be50b6d5cdd1f00e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698835382559,
+          "stop" : 1698835404585,
+          "duration" : 22026
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6dce59acd54ec776be50b6d5cdd1f00e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

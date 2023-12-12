@@ -1,0 +1,22 @@
+An error occurred: Message: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[21]/div/div/div/div/div/div[1]/div/div/div[2]/a"}
+  (Session info: chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+#0 0x55df1abcc4e3 <unknown>
+#1 0x55df1a8fbc76 <unknown>
+#2 0x55df1a937c96 <unknown>
+#3 0x55df1a937dc1 <unknown>
+#4 0x55df1a9717f4 <unknown>
+#5 0x55df1a95703d <unknown>
+#6 0x55df1a96f30e <unknown>
+#7 0x55df1a956de3 <unknown>
+#8 0x55df1a92c2dd <unknown>
+#9 0x55df1a92d34e <unknown>
+#10 0x55df1ab8c3e4 <unknown>
+#11 0x55df1ab903d7 <unknown>
+#12 0x55df1ab9ab20 <unknown>
+#13 0x55df1ab91023 <unknown>
+#14 0x55df1ab5f1aa <unknown>
+#15 0x55df1abb56b8 <unknown>
+#16 0x55df1abb5847 <unknown>
+#17 0x55df1abc5243 <unknown>
+#18 0x7f4be8290402 <unknown>

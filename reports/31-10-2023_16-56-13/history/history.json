@@ -1,0 +1,22 @@
+{
+  "8af1733d93a92b880a91b9d2a03c5e86" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26d741cbba47474c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected URL: , Actual URL: #\n",
+      "time" : {
+        "start" : 1698751534989,
+        "stop" : 1698751569582,
+        "duration" : 34593
+      }
+    } ]
+  }
+}

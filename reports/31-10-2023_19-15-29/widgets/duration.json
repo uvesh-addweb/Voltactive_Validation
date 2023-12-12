@@ -1,0 +1,11 @@
+[ {
+  "uid" : "3f9aae06ea224df9",
+  "name" : "Test submenu and button on the BSS page",
+  "time" : {
+    "start" : 1698759908300,
+    "stop" : 1698759925704,
+    "duration" : 17404
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

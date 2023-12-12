@@ -1,0 +1,111 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/div/div[11]/div/div/div/div[3]/div/div[3]/div/div/div[2]/a\"}\n  (Session info: headless chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x561c2368e4e3 <unknown>\n#1 0x561c233bdc76 <unknown>\n#2 0x561c233f9c96 <unknown>\n#3 0x561c233f9dc1 <unknown>\n#4 0x561c234337f4 <unknown>\n#5 0x561c2341903d <unknown>\n#6 0x561c2343130e <unknown>\n#7 0x561c23418de3 <unknown>\n#8 0x561c233ee2dd <unknown>\n#9 0x561c233ef34e <unknown>\n#10 0x561c2364e3e4 <unknown>\n#11 0x561c236523d7 <unknown>\n#12 0x561c2365cb20 <unknown>\n#13 0x561c23653023 <unknown>\n#14 0x561c236211aa <unknown>\n#15 0x561c236776b8 <unknown>\n#16 0x561c23677847 <unknown>\n#17 0x561c23687243 <unknown>\n#18 0x7f7fae690402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Fraud Prevention page",
+        "uid" : "7ace925e5f31a15",
+        "parentUid" : "caa6c1e8ebf6e1404cc4ba6b85b813e8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698836594977,
+          "stop" : 1698836645134,
+          "duration" : 50157
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "caa6c1e8ebf6e1404cc4ba6b85b813e8"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: unknown error: net::ERR_ADDRESS_UNREACHABLE\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x55795fd574e3 <unknown>\n#1 0x55795fa86c76 <unknown>\n#2 0x55795fa7ec7f <unknown>\n#3 0x55795fa70ca2 <unknown>\n#4 0x55795fa72412 <unknown>\n#5 0x55795fa710ca <unknown>\n#6 0x55795fa70168 <unknown>\n#7 0x55795fa6ffa0 <unknown>\n#8 0x55795fa6e9bf <unknown>\n#9 0x55795fa6efed <unknown>\n#10 0x55795fa88b06 <unknown>\n#11 0x55795fafa9e5 <unknown>\n#12 0x55795fae2012 <unknown>\n#13 0x55795fafa30e <unknown>\n#14 0x55795fae1de3 <unknown>\n#15 0x55795fab72dd <unknown>\n#16 0x55795fab834e <unknown>\n#17 0x55795fd173e4 <unknown>\n#18 0x55795fd1b3d7 <unknown>\n#19 0x55795fd25b20 <unknown>\n#20 0x55795fd1c023 <unknown>\n#21 0x55795fcea1aa <unknown>\n#22 0x55795fd406b8 <unknown>\n#23 0x55795fd40847 <unknown>\n#24 0x55795fd50243 <unknown>\n#25 0x7fc5bac90402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Documentation page",
+        "uid" : "33c0d416f156efbb",
+        "parentUid" : "342374b1666eec63cd8394dbd521ba98",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698836812270,
+          "stop" : 1698836813202,
+          "duration" : 932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "342374b1666eec63cd8394dbd521ba98"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[6]/div/div/div/div[2]/div/h4/span/a\"}\n  (Session info: headless chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x560511d2b4e3 <unknown>\n#1 0x560511a5ac76 <unknown>\n#2 0x560511a96c96 <unknown>\n#3 0x560511a96dc1 <unknown>\n#4 0x560511ad07f4 <unknown>\n#5 0x560511ab603d <unknown>\n#6 0x560511ace30e <unknown>\n#7 0x560511ab5de3 <unknown>\n#8 0x560511a8b2dd <unknown>\n#9 0x560511a8c34e <unknown>\n#10 0x560511ceb3e4 <unknown>\n#11 0x560511cef3d7 <unknown>\n#12 0x560511cf9b20 <unknown>\n#13 0x560511cf0023 <unknown>\n#14 0x560511cbe1aa <unknown>\n#15 0x560511d146b8 <unknown>\n#16 0x560511d14847 <unknown>\n#17 0x560511d24243 <unknown>\n#18 0x7f9bba890402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Careers page",
+        "uid" : "e9a31eeedcbc51ae",
+        "parentUid" : "fa88023daa3d78144ac3b1456430cdcf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698836840432,
+          "stop" : 1698836857327,
+          "duration" : 16895
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa88023daa3d78144ac3b1456430cdcf"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"/license-agreement/\">...</a> is not clickable at point (547, 1005). Other element would receive the click: <div id=\"onetrust-policy\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x561fa8e7c4e3 <unknown>\n#1 0x561fa8babc76 <unknown>\n#2 0x561fa8bed9d4 <unknown>\n#3 0x561fa8bebcbd <unknown>\n#4 0x561fa8be9d2e <unknown>\n#5 0x561fa8be910f <unknown>\n#6 0x561fa8bde1da <unknown>\n#7 0x561fa8c07012 <unknown>\n#8 0x561fa8bddb03 <unknown>\n#9 0x561fa8c071de <unknown>\n#10 0x561fa8c1f30e <unknown>\n#11 0x561fa8c06de3 <unknown>\n#12 0x561fa8bdc2dd <unknown>\n#13 0x561fa8bdd34e <unknown>\n#14 0x561fa8e3c3e4 <unknown>\n#15 0x561fa8e403d7 <unknown>\n#16 0x561fa8e4ab20 <unknown>\n#17 0x561fa8e41023 <unknown>\n#18 0x561fa8e0f1aa <unknown>\n#19 0x561fa8e656b8 <unknown>\n#20 0x561fa8e65847 <unknown>\n#21 0x561fa8e75243 <unknown>\n#22 0x7f77d7e90402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test the Link Redirection on Footer",
+        "uid" : "8d613db1a46d3b81",
+        "parentUid" : "a4fdde9818472851a8c171ba1c4f1e63",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698836938574,
+          "stop" : 1698836954055,
+          "duration" : 15481
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a4fdde9818472851a8c171ba1c4f1e63"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Resources page",
+        "uid" : "283783e6a33533c",
+        "parentUid" : "a730cf0b0a23aabea6d11aa0391c8a76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698836673889,
+          "stop" : 1698836693253,
+          "duration" : 19364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test submenu and button on the Blog page",
+        "uid" : "254a06f371a5f3aa",
+        "parentUid" : "a730cf0b0a23aabea6d11aa0391c8a76",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698836693254,
+          "stop" : 1698836707274,
+          "duration" : 14020
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a730cf0b0a23aabea6d11aa0391c8a76"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

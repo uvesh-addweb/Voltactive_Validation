@@ -1,0 +1,11 @@
+[ {
+  "uid" : "b52c16cfff007a53",
+  "name" : "Test submenu and button on the Real-Time Decisioning page",
+  "time" : {
+    "start" : 1698835382559,
+    "stop" : 1698835404585,
+    "duration" : 22026
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,22 @@
+{
+  "80a35cfc42f2694b759e8471cd4545ec" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b3f3df2a2e2d7ec",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Button is not enabled and visible\n",
+      "time" : {
+        "start" : 1698760077105,
+        "stop" : 1698760098378,
+        "duration" : 21273
+      }
+    } ]
+  }
+}

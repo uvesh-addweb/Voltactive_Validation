@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Tue Oct 31 12:13:15 IST 2023","Tue Oct 31 12:13:34 IST 2023","19312","","","","","","Test submenu and button on the Capabilities page",""
+"broken","Tue Oct 31 12:12:56 IST 2023","Tue Oct 31 12:13:15 IST 2023","18673","","","","","","Test submenu and button on the Volt For 5g page",""
+"broken","Tue Oct 31 12:10:51 IST 2023","Tue Oct 31 12:12:56 IST 2023","125647","","","","","","Test submenu and button on the No Compromises page",""
+"broken","Tue Oct 31 12:10:38 IST 2023","Tue Oct 31 12:10:51 IST 2023","12445","","","","","","Test buttons and links on the Home page",""

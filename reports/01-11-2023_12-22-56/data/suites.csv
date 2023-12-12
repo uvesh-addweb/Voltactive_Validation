@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Nov 01 12:22:17 IST 2023","Wed Nov 01 12:22:37 IST 2023","20427","","","","","","Test submenu and button on the Contact page",""
+"broken","Wed Nov 01 12:22:37 IST 2023","Wed Nov 01 12:22:51 IST 2023","14180","","","","","","Test the Link Redirection on Footer",""

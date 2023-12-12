@@ -1,0 +1,111 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"post-19777\"]/div/section/div[1]/div/div/div/div/div[1]/div/div/div[2]/a\"}\n  (Session info: chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x559ac2d154e3 <unknown>\n#1 0x559ac2a44c76 <unknown>\n#2 0x559ac2a80c96 <unknown>\n#3 0x559ac2a80dc1 <unknown>\n#4 0x559ac2aba7f4 <unknown>\n#5 0x559ac2aa003d <unknown>\n#6 0x559ac2ab830e <unknown>\n#7 0x559ac2a9fde3 <unknown>\n#8 0x559ac2a752dd <unknown>\n#9 0x559ac2a7634e <unknown>\n#10 0x559ac2cd53e4 <unknown>\n#11 0x559ac2cd93d7 <unknown>\n#12 0x559ac2ce3b20 <unknown>\n#13 0x559ac2cda023 <unknown>\n#14 0x559ac2ca81aa <unknown>\n#15 0x559ac2cfe6b8 <unknown>\n#16 0x559ac2cfe847 <unknown>\n#17 0x559ac2d0e243 <unknown>\n#18 0x7fc53f490402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Geo Replication page",
+        "uid" : "3d7d520795f61ecc",
+        "parentUid" : "c894a3ed48149d111a907e2cd5c6d0eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698748161365,
+          "stop" : 1698748183374,
+          "duration" : 22009
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c894a3ed48149d111a907e2cd5c6d0eb"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[5]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div[2]/a\"}\n  (Session info: chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x564f6525c4e3 <unknown>\n#1 0x564f64f8bc76 <unknown>\n#2 0x564f64fc7c96 <unknown>\n#3 0x564f64fc7dc1 <unknown>\n#4 0x564f650017f4 <unknown>\n#5 0x564f64fe703d <unknown>\n#6 0x564f64fff30e <unknown>\n#7 0x564f64fe6de3 <unknown>\n#8 0x564f64fbc2dd <unknown>\n#9 0x564f64fbd34e <unknown>\n#10 0x564f6521c3e4 <unknown>\n#11 0x564f652203d7 <unknown>\n#12 0x564f6522ab20 <unknown>\n#13 0x564f65221023 <unknown>\n#14 0x564f651ef1aa <unknown>\n#15 0x564f652456b8 <unknown>\n#16 0x564f65245847 <unknown>\n#17 0x564f65255243 <unknown>\n#18 0x7f25d6490402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the High Availability page",
+        "uid" : "aa5efe137884cdbe",
+        "parentUid" : "43f33612a6b9085681f849ae29a44364",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698748183375,
+          "stop" : 1698748200442,
+          "duration" : 17067
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43f33612a6b9085681f849ae29a44364"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[7]/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div/div/div/a\"}\n  (Session info: chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x556a750404e3 <unknown>\n#1 0x556a74d6fc76 <unknown>\n#2 0x556a74dabc96 <unknown>\n#3 0x556a74dabdc1 <unknown>\n#4 0x556a74de57f4 <unknown>\n#5 0x556a74dcb03d <unknown>\n#6 0x556a74de330e <unknown>\n#7 0x556a74dcade3 <unknown>\n#8 0x556a74da02dd <unknown>\n#9 0x556a74da134e <unknown>\n#10 0x556a750003e4 <unknown>\n#11 0x556a750043d7 <unknown>\n#12 0x556a7500eb20 <unknown>\n#13 0x556a75005023 <unknown>\n#14 0x556a74fd31aa <unknown>\n#15 0x556a750296b8 <unknown>\n#16 0x556a75029847 <unknown>\n#17 0x556a75039243 <unknown>\n#18 0x7fb401690402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Monetizing AI + ML page",
+        "uid" : "f835e2db8492dafb",
+        "parentUid" : "3644394ff9fa4b2bdda50f4c49842da5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698748200443,
+          "stop" : 1698748220196,
+          "duration" : 19753
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3644394ff9fa4b2bdda50f4c49842da5"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55e4fb0f14e3 <unknown>\n#1 0x55e4fae20c76 <unknown>\n#2 0x55e4fadfac6c <unknown>\n#3 0x55e4fae80f8f <unknown>\n#4 0x55e4fae93d66 <unknown>\n#5 0x55e4fae7bde3 <unknown>\n#6 0x55e4fae512dd <unknown>\n#7 0x55e4fae5234e <unknown>\n#8 0x55e4fb0b13e4 <unknown>\n#9 0x55e4fb0b53d7 <unknown>\n#10 0x55e4fb0bfb20 <unknown>\n#11 0x55e4fb0b6023 <unknown>\n#12 0x55e4fb0841aa <unknown>\n#13 0x55e4fb0da6b8 <unknown>\n#14 0x55e4fb0da847 <unknown>\n#15 0x55e4fb0ea243 <unknown>\n#16 0x7f48f3890402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the OEM-Friendly page",
+        "uid" : "53836799c5b34371",
+        "parentUid" : "5f771cd8bf6fa834a648b21dfbfafc7c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698748220197,
+          "stop" : 1698748224613,
+          "duration" : 4416
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5f771cd8bf6fa834a648b21dfbfafc7c"
+    }, {
+      "name" : "KeyboardInterrupt\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Real-Time Decisioning page",
+        "uid" : "d619cfccda031c3c",
+        "parentUid" : "7493cb043ad3419ece224a15a55adceb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698748224614,
+          "stop" : 1698748228496,
+          "duration" : 3882
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7493cb043ad3419ece224a15a55adceb"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"post-18176\"]/div/section/div[1]/div/div/div/div/div/div/div/div[5]/a\"}\n  (Session info: chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x56319c77c4e3 <unknown>\n#1 0x56319c4abc76 <unknown>\n#2 0x56319c4e7c96 <unknown>\n#3 0x56319c4e7dc1 <unknown>\n#4 0x56319c5217f4 <unknown>\n#5 0x56319c50703d <unknown>\n#6 0x56319c51f30e <unknown>\n#7 0x56319c506de3 <unknown>\n#8 0x56319c4dc2dd <unknown>\n#9 0x56319c4dd34e <unknown>\n#10 0x56319c73c3e4 <unknown>\n#11 0x56319c7403d7 <unknown>\n#12 0x56319c74ab20 <unknown>\n#13 0x56319c741023 <unknown>\n#14 0x56319c70f1aa <unknown>\n#15 0x56319c7656b8 <unknown>\n#16 0x56319c765847 <unknown>\n#17 0x56319c775243 <unknown>\n#18 0x7f0bbca90402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test buttons and links on the Home page",
+        "uid" : "87aa3c07b2920e0c",
+        "parentUid" : "a6326415999cbf2bf41a1a4c8c52b2f1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698748513279,
+          "stop" : 1698748556926,
+          "duration" : 43647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6326415999cbf2bf41a1a4c8c52b2f1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

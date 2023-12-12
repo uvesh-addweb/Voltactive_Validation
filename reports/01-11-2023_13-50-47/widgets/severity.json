@@ -1,0 +1,11 @@
+[ {
+  "uid" : "ad02a996ea889ee2",
+  "name" : "Test the Social Media Links Redirection on Footer",
+  "time" : {
+    "start" : 1698826818959,
+    "stop" : 1698826843107,
+    "duration" : 24148
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

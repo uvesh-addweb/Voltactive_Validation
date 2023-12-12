@@ -1,0 +1,289 @@
+{
+  "uid" : "a069a0076cc923c4",
+  "name" : "Test submenu and button on the Fraud Prevention page",
+  "fullName" : "Test Redirection of Pages: Test submenu and button on the Fraud Prevention page",
+  "historyId" : "f30ada24157a19abc6ec88eb89175359",
+  "time" : {
+    "start" : 1698760822017,
+    "stop" : 1698760886188,
+    "duration" : 64171
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55875e9844e3 <unknown>\n#1 0x55875e6b3c76 <unknown>\n#2 0x55875e68dc6c <unknown>\n#3 0x55875e713f8f <unknown>\n#4 0x55875e726d66 <unknown>\n#5 0x55875e70ede3 <unknown>\n#6 0x55875e6e42dd <unknown>\n#7 0x55875e6e534e <unknown>\n#8 0x55875e9443e4 <unknown>\n#9 0x55875e9483d7 <unknown>\n#10 0x55875e952b20 <unknown>\n#11 0x55875e949023 <unknown>\n#12 0x55875e9171aa <unknown>\n#13 0x55875e96d6b8 <unknown>\n#14 0x55875e96d847 <unknown>\n#15 0x55875e97d243 <unknown>\n#16 0x7fb0f2490402 <unknown>\n\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 91, in step_impl\n    allure.attach(context.driver.get_screenshot_as_png(), name=f\"Screenshot of {context.driver.current_url} Page\",\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 836, in get_screenshot_as_png\n    return b64decode(self.get_screenshot_as_base64().encode(\"ascii\"))\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 847, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55875e9844e3 <unknown>\n#1 0x55875e6b3c76 <unknown>\n#2 0x55875e68dc6c <unknown>\n#3 0x55875e713f8f <unknown>\n#4 0x55875e726d66 <unknown>\n#5 0x55875e70ede3 <unknown>\n#6 0x55875e6e42dd <unknown>\n#7 0x55875e6e534e <unknown>\n#8 0x55875e9443e4 <unknown>\n#9 0x55875e9483d7 <unknown>\n#10 0x55875e952b20 <unknown>\n#11 0x55875e949023 <unknown>\n#12 0x55875e9171aa <unknown>\n#13 0x55875e96d6b8 <unknown>\n#14 0x55875e96d847 <unknown>\n#15 0x55875e97d243 <unknown>\n#16 0x7fb0f2490402 <unknown>\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 91, in step_impl\n    allure.attach(context.driver.get_screenshot_as_png(), name=f\"Screenshot of {context.driver.current_url} Page\",\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 836, in get_screenshot_as_png\n    return b64decode(self.get_screenshot_as_base64().encode(\"ascii\"))\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 847, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"stg\" site",
+      "time" : {
+        "start" : 1698760822955,
+        "stop" : 1698760831428,
+        "duration" : 8473
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user hovers over the \"use_cases\" menu",
+      "time" : {
+        "start" : 1698760831428,
+        "stop" : 1698760831757,
+        "duration" : 329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The user clicks on the \"fraud_prevention\" submenu link and verify the redirection \"fraud_prevention\" page",
+      "time" : {
+        "start" : 1698760831757,
+        "stop" : 1698760886114,
+        "duration" : 54357
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55875e9844e3 <unknown>\n#1 0x55875e6b3c76 <unknown>\n#2 0x55875e68dc6c <unknown>\n#3 0x55875e713f8f <unknown>\n#4 0x55875e726d66 <unknown>\n#5 0x55875e70ede3 <unknown>\n#6 0x55875e6e42dd <unknown>\n#7 0x55875e6e534e <unknown>\n#8 0x55875e9443e4 <unknown>\n#9 0x55875e9483d7 <unknown>\n#10 0x55875e952b20 <unknown>\n#11 0x55875e949023 <unknown>\n#12 0x55875e9171aa <unknown>\n#13 0x55875e96d6b8 <unknown>\n#14 0x55875e96d847 <unknown>\n#15 0x55875e97d243 <unknown>\n#16 0x7fb0f2490402 <unknown>\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 91, in step_impl\n    allure.attach(context.driver.get_screenshot_as_png(), name=f\"Screenshot of {context.driver.current_url} Page\",\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 836, in get_screenshot_as_png\n    return b64decode(self.get_screenshot_as_base64().encode(\"ascii\"))\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 847, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)[\"value\"]\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bd381f5139bf7319",
+        "name" : "Error Message",
+        "source" : "bd381f5139bf7319.txt",
+        "type" : "text/plain",
+        "size" : 647
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "When The user clicks on the \"litsen_to_podcast\" button",
+      "time" : {
+        "start" : 1698760886187,
+        "stop" : 1698760886187,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"litsen_to_podcast\" page",
+      "time" : {
+        "start" : 1698760886187,
+        "stop" : 1698760886187,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"sakura\" button",
+      "time" : {
+        "start" : 1698760886187,
+        "stop" : 1698760886187,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"sakura\" page",
+      "time" : {
+        "start" : 1698760886187,
+        "stop" : 1698760886187,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"age_of_5g\" button",
+      "time" : {
+        "start" : 1698760886187,
+        "stop" : 1698760886187,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"age_of_5g\" page",
+      "time" : {
+        "start" : 1698760886187,
+        "stop" : 1698760886187,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"growth_engine\" button",
+      "time" : {
+        "start" : 1698760886187,
+        "stop" : 1698760886187,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"growth_engine\" page",
+      "time" : {
+        "start" : 1698760886187,
+        "stop" : 1698760886187,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"avoid-it_8\" button",
+      "time" : {
+        "start" : 1698760886187,
+        "stop" : 1698760886187,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"avoid-it\" page",
+      "time" : {
+        "start" : 1698760886187,
+        "stop" : 1698760886187,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"new_sql_2\" button",
+      "time" : {
+        "start" : 1698760886187,
+        "stop" : 1698760886187,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"new_sql\" page",
+      "time" : {
+        "start" : 1698760886188,
+        "stop" : 1698760886188,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a069a0076cc923c4.json",
+  "parameterValues" : [ ]
+}

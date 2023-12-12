@@ -1,0 +1,26 @@
+An error occurred: Message: element click intercepted: Element <a href="/license-agreement/">...</a> is not clickable at point (651, 601). Other element would receive the click: <div id="onetrust-policy">...</div>
+  (Session info: chrome=114.0.5735.133)
+Stacktrace:
+#0 0x55afa0f744e3 <unknown>
+#1 0x55afa0ca3c76 <unknown>
+#2 0x55afa0ce59d4 <unknown>
+#3 0x55afa0ce3cbd <unknown>
+#4 0x55afa0ce1d2e <unknown>
+#5 0x55afa0ce110f <unknown>
+#6 0x55afa0cd61da <unknown>
+#7 0x55afa0cff012 <unknown>
+#8 0x55afa0cd5b03 <unknown>
+#9 0x55afa0cff1de <unknown>
+#10 0x55afa0d1730e <unknown>
+#11 0x55afa0cfede3 <unknown>
+#12 0x55afa0cd42dd <unknown>
+#13 0x55afa0cd534e <unknown>
+#14 0x55afa0f343e4 <unknown>
+#15 0x55afa0f383d7 <unknown>
+#16 0x55afa0f42b20 <unknown>
+#17 0x55afa0f39023 <unknown>
+#18 0x55afa0f071aa <unknown>
+#19 0x55afa0f5d6b8 <unknown>
+#20 0x55afa0f5d847 <unknown>
+#21 0x55afa0f6d243 <unknown>
+#22 0x7fbc62490402 <unknown>

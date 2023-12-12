@@ -1,0 +1,11 @@
+[ {
+  "uid" : "22abb347239b5773",
+  "name" : "Test submenu and button on the Support page",
+  "time" : {
+    "start" : 1698820575896,
+    "stop" : 1698820587081,
+    "duration" : 11185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

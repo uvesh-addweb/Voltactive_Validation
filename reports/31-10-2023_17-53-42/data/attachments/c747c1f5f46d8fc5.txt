@@ -1,0 +1,21 @@
+An error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=114.0.5735.133)
+Stacktrace:
+#0 0x55ddf994c4e3 <unknown>
+#1 0x55ddf967bc76 <unknown>
+#2 0x55ddf9655c6c <unknown>
+#3 0x55ddf96dbf8f <unknown>
+#4 0x55ddf96eed66 <unknown>
+#5 0x55ddf96d6de3 <unknown>
+#6 0x55ddf96ac2dd <unknown>
+#7 0x55ddf96ad34e <unknown>
+#8 0x55ddf990c3e4 <unknown>
+#9 0x55ddf99103d7 <unknown>
+#10 0x55ddf991ab20 <unknown>
+#11 0x55ddf9911023 <unknown>
+#12 0x55ddf98df1aa <unknown>
+#13 0x55ddf99356b8 <unknown>
+#14 0x55ddf9935847 <unknown>
+#15 0x55ddf9945243 <unknown>
+#16 0x7f603ca90402 <unknown>

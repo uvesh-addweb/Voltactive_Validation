@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Expected URL: , Actual URL: #\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the No Compromises page",
+        "uid" : "26d741cbba47474c",
+        "parentUid" : "585d4d443777a68eb39c7b59703fd0d9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1698751534989,
+          "stop" : 1698751569582,
+          "duration" : 34593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "585d4d443777a68eb39c7b59703fd0d9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

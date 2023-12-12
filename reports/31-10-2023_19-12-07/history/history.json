@@ -1,0 +1,22 @@
+{
+  "80a35cfc42f2694b759e8471cd4545ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cdb766d58082fdd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable: element has zero size\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x5581697b44e3 <unknown>\n#1 0x5581694e3c76 <unknown>\n#2 0x558169521033 <unknown>\n#3 0x5581695161da <unknown>\n#4 0x55816953f012 <unknown>\n#5 0x558169515b03 <unknown>\n#6 0x55816953f1de <unknown>\n#7 0x55816955730e <unknown>\n#8 0x55816953ede3 <unknown>\n#9 0x5581695142dd <unknown>\n#10 0x55816951534e <unknown>\n#11 0x5581697743e4 <unknown>\n#12 0x5581697783d7 <unknown>\n#13 0x558169782b20 <unknown>\n#14 0x558169779023 <unknown>\n#15 0x5581697471aa <unknown>\n#16 0x55816979d6b8 <unknown>\n#17 0x55816979d847 <unknown>\n#18 0x5581697ad243 <unknown>\n#19 0x7fea8f090402 <unknown>\n\n",
+      "time" : {
+        "start" : 1698759710302,
+        "stop" : 1698759722998,
+        "duration" : 12696
+      }
+    } ]
+  }
+}

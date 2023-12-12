@@ -1,0 +1,191 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Test Redirection of Pages",
+    "children" : [ {
+      "name" : "Test submenu and button on the No Compromises page",
+      "uid" : "67674d5a5af657ad",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1696592883874,
+        "stop" : 1696592884941,
+        "duration" : 1067
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test submenu and button on the Volt For 5g page",
+      "uid" : "202918591309bbb1",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1696592884943,
+        "stop" : 1696592885941,
+        "duration" : 998
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test submenu and button on the Capabilities page",
+      "uid" : "ee488fa97fbcb35e",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1696592885946,
+        "stop" : 1696592887478,
+        "duration" : 1532
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test submenu and button on the Geo Replication page",
+      "uid" : "d3e4e672205285ed",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1696592887483,
+        "stop" : 1696592889009,
+        "duration" : 1526
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test submenu and button on the High Availability page",
+      "uid" : "33d7c76cca67d061",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1696592889012,
+        "stop" : 1696592891246,
+        "duration" : 2234
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test submenu and button on the Monetizing AI + ML page",
+      "uid" : "78e9c8a6d8f0cea6",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1696592891254,
+        "stop" : 1696592893963,
+        "duration" : 2709
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test submenu and button on the OEM-Friendly page",
+      "uid" : "7faa711b5863faa2",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1696592893968,
+        "stop" : 1696592896150,
+        "duration" : 2182
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test submenu and button on the Real-Time Decisioning page",
+      "uid" : "24834a414415b739",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1696592896156,
+        "stop" : 1696592899224,
+        "duration" : 3068
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test submenu and button on the Cloud page",
+      "uid" : "a4f6682dddaf27ca",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1696592899252,
+        "stop" : 1696592901402,
+        "duration" : 2150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test submenu and button on the Edge page",
+      "uid" : "f6cc1e2562e2883",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1696592901405,
+        "stop" : 1696592903385,
+        "duration" : 1980
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test submenu and button on the Kafka + Streaming Data page",
+      "uid" : "332c618c0bfc14e3",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1696592903417,
+        "stop" : 1696592905150,
+        "duration" : 1733
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test submenu and button on the Billing Mediation Data page",
+      "uid" : "64565ce23fd90dc4",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1696592905187,
+        "stop" : 1696592907157,
+        "duration" : 1970
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test submenu and button on the BSS page",
+      "uid" : "df737d2563552766",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1696592907159,
+        "stop" : 1696592907632,
+        "duration" : 473
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "Test buttons and links on the Home page",
+      "uid" : "e619b0a6fbd952a3",
+      "parentUid" : "390d5adef282071921a562a1a8f9f849",
+      "status" : "passed",
+      "time" : {
+        "start" : 1697202007941,
+        "stop" : 1697202057937,
+        "duration" : 49996
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "390d5adef282071921a562a1a8f9f849"
+  } ]
+}

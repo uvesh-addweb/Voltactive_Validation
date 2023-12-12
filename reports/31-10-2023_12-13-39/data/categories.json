@@ -1,0 +1,77 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[1]/div/div/div/div/div/div/div/div[4]/a\"}\n  (Session info: chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x556b2a82f4e3 <unknown>\n#1 0x556b2a55ec76 <unknown>\n#2 0x556b2a59ac96 <unknown>\n#3 0x556b2a59adc1 <unknown>\n#4 0x556b2a5d47f4 <unknown>\n#5 0x556b2a5ba03d <unknown>\n#6 0x556b2a5d230e <unknown>\n#7 0x556b2a5b9de3 <unknown>\n#8 0x556b2a58f2dd <unknown>\n#9 0x556b2a59034e <unknown>\n#10 0x556b2a7ef3e4 <unknown>\n#11 0x556b2a7f33d7 <unknown>\n#12 0x556b2a7fdb20 <unknown>\n#13 0x556b2a7f4023 <unknown>\n#14 0x556b2a7c21aa <unknown>\n#15 0x556b2a8186b8 <unknown>\n#16 0x556b2a818847 <unknown>\n#17 0x556b2a828243 <unknown>\n#18 0x7ff26e290402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test buttons and links on the Home page",
+        "uid" : "9a4351de011d3368",
+        "parentUid" : "27fc68580b80dde62233424b89651d50",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698734438641,
+          "stop" : 1698734451086,
+          "duration" : 12445
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "27fc68580b80dde62233424b89651d50"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55656a5f44e3 <unknown>\n#1 0x55656a323c76 <unknown>\n#2 0x55656a2fdc6c <unknown>\n#3 0x55656a383f8f <unknown>\n#4 0x55656a396d66 <unknown>\n#5 0x55656a37ede3 <unknown>\n#6 0x55656a3542dd <unknown>\n#7 0x55656a35534e <unknown>\n#8 0x55656a5b43e4 <unknown>\n#9 0x55656a5b83d7 <unknown>\n#10 0x55656a5c2b20 <unknown>\n#11 0x55656a5b9023 <unknown>\n#12 0x55656a5871aa <unknown>\n#13 0x55656a5dd6b8 <unknown>\n#14 0x55656a5dd847 <unknown>\n#15 0x55656a5ed243 <unknown>\n#16 0x7f6bd9c90402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the No Compromises page",
+        "uid" : "4a8bb8e5b1396e2",
+        "parentUid" : "353aefd7e99db7b8f384012cc0a1dffd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698734451087,
+          "stop" : 1698734576734,
+          "duration" : 125647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "353aefd7e99db7b8f384012cc0a1dffd"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"post-20300\"]/div/section/div[7]/div/div/div/div[2]/div[1]/div/div/div[2]/a\"}\n  (Session info: chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55e4fe2894e3 <unknown>\n#1 0x55e4fdfb8c76 <unknown>\n#2 0x55e4fdff4c96 <unknown>\n#3 0x55e4fdff4dc1 <unknown>\n#4 0x55e4fe02e7f4 <unknown>\n#5 0x55e4fe01403d <unknown>\n#6 0x55e4fe02c30e <unknown>\n#7 0x55e4fe013de3 <unknown>\n#8 0x55e4fdfe92dd <unknown>\n#9 0x55e4fdfea34e <unknown>\n#10 0x55e4fe2493e4 <unknown>\n#11 0x55e4fe24d3d7 <unknown>\n#12 0x55e4fe257b20 <unknown>\n#13 0x55e4fe24e023 <unknown>\n#14 0x55e4fe21c1aa <unknown>\n#15 0x55e4fe2726b8 <unknown>\n#16 0x55e4fe272847 <unknown>\n#17 0x55e4fe282243 <unknown>\n#18 0x7fc568090402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Volt For 5g page",
+        "uid" : "f8e4748a8d86d9d4",
+        "parentUid" : "a6b72cd2d61e1ae905c1bde50a21abde",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698734576735,
+          "stop" : 1698734595408,
+          "duration" : 18673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a6b72cd2d61e1ae905c1bde50a21abde"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[1]/div[3]/div/div/div/div/main/article/div/section/div[21]/div/div/div/div/div/div[1]/div/div/div[2]/a\"}\n  (Session info: chrome=114.0.5735.133); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\n#0 0x55df1abcc4e3 <unknown>\n#1 0x55df1a8fbc76 <unknown>\n#2 0x55df1a937c96 <unknown>\n#3 0x55df1a937dc1 <unknown>\n#4 0x55df1a9717f4 <unknown>\n#5 0x55df1a95703d <unknown>\n#6 0x55df1a96f30e <unknown>\n#7 0x55df1a956de3 <unknown>\n#8 0x55df1a92c2dd <unknown>\n#9 0x55df1a92d34e <unknown>\n#10 0x55df1ab8c3e4 <unknown>\n#11 0x55df1ab903d7 <unknown>\n#12 0x55df1ab9ab20 <unknown>\n#13 0x55df1ab91023 <unknown>\n#14 0x55df1ab5f1aa <unknown>\n#15 0x55df1abb56b8 <unknown>\n#16 0x55df1abb5847 <unknown>\n#17 0x55df1abc5243 <unknown>\n#18 0x7f4be8290402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Capabilities page",
+        "uid" : "c0ab93634193d275",
+        "parentUid" : "c74bc2d642af04115d87393a2ff614c5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698734595409,
+          "stop" : 1698734614721,
+          "duration" : 19312
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c74bc2d642af04115d87393a2ff614c5"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

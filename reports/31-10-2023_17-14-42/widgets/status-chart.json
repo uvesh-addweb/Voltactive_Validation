@@ -1,0 +1,11 @@
+[ {
+  "uid" : "d3d126db311b6b16",
+  "name" : "Test submenu and button on the No Compromises page",
+  "time" : {
+    "start" : 1698752634751,
+    "stop" : 1698752678011,
+    "duration" : 43260
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

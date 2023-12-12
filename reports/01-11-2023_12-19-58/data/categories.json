@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a href=\"https://stg.voltactivedata.com/press_release/i2i-systems-meets-slas-of-major-telecom-customer-with-volt/\" class=\"vc_gitem-link\" title=\"...\">i2i Systems Successfully Meets Strict SLAs of Major Telecom Customer With Volt Active Data</a> is not clickable at point (529, 584). Other element would receive the click: <div id=\"onetrust-policy-text\">...</div>\n  (Session info: chrome=114.0.5735.133)\nStacktrace:\n#0 0x55992b8a14e3 <unknown>\n#1 0x55992b5d0c76 <unknown>\n#2 0x55992b6129d4 <unknown>\n#3 0x55992b610cbd <unknown>\n#4 0x55992b60ed2e <unknown>\n#5 0x55992b60e10f <unknown>\n#6 0x55992b6031da <unknown>\n#7 0x55992b62c012 <unknown>\n#8 0x55992b602b03 <unknown>\n#9 0x55992b62c1de <unknown>\n#10 0x55992b64430e <unknown>\n#11 0x55992b62bde3 <unknown>\n#12 0x55992b6012dd <unknown>\n#13 0x55992b60234e <unknown>\n#14 0x55992b8613e4 <unknown>\n#15 0x55992b8653d7 <unknown>\n#16 0x55992b86fb20 <unknown>\n#17 0x55992b866023 <unknown>\n#18 0x55992b8341aa <unknown>\n#19 0x55992b88a6b8 <unknown>\n#20 0x55992b88a847 <unknown>\n#21 0x55992b89a243 <unknown>\n#22 0x7fdeab690402 <unknown>\n\n",
+      "children" : [ {
+        "name" : "Test submenu and button on the Press Release page",
+        "uid" : "e52cb3be92aa7208",
+        "parentUid" : "cd162e441b3f27336420dec96de6a8c7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1698821377807,
+          "stop" : 1698821393840,
+          "duration" : 16033
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cd162e441b3f27336420dec96de6a8c7"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

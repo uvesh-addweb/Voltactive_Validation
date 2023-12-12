@@ -1,0 +1,26 @@
+An error occurred: Message: element click intercepted: Element <a href="/privacy-policy/">...</a> is not clickable at point (450, 1005). Other element would receive the click: <div id="onetrust-policy">...</div>
+  (Session info: headless chrome=114.0.5735.133)
+Stacktrace:
+#0 0x5603f85244e3 <unknown>
+#1 0x5603f8253c76 <unknown>
+#2 0x5603f82959d4 <unknown>
+#3 0x5603f8293cbd <unknown>
+#4 0x5603f8291d2e <unknown>
+#5 0x5603f829110f <unknown>
+#6 0x5603f82861da <unknown>
+#7 0x5603f82af012 <unknown>
+#8 0x5603f8285b03 <unknown>
+#9 0x5603f82af1de <unknown>
+#10 0x5603f82c730e <unknown>
+#11 0x5603f82aede3 <unknown>
+#12 0x5603f82842dd <unknown>
+#13 0x5603f828534e <unknown>
+#14 0x5603f84e43e4 <unknown>
+#15 0x5603f84e83d7 <unknown>
+#16 0x5603f84f2b20 <unknown>
+#17 0x5603f84e9023 <unknown>
+#18 0x5603f84b71aa <unknown>
+#19 0x5603f850d6b8 <unknown>
+#20 0x5603f850d847 <unknown>
+#21 0x5603f851d243 <unknown>
+#22 0x7f08c2090402 <unknown>

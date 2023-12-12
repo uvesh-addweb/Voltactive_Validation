@@ -1,0 +1,11 @@
+[ {
+  "uid" : "918c5940c01e99de",
+  "name" : "Test submenu and button on the Team page",
+  "time" : {
+    "start" : 1698821469579,
+    "stop" : 1698821479943,
+    "duration" : 10364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

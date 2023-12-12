@@ -1,0 +1,23 @@
+An error occurred: Message: element not interactable
+  (Session info: chrome=114.0.5735.133)
+Stacktrace:
+#0 0x55c3fd2e44e3 <unknown>
+#1 0x55c3fd013b00 <unknown>
+#2 0x55c3fd04a52c <unknown>
+#3 0x55c3fd049b0a <unknown>
+#4 0x55c3fd06f012 <unknown>
+#5 0x55c3fd045b03 <unknown>
+#6 0x55c3fd06f1de <unknown>
+#7 0x55c3fd08730e <unknown>
+#8 0x55c3fd06ede3 <unknown>
+#9 0x55c3fd0442dd <unknown>
+#10 0x55c3fd04534e <unknown>
+#11 0x55c3fd2a43e4 <unknown>
+#12 0x55c3fd2a83d7 <unknown>
+#13 0x55c3fd2b2b20 <unknown>
+#14 0x55c3fd2a9023 <unknown>
+#15 0x55c3fd2771aa <unknown>
+#16 0x55c3fd2cd6b8 <unknown>
+#17 0x55c3fd2cd847 <unknown>
+#18 0x55c3fd2dd243 <unknown>
+#19 0x7f3bee690402 <unknown>

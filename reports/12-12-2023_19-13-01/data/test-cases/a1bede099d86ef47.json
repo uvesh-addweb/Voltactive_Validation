@@ -1,0 +1,241 @@
+{
+  "uid" : "a1bede099d86ef47",
+  "name" : "Test submenu and button on the Monetizing AI + ML page",
+  "fullName" : "Test Redirection of Pages: Test submenu and button on the Monetizing AI + ML page",
+  "historyId" : "9a05c9cfdb15fd3035a8b1c5c4169e11",
+  "time" : {
+    "start" : 1702387605265,
+    "stop" : 1702387625260,
+    "duration" : 19995
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"drift\" href=\"https://dev.voltactivedata.com/resource/six-use-cases-of-real-time-decisioning/\">...</a> is not clickable at point (202, 863). Other element would receive the click: <div id=\"onetrust-policy-text\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x563f7722f4e3 <unknown>\n#1 0x563f76f5ec76 <unknown>\n#2 0x563f76fa09d4 <unknown>\n#3 0x563f76f9ecbd <unknown>\n#4 0x563f76f9cd2e <unknown>\n#5 0x563f76f9c10f <unknown>\n#6 0x563f76f911da <unknown>\n#7 0x563f76fba012 <unknown>\n#8 0x563f76f90b03 <unknown>\n#9 0x563f76fba1de <unknown>\n#10 0x563f76fd230e <unknown>\n#11 0x563f76fb9de3 <unknown>\n#12 0x563f76f8f2dd <unknown>\n#13 0x563f76f9034e <unknown>\n#14 0x563f771ef3e4 <unknown>\n#15 0x563f771f33d7 <unknown>\n#16 0x563f771fdb20 <unknown>\n#17 0x563f771f4023 <unknown>\n#18 0x563f771c21aa <unknown>\n#19 0x563f772186b8 <unknown>\n#20 0x563f77218847 <unknown>\n#21 0x563f77228243 <unknown>\n#22 0x7f9d53490402 <unknown>\n\n",
+  "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 110, in step_impl\n    button_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"drift\" href=\"https://dev.voltactivedata.com/resource/six-use-cases-of-real-time-decisioning/\">...</a> is not clickable at point (202, 863). Other element would receive the click: <div id=\"onetrust-policy-text\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x563f7722f4e3 <unknown>\n#1 0x563f76f5ec76 <unknown>\n#2 0x563f76fa09d4 <unknown>\n#3 0x563f76f9ecbd <unknown>\n#4 0x563f76f9cd2e <unknown>\n#5 0x563f76f9c10f <unknown>\n#6 0x563f76f911da <unknown>\n#7 0x563f76fba012 <unknown>\n#8 0x563f76f90b03 <unknown>\n#9 0x563f76fba1de <unknown>\n#10 0x563f76fd230e <unknown>\n#11 0x563f76fb9de3 <unknown>\n#12 0x563f76f8f2dd <unknown>\n#13 0x563f76f9034e <unknown>\n#14 0x563f771ef3e4 <unknown>\n#15 0x563f771f33d7 <unknown>\n#16 0x563f771fdb20 <unknown>\n#17 0x563f771f4023 <unknown>\n#18 0x563f771c21aa <unknown>\n#19 0x563f772186b8 <unknown>\n#20 0x563f77218847 <unknown>\n#21 0x563f77228243 <unknown>\n#22 0x7f9d53490402 <unknown>\n\n",
+    "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 110, in step_impl\n    button_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+    "steps" : [ {
+      "name" : "Given The user is on the \"dev\" site",
+      "time" : {
+        "start" : 1702387605987,
+        "stop" : 1702387612884,
+        "duration" : 6897
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user hovers over the \"use_cases\" menu",
+      "time" : {
+        "start" : 1702387612884,
+        "stop" : 1702387613190,
+        "duration" : 306
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And The user clicks on the \"ai_ml\" submenu link and verify the redirection \"ai_ml\" page",
+      "time" : {
+        "start" : 1702387613190,
+        "stop" : 1702387616151,
+        "duration" : 2961
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"16_faqs\" button",
+      "time" : {
+        "start" : 1702387616151,
+        "stop" : 1702387621355,
+        "duration" : 5204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"16_faqs\" page",
+      "time" : {
+        "start" : 1702387621355,
+        "stop" : 1702387623620,
+        "duration" : 2265
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"decisioning\" button",
+      "time" : {
+        "start" : 1702387623620,
+        "stop" : 1702387625194,
+        "duration" : 1574
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <a class=\"drift\" href=\"https://dev.voltactivedata.com/resource/six-use-cases-of-real-time-decisioning/\">...</a> is not clickable at point (202, 863). Other element would receive the click: <div id=\"onetrust-policy-text\">...</div>\n  (Session info: headless chrome=114.0.5735.133)\nStacktrace:\n#0 0x563f7722f4e3 <unknown>\n#1 0x563f76f5ec76 <unknown>\n#2 0x563f76fa09d4 <unknown>\n#3 0x563f76f9ecbd <unknown>\n#4 0x563f76f9cd2e <unknown>\n#5 0x563f76f9c10f <unknown>\n#6 0x563f76f911da <unknown>\n#7 0x563f76fba012 <unknown>\n#8 0x563f76f90b03 <unknown>\n#9 0x563f76fba1de <unknown>\n#10 0x563f76fd230e <unknown>\n#11 0x563f76fb9de3 <unknown>\n#12 0x563f76f8f2dd <unknown>\n#13 0x563f76f9034e <unknown>\n#14 0x563f771ef3e4 <unknown>\n#15 0x563f771f33d7 <unknown>\n#16 0x563f771fdb20 <unknown>\n#17 0x563f771f4023 <unknown>\n#18 0x563f771c21aa <unknown>\n#19 0x563f772186b8 <unknown>\n#20 0x563f77218847 <unknown>\n#21 0x563f77228243 <unknown>\n#22 0x7f9d53490402 <unknown>\n\n",
+      "statusTrace" : "  File \"/usr/local/lib/python3.10/dist-packages/behave/model.py\", line 1329, in run\n    match.run(runner.context)\n  File \"/usr/local/lib/python3.10/dist-packages/behave/matchers.py\", line 98, in run\n    self.func(context, *args, **kwargs)\n  File \"steps/PageRedirectionSteps.py\", line 110, in step_impl\n    button_element.click()\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 94, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py\", line 395, in _execute\n    return self._parent.execute(command, params)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 346, in execute\n    self.error_handler.check_response(response)\n  File \"/home/addweb/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 245, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "52b746125232de5e",
+        "name" : "Error Message",
+        "source" : "52b746125232de5e.txt",
+        "type" : "text/plain",
+        "size" : 1011
+      }, {
+        "uid" : "f7d7cea396441748",
+        "name" : "Screenshot of https://dev.voltactivedata.com/use-cases/monetize-artificial-intelligence-and-machine-learning/ Page",
+        "source" : "f7d7cea396441748.png",
+        "type" : "image/png",
+        "size" : 542918
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    }, {
+      "name" : "Then The user should be redirected to the \"decisioning\" page",
+      "time" : {
+        "start" : 1702387625260,
+        "stop" : 1702387625260,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"top-10-capabilites_5\" button",
+      "time" : {
+        "start" : 1702387625260,
+        "stop" : 1702387625260,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"top-10-capabilites\" page",
+      "time" : {
+        "start" : 1702387625260,
+        "stop" : 1702387625260,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "When The user clicks on the \"fast_data_apps_2\" button",
+      "time" : {
+        "start" : 1702387625260,
+        "stop" : 1702387625260,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then The user should be redirected to the \"fast_data_apps\" page",
+      "time" : {
+        "start" : 1702387625260,
+        "stop" : 1702387625260,
+        "duration" : 0
+      },
+      "status" : "skipped",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "Test Redirection of Pages"
+  }, {
+    "name" : "framework",
+    "value" : "behave"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a1bede099d86ef47.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,11 @@
+[ {
+  "uid" : "e3d44ca5516971b5",
+  "name" : "Test submenu and button on the Webinars and Events page",
+  "time" : {
+    "start" : 1698820203207,
+    "stop" : 1698820240703,
+    "duration" : 37496
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
