@@ -37,6 +37,7 @@ allure_command = f"allure generate --clean reports/ -o reports/{current_datetime
 # Execute the Allure command
 subprocess.run(allure_command, shell=True)
 
+
 # Remove all .json files from the reports directory
 for file in os.listdir('reports'):
     if file.endswith('.json') or file.endswith('.png') or file.endswith('.txt'):
